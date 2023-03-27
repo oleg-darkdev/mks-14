@@ -1,15 +1,13 @@
 <script>
 	export let step, idStep, stepsLength;
-
-	console.log(stepsLength + ' ' + idStep);
 </script>
 
-<div class="flex">
-	<div class="mr-6 flex flex-col items-center">
+<div class="flex ">
+	<div class="mr-6 flex flex-col items-center ">
 		<div class="h-10 w-px {idStep == 0 ? 'opacity-0' : 'bg-gray-300'} sm:h-full" />
 		<div>
 			<div class="flex h-8 w-8 items-center justify-center rounded-full border text-xs font-medium">
-				1
+				{idStep + 1}
 			</div>
 		</div>
 		<div class="h-full w-px {stepsLength == idStep ? 'opacity-0' : 'bg-gray-300'} " />
@@ -36,7 +34,7 @@
 		</div>
 		<div>
 			<p class="text-xl font-semibold sm:text-base">{step.title}</p>
-			<p class="text-sm text-gray-700">
+			<p class="text-sm text-gray-400">
 				{step.desc}
 			</p>
 		</div>
