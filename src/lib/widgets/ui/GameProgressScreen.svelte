@@ -1,5 +1,5 @@
 <script>
-	import { CountdownTimer, TextBlock, StepsBtns } from '../../entities';
+	import { CountdownTimer, TextBlock, StepsBtns, FinalStepOnScreen } from '../../entities';
 
 	let step = 1;
 </script>
@@ -98,5 +98,13 @@
 		>
 			<StepsBtns bind:step />
 		</TextBlock>
+	{:else if step == 13}
+		<FinalStepOnScreen
+    title="Final  game"
+			desc={['Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.', 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.']}
+			btnText="Got to &&&"
+			on:click={() => {
+				step = 0;
+			}} />
 	{/if}
 </div>

@@ -6,7 +6,7 @@
 		MapGenerator,
 		RolesSetup,
 		LevelSecelect,
-		EndWelcomeScreen
+		FinalStepOnScreen
 	} from '../../entities';
 
 	const gameSteps = [
@@ -88,7 +88,13 @@
 			<StepsBtns bind:step />
 		</TextBlock>
 	{:else if step == 8}
-		<EndWelcomeScreen
+		<FinalStepOnScreen
+			title="Final setup game"
+			desc={[
+				'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
+				'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
+			]}
+			btnText="Got to instruction"
 			on:click={() => {
 				activeScreen = 'Instrukcja';
 				step = 0;
