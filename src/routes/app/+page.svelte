@@ -3,7 +3,7 @@
 		FooterApp,
 		StartScreen,
 		GameProgressScreen,
-		InstrustionScreen
+		ManualScreen
 	} from '../../lib/widgets/';
 
 	let activeScreen = 'Rozpoczęcie';
@@ -14,7 +14,7 @@
 		<StartScreen bind:activeScreen/>
 	</div>
 	<div class:hidden={activeScreen == 'Rozpoczęcie' || activeScreen == 'Rozgrywka'}>
-		<InstrustionScreen />
+		<ManualScreen />
 	</div>
 	<div class:hidden={activeScreen == 'Instrukcja' || activeScreen == 'Rozpoczęcie'}>
 		<GameProgressScreen />
