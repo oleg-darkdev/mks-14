@@ -34,8 +34,5 @@
 			{/each}
 		</div>
 
-		<!-- <div class="mt-4 flex items-center gap-3 md:justify-center">
-			<slot />
-		</div> -->
 	</div>
 </div>
