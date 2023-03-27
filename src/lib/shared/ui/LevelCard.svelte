@@ -6,8 +6,8 @@
 	<div class="card-body">
 		<h2 class="card-title">{levelInfo.title}</h2>
 		<p>{levelInfo.desc}</p>
-		<div class="card-actions justify-end">
-			<button on:click class="btn">Start</button>
+		<div class="card-actions">
+			<button on:click class="btn w-full">Select</button>
 		</div>
 	</div>
 </div>
