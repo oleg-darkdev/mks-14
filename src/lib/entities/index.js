@@ -8,6 +8,10 @@ import RolesSetup from './ui/welcomeScreen/RolesSetup.svelte';
 import LevelSecelect from './ui/welcomeScreen/LevelSecelect.svelte';
 import EndWelcomeScreen from './ui/welcomeScreen/EndWelcomeScreen.svelte';
 
+import TableOfСontents from './ui/manual/TableOfСontents.svelte';
+
+
+
 export {
 	CountdownTimer,
 	StepsList,
@@ -16,5 +20,6 @@ export {
 	MapGenerator,
 	RolesSetup,
 	LevelSecelect,
-	EndWelcomeScreen
+	EndWelcomeScreen,
+	TableOfСontents
 };
