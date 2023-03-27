@@ -6,7 +6,7 @@ import StepsBtns from './ui/StepsBtns.svelte';
 import MapGenerator from './ui/welcomeScreen/MapGenerator.svelte';
 import RolesSetup from './ui/welcomeScreen/RolesSetup.svelte';
 import LevelSecelect from './ui/welcomeScreen/LevelSecelect.svelte';
-import EndWelcomeScreen from './ui/welcomeScreen/EndWelcomeScreen.svelte';
+import FinalStepOnScreen from './ui/FinalStepOnScreen.svelte';
 
 import TableOfСontents from './ui/manual/TableOfСontents.svelte';
 
@@ -20,6 +20,6 @@ export {
 	MapGenerator,
 	RolesSetup,
 	LevelSecelect,
-	EndWelcomeScreen,
+	FinalStepOnScreen,
 	TableOfСontents
 };
