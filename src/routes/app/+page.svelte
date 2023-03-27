@@ -11,7 +11,7 @@
 
 <section class="flex h-screen flex-col items-center justify-center">
 	<div class:hidden={activeScreen == 'Instrukcja' || activeScreen == 'Rozgrywka'}>
-		<StartScreen />
+		<StartScreen bind:activeScreen/>
 	</div>
 	<div class:hidden={activeScreen == 'Rozpoczęcie' || activeScreen == 'Rozgrywka'}>
 		<InstrustionScreen />

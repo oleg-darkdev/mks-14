@@ -1,4 +1,5 @@
 <script>
+  // export let activeScreen, step;
 </script>
 
 <div class="py-14">
@@ -11,7 +12,12 @@
 			</p>
 		</div>
 		<div class="mt-4 flex items-center gap-3 md:justify-center">
-			<slot />
+			<button
+				on:click
+				class="m-2 inline-block rounded-lg bg-gray-800 py-2 px-4 font-medium text-white shadow-md duration-150 hover:bg-gray-700 hover:shadow-none active:bg-gray-900"
+			>
+				Got to instruction
+			</button>
 		</div>
 	</div>
 </div>
