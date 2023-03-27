@@ -1,0 +1,44 @@
+<script>
+	export let step, idStep, stepsLength;
+
+	console.log(stepsLength + ' ' + idStep);
+</script>
+
+<div class="flex">
+	<div class="mr-6 flex flex-col items-center">
+		<div class="h-10 w-px {idStep == 0 ? 'opacity-0' : 'bg-gray-300'} sm:h-full" />
+		<div>
+			<div class="flex h-8 w-8 items-center justify-center rounded-full border text-xs font-medium">
+				1
+			</div>
+		</div>
+		<div class="h-full w-px {stepsLength == idStep ? 'opacity-0' : 'bg-gray-300'} " />
+	</div>
+	<div class="flex flex-col pb-6 sm:flex-row sm:items-center sm:pb-0">
+		<div class="sm:mr-5">
+			<div
+				class="my-3 flex h-16 w-16 items-center justify-center rounded-full bg-indigo-50 sm:h-24 sm:w-24"
+			>
+				<svg
+					class="text-deep-purple-accent-400 h-12 w-12 sm:h-16 sm:w-16"
+					stroke="currentColor"
+					viewBox="0 0 52 52"
+				>
+					<polygon
+						stroke-width="3"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						fill="none"
+						points="29 13 14 29 25 29 23 39 38 23 27 23"
+					/>
+				</svg>
+			</div>
+		</div>
+		<div>
+			<p class="text-xl font-semibold sm:text-base">{step.title}</p>
+			<p class="text-sm text-gray-700">
+				{step.desc}
+			</p>
+		</div>
+	</div>
+</div>
