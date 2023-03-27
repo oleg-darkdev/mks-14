@@ -7,17 +7,18 @@
 	} from '../../lib/widgets/';
 
 	let activeScreen = 'Rozpoczęcie';
-
-
 </script>
 
-<section class="flex h-screen flex-col items-center">
-	{#if activeScreen === 'Rozpoczęcie'}
-		<StartScreen  />
-	{:else if activeScreen === 'Instrukcja'}
-		<InstrustionScreen  />
-	{:else if activeScreen === 'Rozgrywka'}
+<section class="flex h-screen flex-col items-center justify-center">
+	<div class:hidden={activeScreen == 'Instrukcja' || activeScreen == 'Rozgrywka'}>
+		<StartScreen />
+	</div>
+	<div class:hidden={activeScreen == 'Rozpoczęcie' || activeScreen == 'Rozgrywka'}>
+		<InstrustionScreen />
+	</div>
+	<div class:hidden={activeScreen == 'Instrukcja' || activeScreen == 'Rozpoczęcie'}>
 		<GameProgressScreen />
-	{/if}
+	</div>
 </section>
+
 <FooterApp bind:activeScreen />
