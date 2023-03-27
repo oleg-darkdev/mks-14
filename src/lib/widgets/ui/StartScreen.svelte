@@ -1,19 +1,17 @@
 <script>
 	import {
 		StepsList,
-		Welcome,
+		TextBlock,
 		StepsBtns,
-		ExperimentsGenerator,
-		ResourcesGenerator,
-		MapSetup,
 		MapGenerator,
 		RolesSetup,
-		LevelSecelect
+		LevelSecelect,
+		EndWelcomeScreen
 	} from '../../entities';
 
 	const gameSteps = [
 		{
-			title: 'Welcome L.O.R.',
+			title: 'TextBlock L.O.R.',
 			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
 			img: ''
 		},
@@ -47,16 +45,18 @@
 	];
 
 	let step = 1;
+
+	export let activeScreen;
 </script>
 
 <div class="flex h-full flex-col items-center justify-center pt-40 pb-10">
 	{#if step == 1}
-		<Welcome
+		<TextBlock
 			title="Lorem ipsum is placeholder"
 			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
 		>
 			<StepsBtns bind:step />
-		</Welcome>
+		</TextBlock>
 	{:else if step == 2}
 		<StepsList steps={gameSteps}>
 			<StepsBtns bind:step />
@@ -64,19 +64,35 @@
 	{:else if step == 3}
 		<RolesSetup bind:step />
 	{:else if step == 4}
-		<MapSetup>
+		<TextBlock
+			title="Setup map"
+			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+		>
 			<StepsBtns bind:step />
-		</MapSetup>
+		</TextBlock>
 		<MapGenerator />
 	{:else if step == 5}
-		<LevelSecelect bind:step  />
+		<LevelSecelect bind:step />
 	{:else if step == 6}
-		<ExperimentsGenerator>
+		<TextBlock
+			title="Resources generator"
+			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+		>
 			<StepsBtns bind:step />
-		</ExperimentsGenerator>
+		</TextBlock>
 	{:else if step == 7}
-		<ResourcesGenerator>
+		<TextBlock
+			title="Experiements generator"
+			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+		>
 			<StepsBtns bind:step />
-		</ResourcesGenerator>
+		</TextBlock>
+	{:else if step == 8}
+		<EndWelcomeScreen
+			on:click={() => {
+				activeScreen = 'Instrukcja';
+				step = 0;
+			}}
+		/>
 	{/if}
 </div>
