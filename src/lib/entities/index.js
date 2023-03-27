@@ -1,24 +1,20 @@
 import CountdownTimer from './ui/CountdownTimer.svelte';
 import StepsList from './ui/StepsList.svelte';
-import Welcome from './ui/Welcome.svelte';
+import TextBlock from './ui/TextBlock.svelte';
 import StepsBtns from './ui/StepsBtns.svelte';
 
 import MapGenerator from './ui/welcomeScreen/MapGenerator.svelte';
-import MapSetup from './ui/welcomeScreen/MapSetup.svelte';
-import ExperimentsGenerator from './ui/welcomeScreen/ExperimentsGenerator.svelte';
-import ResourcesGenerator from './ui/welcomeScreen/ResourcesGenerator.svelte';
 import RolesSetup from './ui/welcomeScreen/RolesSetup.svelte';
 import LevelSecelect from './ui/welcomeScreen/LevelSecelect.svelte';
+import EndWelcomeScreen from './ui/welcomeScreen/EndWelcomeScreen.svelte';
 
 export {
 	CountdownTimer,
 	StepsList,
-	Welcome,
+	TextBlock,
 	StepsBtns,
 	MapGenerator,
-	MapSetup,
 	RolesSetup,
-	ExperimentsGenerator,
-	ResourcesGenerator,
-	LevelSecelect
+	LevelSecelect,
+	EndWelcomeScreen
 };
