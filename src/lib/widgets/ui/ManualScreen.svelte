@@ -1,5 +1,6 @@
 <script>
 	import { StepsList, TableOfСontents } from '../../entities';
+	import { mainTocData } from '../../shared';
 
 	const instrustionSteps = [
 		{
@@ -9,7 +10,12 @@
 		}
 	];
 
+	$: toc = mainTocData;
 </script>
 
 <!-- <StepsList steps={instrustionSteps}/> -->
-<TableOfСontents />
+
+<div class="flex h-full flex-col items-center justify-center pt-40 pb-10">
+	<TableOfСontents {toc} />
+</div>
+

@@ -1,68 +1,23 @@
 <script>
-	const TOC = [
-		{
-			title: 'Lorem ipsum is placeholder text',
-			id: '1',
-			img: '',
-
-			desc: [
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly'
-			]
-		},
-		{
-			title: 'Lorem ipsum is placeholder text',
-			id: '2',
-			img: '',
-
-			desc: [
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly'
-			]
-		},
-		{
-			title: 'Lorem ipsum is placeholder text',
-			id: '3',
-			img: '',
-
-			desc: [
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly'
-			]
-		},
-		{
-			title: 'Lorem ipsum is placeholder text',
-			id: '4',
-			img: '',
-			desc: [
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly'
-			]
-		}
-	];
+	export let toc;
 </script>
 
 <div
-	class="container mx-auto flex w-full flex-col items-center justify-center rounded-lg bg-white shadow dark:bg-gray-800"
+	class="container mx-auto flex w-full max-w-4xl flex-col items-center justify-center rounded-lg bg-white shadow dark:bg-gray-800"
 >
+
 	<ul class="divide flex flex-col divide-y">
-		{#each TOC as navigation}
+		{#each toc.data as navigation}
 			<li class="flex flex-row">
-				<div class="flex flex-1 cursor-pointer select-none items-center p-4">
-					<div class="mr-4 flex h-10 w-10 flex-col items-center justify-center">
-						<a href="#" class="relative block">
+				<a href='{toc.link}{navigation.id}' class="flex flex-1 cursor-pointer select-none items-center p-4">
+					<div class="mr-4 flex h-30 w-30 flex-col items-center justify-center">
 							<img
-								alt="profil"
+								alt="{navigation.id}"
 								src={navigation.img}
-								class="mx-auto h-10 w-10 rounded-full object-cover "
+								class="mx-auto relative block h-40 w-40 rounded-full object-cover "
 							/>
-						</a>
 					</div>
-					<div class="mr-16 flex-1 pl-1">
+					<div class="xl:mr-16 lg:mr-16 md:mr-16 flex-1 pl-1">
 						<div class="font-medium dark:text-white">{navigation.title}</div>
 						<div class="text-sm text-gray-600 dark:text-gray-200">
 							{#each navigation.desc as desc}
@@ -70,7 +25,7 @@
 							{/each}
 						</div>
 					</div>
-					<button class="flex w-24 justify-end text-right">
+					<button class="flex w-10 justify-end text-right">
 						<svg
 							width="20"
 							fill="currentColor"
@@ -84,7 +39,7 @@
 							/>
 						</svg>
 					</button>
-				</div>
+				</a>
 			</li>
 		{/each}
 	</ul>
