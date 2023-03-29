@@ -1,6 +1,6 @@
 const TOC = {
 	link: '/app/manual/',
-	img: '',
+	img: './images/manual/toc/toc_manual.png',
 
 	data: [
 		{
@@ -17,7 +17,7 @@ const TOC = {
 		{
 			title: 'persons',
 			id: 'persons',
-			img: '',
+			img: './images/manual/toc/toc_persons.png',
 
 			desc: [
 				'Lorem ipsum is placeholder text commonly',
@@ -27,8 +27,8 @@ const TOC = {
 		},
 		{
 			title: 'experiments',
-			id: '3',
-			img: '',
+			id: 'experiments',
+			img: './images/manual/toc/toc_experiments.png',
 
 			desc: [
 				'Lorem ipsum is placeholder text commonly',
