@@ -15,7 +15,6 @@
 
 <!-- <StepsList steps={instrustionSteps}/> -->
 
-<div class="flex h-full flex-col items-center justify-center pt-40 pb-10">
+<section class="flex h-full flex-col items-center justify-center pb-10">
 	<TableOfСontents {toc} />
-</div>
-
+</section>
