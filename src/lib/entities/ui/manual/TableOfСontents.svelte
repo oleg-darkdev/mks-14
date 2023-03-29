@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="container mx-auto flex w-full max-w-4xl flex-col items-center justify-center rounded-lg bg-white shadow dark:bg-gray-800"
+	class="container mx-auto flex h-full max-w-4xl bg-gray-800 flex-col items-center justify-center rounded-lg rounded-lg  shadow"
 >
 
 	<ul class="divide flex flex-col divide-y">
@@ -21,7 +21,7 @@
 						<div class="font-medium dark:text-white">{navigation.title}</div>
 						<div class="text-sm text-gray-600 dark:text-gray-200">
 							{#each navigation.desc as desc}
-								<span>/ {desc} </span>
+								<p>{desc}</p>
 							{/each}
 						</div>
 					</div>
