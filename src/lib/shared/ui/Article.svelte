@@ -1,0 +1,28 @@
+<div class="mx-auto p-5 dark:bg-gray-800 dark:text-gray-100 sm:p-10 md:p-16">
+	<div class="mx-auto flex max-w-3xl flex-col overflow-hidden rounded">
+		<img
+			src="https://source.unsplash.com/random/480x360"
+			alt=""
+			class="h-60 w-full dark:bg-gray-500 sm:h-96"
+		/>
+		<div
+			class="m-4 mx-auto -mt-16 space-y-6 p-6 pb-12 dark:bg-gray-900 sm:mx-12 sm:px-10 lg:max-w-2xl lg:rounded-md"
+		>
+			<div class="space-y-2">
+				<a
+					rel="noopener noreferrer"
+					href="#"
+					class="inline-block text-2xl font-semibold sm:text-3xl"
+					>The Best Activewear from the Nordstrom Anniversary Sale</a
+				>
+				<p class="text-xs dark:text-gray-400">
+					By
+					<a rel="noopener noreferrer" href="#" class="text-xs hover:underline">Leroy Jenkins</a>
+				</p>
+			</div>
+			<div class="dark:text-gray-100">
+				<p>Insert the actual text content here...</p>
+			</div>
+		</div>
+	</div>
+</div>
