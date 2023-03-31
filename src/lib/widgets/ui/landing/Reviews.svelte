@@ -34,7 +34,7 @@
 </script>
 
 <section class=" bg-violet-800 text-gray-100">
-	<div class="container mx-auto md:px-6 md:py-10 lg:px-6 lg:py-12 xl:px-6 xl:py-12">
+	<div class="container mx-auto py-4 px-2 md:px-6 md:py-10 lg:px-6 lg:py-12 xl:px-6 xl:py-12">
 		<div class="grid items-center gap-4 xl:grid-cols-5">
 			<div
 				class="mx-auto my-1 max-w-2xl space-y-4 text-center md:my-4 lg:my-8 xl:col-span-2 xl:my-8 xl:text-left"
