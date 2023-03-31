@@ -6,8 +6,11 @@ import StepsBtns from './ui/StepsBtns.svelte';
 import MapGenerator from './ui/welcomeScreen/MapGenerator.svelte';
 import RolesSetup from './ui/welcomeScreen/RolesSetup.svelte';
 import LevelSecelect from './ui/welcomeScreen/LevelSecelect.svelte';
-import FinalStepOnScreen from './ui/FinalStepOnScreen.svelte';
+import SmallMapElement from './ui/welcomeScreen/SmallMapElement.svelte';
+import BigMapElement from './ui/welcomeScreen/BigMapElement.svelte';
+import MediumMapElement from './ui/welcomeScreen/MediumMapElement.svelte';
 
+import FinalStepOnScreen from './ui/FinalStepOnScreen.svelte';
 import ReviewCard from './ui/landing/ReviewCard.svelte';
 import StepItem from './ui/landing/StepItem.svelte';
 import ShortTeamMemberCard from './ui/landing/ShortTeamMemberCard.svelte';
@@ -32,6 +35,9 @@ export {
 	StepItem,
 	ShortTeamMemberCard,
 	FullTeamMemberCard,
-  BannerTableOfContent,
-  RecommendationBlock
+	BannerTableOfContent,
+	RecommendationBlock,
+	SmallMapElement,
+	BigMapElement,
+	MediumMapElement
 };
