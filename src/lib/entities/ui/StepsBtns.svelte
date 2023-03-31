@@ -9,7 +9,7 @@
 	{#if step != 1}
 		<button
 			on:click={() => stepDecrease()}
-			class="m-2 inline-block rounded-lg bg-gray-900 py-2 px-4 font-medium text-white shadow-md duration-150 hover:bg-gray-700 hover:shadow-none active:bg-gray-900"
+			class="m-2 inline-block border border-violet-700 rounded-lg bg-gray-900 py-2 px-4 font-medium text-violet-400 shadow-md duration-150 hover:bg-gray-700 hover:shadow-none active:bg-gray-900"
 		>
 			Back
 		</button>
@@ -17,7 +17,7 @@
 
 	<button
 		on:click={() => stepIncrease()}
-		class="m-2 inline-block rounded-lg bg-gray-900 py-2 px-4 font-medium text-white shadow-md duration-150 hover:bg-gray-700 hover:shadow-none active:bg-gray-900"
+		class="m-2 inline-block rounded-lg bg-violet-700 py-2 px-4 font-medium text-white shadow-md duration-150 hover:bg-gray-700 hover:shadow-none active:bg-gray-900"
 	>
 		Next
 	</button>
