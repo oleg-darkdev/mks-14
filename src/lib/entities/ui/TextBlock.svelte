@@ -2,7 +2,7 @@
 	export let title, desc;
 </script>
 
-<div class="py-6">
+<div class="py-6 border-2 border-violet-700 rounded-lg shadow-md shadow-violet-700 h-full">
 	<div class="mx-auto max-w-screen-xl px-4 md:px-8 md:text-center">
 		<div class="max-w-xl md:mx-auto">
 			<h3 class="text-3xl font-semibold text-gray-300 sm:text-4xl">{title}</h3>

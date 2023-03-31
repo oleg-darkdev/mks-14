@@ -49,56 +49,57 @@
 	export let activeScreen;
 </script>
 
-<div class="flex h-full flex-col items-center justify-center pt-40 pb-10">
-	{#if step == 1}
-		<TextBlock
-			title="Lorem ipsum is placeholder"
-			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-		>
-			<StepsBtns bind:step />
-		</TextBlock>
-	{:else if step == 2}
-		<StepsList steps={gameSteps}>
-			<StepsBtns bind:step />
-		</StepsList>
-	{:else if step == 3}
-		<RolesSetup bind:step />
-	{:else if step == 4}
-		<TextBlock
-			title="Setup map"
-			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-		>
-			<StepsBtns bind:step />
-		</TextBlock>
-		<MapGenerator />
-	{:else if step == 5}
-		<LevelSecelect bind:step />
-	{:else if step == 6}
-		<TextBlock
-			title="Resources generator"
-			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-		>
-			<StepsBtns bind:step />
-		</TextBlock>
-	{:else if step == 7}
-		<TextBlock
-			title="Experiements generator"
-			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-		>
-			<StepsBtns bind:step />
-		</TextBlock>
-	{:else if step == 8}
-		<FinalStepOnScreen
-			title="Final setup game"
-			desc={[
-				'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
-				'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
-			]}
-			btnText="Got to instruction"
-			on:click={() => {
-				activeScreen = 'Instrukcja';
-				step = 0;
-			}}
-		/>
-	{/if}
-</div>
+<section class="flex min-h-screen flex-col items-center  justify-center pt-10 pb-40">
+		{#if step == 1}
+			<TextBlock
+				title="Lorem ipsum is placeholder"
+				desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+			>
+				<StepsBtns bind:step />
+			</TextBlock>
+		{:else if step == 2}
+			<StepsList steps={gameSteps}>
+				<StepsBtns bind:step />
+			</StepsList>
+		{:else if step == 3}
+			<RolesSetup bind:step />
+		{:else if step == 4}
+			<TextBlock
+				title="Setup map"
+				desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+			>
+				<StepsBtns bind:step />
+			</TextBlock>
+
+			<MapGenerator />
+		{:else if step == 5}
+			<LevelSecelect bind:step />
+		{:else if step == 6}
+			<TextBlock
+				title="Resources generator"
+				desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+			>
+				<StepsBtns bind:step />
+			</TextBlock>
+		{:else if step == 7}
+			<TextBlock
+				title="Experiements generator"
+				desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+			>
+				<StepsBtns bind:step />
+			</TextBlock>
+		{:else if step == 8}
+			<FinalStepOnScreen
+				title="Final setup game"
+				desc={[
+					'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
+					'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
+				]}
+				btnText="Got to instruction"
+				on:click={() => {
+					activeScreen = 'Instrukcja';
+					step = 1;
+				}}
+			/>
+		{/if}
+</section>
