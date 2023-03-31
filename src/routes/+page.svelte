@@ -1,6 +1,6 @@
 <script>
 	import {
-		HeaderLanding,
+		Header,
 		HeroLanding,
 		StatsLanding,
 		FeaturesLanding,
@@ -11,28 +11,35 @@
 		TeamLanding,
 		FooterLanding
 	} from '../lib/widgets/';
+
+	const headerLeftSideLinks = [
+			{ link: '#app', text: 'App' },
+			{ link: '#about', text: 'About' },
+			{ link: '#team', text: 'Team' }
+		],
+		headerRightSideLinks = [
+			{ link: '#updates', text: 'Updates' },
+			{ link: '#gallery', text: 'Gallery' },
+			{ link: '#reviews', text: 'Reviews' }
+		];
 </script>
 
-<HeaderLanding />
+<Header leftSideLinks={headerLeftSideLinks} rightSideLinks={headerRightSideLinks} />
 
 <HeroLanding />
 
 <a name="about" />
 <StatsLanding />
 
-<!-- features -->
 <FeaturesLanding />
 
-<!-- gallery -->
 <a name="gallery" />
 <GalleryLanding />
 
-<!--  app -->
 <a name="app" />
 <AppLanding />
 
-<!-- steps -->
-<a name="steps" />
+<a name="updates" />
 <StepsLanding />
 
 <!-- pricing -->
@@ -52,12 +59,10 @@
 		</div>
 	</div>
 </section> -->
+<a name="team" />
+<TeamLanding />
 
-<!-- review -->
 <a name="reviews" />
 <ReviewsLanding />
 
-<a name="team" />
-<TeamLanding />
-<!-- footer -->
 <FooterLanding />
