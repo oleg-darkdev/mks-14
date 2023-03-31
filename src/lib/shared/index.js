@@ -13,12 +13,14 @@ import mainTocData from './data/toc/mainToc';
 import personsTocData from './data/toc/personsToc';
 import locationsTocData from './data/toc/locationsToc';
 import experimentsTocData from './data/toc/experimentsToc';
+import locationsList from './data/locationsList';
 
 // utils
 import getCurrentUrl from './utils/getCurrentUrl';
 import getLocationFromUrl from './utils/getLocationFromUrl';
 import identifySelectedData from './utils/identifySelectedData';
-
+import generateMap from './utils/generateMap';
+import shuffle from './utils/shuffle';
 
 export {
 	NavBtn,
@@ -36,5 +38,8 @@ export {
 	experimentsTocData,
 	getCurrentUrl,
 	getLocationFromUrl,
-	identifySelectedData
+	identifySelectedData,
+	locationsList,
+	generateMap,
+	shuffle
 };
