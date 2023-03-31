@@ -4,7 +4,7 @@
 	let activeScreen = 'Rozpoczęcie';
 </script>
 
-<section class="flex h-screen flex-col items-center justify-center">
+<section class="flex min-h-screen flex-col items-center justify-center">
 	<div class:hidden={activeScreen == 'Instrukcja' || activeScreen == 'Rozgrywka'}>
 		<StartScreen bind:activeScreen />
 	</div>
