@@ -2,47 +2,26 @@
 	export let toc;
 </script>
 
-<div
-	class="container mx-auto flex h-full max-w-4xl flex-col items-center justify-center rounded-lg rounded-lg bg-gray-900  shadow"
->
-	<ul class="divide flex flex-col divide-y">
-		{#each toc.data as navigation}
-			<li class="flex flex-row">
-				<a
-					href="{toc.link}{navigation.id}"
-					class="flex flex-1 cursor-pointer select-none items-center p-4"
-				>
-					<div class="h-30 w-30 mr-4 flex flex-col items-center justify-center">
-						<img
-							alt={navigation.id}
-							src={navigation.img}
-							class="relative mx-auto block h-40 w-40 rounded-full object-cover "
-						/>
-					</div>
-					<div class="flex-1 pl-1 md:mr-16 lg:mr-16 xl:mr-16">
-						<div class="font-medium dark:text-white">{navigation.title}</div>
-						<div class="text-sm text-gray-600 dark:text-gray-200">
-							{#each navigation.desc as desc}
-								<p>{desc}</p>
-							{/each}
-						</div>
-					</div>
-					<button class="flex w-10 justify-end text-right">
-						<svg
-							width="20"
-							fill="currentColor"
-							height="20"
-							class="text-gray-500 hover:text-gray-800 dark:text-gray-200 dark:hover:text-white"
-							viewBox="0 0 1792 1792"
-							xmlns="http://www.w3.org/2000/svg"
-						>
-							<path
-								d="M1363 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45l166-166q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z"
-							/>
-						</svg>
-					</button>
-				</a>
-			</li>
-		{/each}
-	</ul>
+<div class="grid grid-cols-1 justify-center gap-6 sm:grid-cols-2 lg:grid-cols-3">
+	{#each toc.data as navigation}
+		<a
+			rel="noopener noreferrer"
+			href="{toc.link}{navigation.id}"
+			class="group mx-auto max-w-sm border-2 border-violet-700 shadow-md shadow-violet-700 hover:no-underline focus:no-underline dark:bg-gray-900"
+		>
+			<img
+				role="presentation"
+				class="h-44 w-full rounded object-cover dark:bg-gray-500"
+				src={navigation.img}
+				alt={navigation.id}
+			/>
+			<div class="space-y-2 p-6">
+				<h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">
+					{navigation.title}
+				</h3>
+				<p>{navigation.shortDesc}</p>
+			</div>
+		</a>
+	{/each}
 </div>
+
