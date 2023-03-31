@@ -2,7 +2,7 @@
 	export let text, activeScreen;
 </script>
 
-<button on:click class:active={text === activeScreen}>
+<button  on:click class={text === activeScreen? 'active bg-gray-900': ''}>
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		class="h-5 w-5"
@@ -12,5 +12,5 @@
 	>
 		<slot />
 	</svg>
-	<span class="btm-nav-label">{text}</span>
+	<span class="btn-nav-label">{text}</span>
 </button>
