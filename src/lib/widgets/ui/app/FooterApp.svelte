@@ -1,10 +1,10 @@
 <script>
-	import { NavBtn } from '../../shared/';
+	import { NavBtn } from '../../../shared/';
 
 	export let activeScreen;
 </script>
 
-<div class="btm-nav btm-nav-lg">
+<div class="btm-nav btm-nav-lg bg-violet-700 shadow-md shadow-violet-700">
 	<NavBtn on:click={() => (activeScreen = 'Rozpoczęcie')} {activeScreen} text={'Rozpoczęcie'}>
 		<path
 			stroke-linecap="round"
