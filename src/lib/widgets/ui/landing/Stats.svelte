@@ -1,4 +1,4 @@
-<section class="my-6 p-6 dark:bg-gray-800 dark:text-gray-100">
+<section class="p-6 bg-violet-700 dark:text-gray-100">
 	<div class="container mx-auto grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4">
 		<div class="flex space-x-4 rounded-lg p-4 dark:bg-gray-900 dark:text-gray-100 md:space-x-6">
 			<div class="flex justify-center rounded-lg p-2 align-middle dark:bg-violet-400 sm:p-4">
