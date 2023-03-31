@@ -165,13 +165,13 @@ const airLockLeft = {
 	};
 
 const locales = {
+	airLockLeft: airLockLeft,
 	cargoFirst: cargoFirst,
 	center: center,
 	laboratory: laboratory,
 	batteries: batteries,
 	lounge: lounge,
 	cargoSecond: cargoSecond,
-	airLockLeft: airLockLeft,
 	airLockRight: airLockRight,
 	topOutherRight: topOutherRight,
 	topOutherCenter: topOutherCenter,

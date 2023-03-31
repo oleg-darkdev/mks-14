@@ -7,9 +7,9 @@
 </script>
 
 <section
-	class="flex h-full w-full flex-col items-center justify-center pt-20 pb-10 dark:bg-gray-900 dark:text-gray-100"
+	class="flex h-full w-full flex-col items-center justify-center bg-gray-900 pt-20 pb-10 text-gray-100"
 >
-	<div class="container mx-auto max-w-6xl space-y-6 p-6 sm:space-y-12">
+	<div class="container mx-auto max-w-6xl space-y-6 p-2 sm:space-y-12 md:p-4 lg:p-6 xl:p-6">
 		<BannerTableOfContent page={$page.params.slug} {toc} />
 		<TableOfСontents {toc} />
 	</div>

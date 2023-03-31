@@ -45,7 +45,7 @@
 	];
 </script>
 
-<section class="dark:bg-gray-900 dark:text-gray-100">
+<section class="bg-gray-900 text-gray-100">
 	<div class="container mx-auto flex flex-col p-6">
 		<h2 class="py-4 text-center text-3xl font-bold">История изменений</h2>
 		<div class="divide-y divide-violet-700">

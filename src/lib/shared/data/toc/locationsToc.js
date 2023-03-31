@@ -5,13 +5,13 @@ const TOC = {
 	img: '',
 
 	data: [
+		locationsList.airLockLeft,
 		locationsList.cargoFirst,
 		locationsList.center,
 		locationsList.laboratory,
 		locationsList.batteries,
 		locationsList.lounge,
 		locationsList.cargoSecond,
-		locationsList.airLockLeft,
 		locationsList.airLockRight,
 		locationsList.topOutherRight,
 		locationsList.topOutherCenter,

@@ -7,11 +7,11 @@
 		<a
 			rel="noopener noreferrer"
 			href="{toc.link}{navigation.id}"
-			class="group mx-auto max-w-sm rounded-lg border-2 border-violet-700 shadow-md shadow-violet-700 hover:bg-violet-700 hover:no-underline focus:no-underline dark:bg-gray-900"
+			class="group mx-auto max-w-sm rounded-lg border-2 border-violet-700 bg-gray-900 shadow-md shadow-violet-700 hover:bg-violet-700 hover:no-underline focus:no-underline"
 		>
 			<img
 				role="presentation"
-				class="h-44 w-full rounded-lg object-cover dark:bg-gray-500"
+				class="h-44 w-full rounded-lg bg-gray-500 object-cover"
 				src={navigation.img}
 				alt={navigation.id}
 			/>
@@ -20,7 +20,7 @@
 					<span class="text-violet-700 group-hover:text-gray-100 group-focus:text-gray-100 "
 						>#{index + 1}
 					</span>
-          {navigation.title}
+					{navigation.title}
 				</h3>
 				<p>{navigation.shortDesc}</p>
 			</div>

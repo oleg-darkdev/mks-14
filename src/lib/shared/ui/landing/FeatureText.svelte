@@ -1,12 +1,10 @@
 <script>
-  export let text;
+	export let text;
 </script>
 
 <div class="flex">
 	<div class="flex-shrink-0">
-		<div
-			class="flex h-12 w-12 items-center justify-center rounded-md dark:bg-violet-700 dark:text-gray-900"
-		>
+		<div class="flex h-12 w-12 items-center justify-center rounded-md bg-violet-700 text-gray-900">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
@@ -19,8 +17,8 @@
 		</div>
 	</div>
 	<div class="ml-4">
-		<h4 class="text-lg font-medium leading-6 dark:text-gray-50">{text.title}</h4>
-		<p class="mt-2 dark:text-gray-400">
+		<h4 class="text-lg font-medium leading-6 text-gray-50">{text.title}</h4>
+		<p class="mt-2 text-gray-400">
 			{text.desc}
 		</p>
 	</div>

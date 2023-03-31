@@ -3,18 +3,18 @@
 </script>
 
 <div
-	class="mx-auto block max-w-sm gap-3 rounded-xl border-2 border-violet-700 shadow-md shadow-violet-700 hover:no-underline focus:no-underline dark:bg-gray-900 sm:max-w-full lg:grid lg:grid-cols-12"
+	class="mx-auto block max-w-sm gap-3 rounded-xl border-2 border-violet-700 bg-gray-900 shadow-md shadow-violet-700 hover:no-underline focus:no-underline sm:max-w-full lg:grid lg:grid-cols-12"
 >
 	<img
 		src={toc.img}
 		alt="{page} banner"
-		class="h-64 w-full  object-cover dark:bg-violet-700 sm:h-96 lg:col-span-7"
+		class="h-64 w-full  bg-violet-700 object-cover sm:h-96 lg:col-span-7"
 	/>
 	<div class="space-y-2 p-6 lg:col-span-5">
 		<h3 class="text-2xl font-semibold  sm:text-4xl">
 			Описание {page} доступных в игре
 		</h3>
-		<ul>
+		<ul class="grid grid-cols-2 gap-2">
 			{#each toc.data as item}
 				<li class="">
 					<a class="hover:text-violet-700" href="{toc.link}{item.id}"
@@ -25,5 +25,3 @@
 		</ul>
 	</div>
 </div>
-
-

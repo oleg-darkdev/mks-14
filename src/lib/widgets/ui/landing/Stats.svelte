@@ -1,12 +1,12 @@
-<section class="p-6 bg-violet-700 dark:text-gray-100">
+<section class="bg-violet-700 p-6 text-gray-100">
 	<div class="container mx-auto grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4">
-		<div class="flex space-x-4 rounded-lg p-4 dark:bg-gray-900 dark:text-gray-100 md:space-x-6">
-			<div class="flex justify-center rounded-lg p-2 align-middle dark:bg-violet-400 sm:p-4">
+		<div class="flex space-x-4 rounded-lg bg-gray-900 p-4 text-gray-100 md:space-x-6">
+			<div class="flex justify-center rounded-lg bg-violet-400 p-2 align-middle sm:p-4">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 512 512"
 					fill="currentColor"
-					class="h-9 w-9 dark:text-gray-800"
+					class="h-9 w-9 text-gray-800"
 				>
 					<polygon
 						points="160 96.039 160 128.039 464 128.039 464 191.384 428.5 304.039 149.932 304.039 109.932 16 16 16 16 48 82.068 48 122.068 336.039 451.968 336.039 496 196.306 496 96.039 160 96.039"
@@ -24,13 +24,13 @@
 				<p class="capitalize">Orders</p>
 			</div>
 		</div>
-		<div class="flex space-x-4 rounded-lg p-4 dark:bg-gray-900 dark:text-gray-100 md:space-x-6">
-			<div class="flex justify-center rounded-lg p-2 align-middle dark:bg-violet-400 sm:p-4">
+		<div class="flex space-x-4 rounded-lg bg-gray-900 p-4 text-gray-100 md:space-x-6">
+			<div class="flex justify-center rounded-lg bg-violet-400 p-2 align-middle sm:p-4">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 512 512"
 					fill="currentColor"
-					class="h-9 w-9 dark:text-gray-800"
+					class="h-9 w-9 text-gray-800"
 				>
 					<path
 						d="M256,16C123.452,16,16,123.452,16,256S123.452,496,256,496,496,388.548,496,256,388.548,16,256,16ZM403.078,403.078a207.253,207.253,0,1,1,44.589-66.125A207.332,207.332,0,0,1,403.078,403.078Z"
@@ -49,13 +49,13 @@
 				<p class="capitalize">New customers</p>
 			</div>
 		</div>
-		<div class="flex space-x-4 rounded-lg p-4 dark:bg-gray-900 dark:text-gray-100 md:space-x-6">
-			<div class="flex justify-center rounded-lg p-2 align-middle dark:bg-violet-400 sm:p-4">
+		<div class="flex space-x-4 rounded-lg bg-gray-900 p-4 text-gray-100 md:space-x-6">
+			<div class="flex justify-center rounded-lg bg-violet-400 p-2 align-middle sm:p-4">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 512 512"
 					fill="currentColor"
-					class="h-9 w-9 dark:text-gray-800"
+					class="h-9 w-9 text-gray-800"
 				>
 					<path
 						d="M425.706,142.294A240,240,0,0,0,16,312v88H160V368H48V312c0-114.691,93.309-208,208-208s208,93.309,208,208v56H352v32H496V312A238.432,238.432,0,0,0,425.706,142.294Z"
@@ -74,13 +74,13 @@
 				<p class="capitalize">Growth</p>
 			</div>
 		</div>
-		<div class="flex space-x-4 rounded-lg p-4 dark:bg-gray-900 dark:text-gray-100 md:space-x-6">
-			<div class="flex justify-center rounded-lg p-2 align-middle dark:bg-violet-400 sm:p-4">
+		<div class="flex space-x-4 rounded-lg bg-gray-900 p-4 text-gray-100 md:space-x-6">
+			<div class="flex justify-center rounded-lg bg-violet-400 p-2 align-middle sm:p-4">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 512 512"
 					fill="currentColor"
-					class="h-9 w-9 dark:text-gray-800"
+					class="h-9 w-9 text-gray-800"
 				>
 					<path
 						d="M454.423,278.957,328,243.839v-8.185a116,116,0,1,0-104,0V312H199.582l-18.494-22.6a90.414,90.414,0,0,0-126.43-13.367,20.862,20.862,0,0,0-8.026,33.47L215.084,496H472V302.08A24.067,24.067,0,0,0,454.423,278.957ZM192,132a84,84,0,1,1,136,65.9V132a52,52,0,0,0-104,0v65.9A83.866,83.866,0,0,1,192,132ZM440,464H229.3L79.141,297.75a58.438,58.438,0,0,1,77.181,11.91l28.1,34.34H256V132a20,20,0,0,1,40,0V268.161l144,40Z"

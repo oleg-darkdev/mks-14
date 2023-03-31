@@ -19,7 +19,7 @@
 	];
 </script>
 
-<section class="py-6 dark:bg-gray-900 dark:text-gray-100">
+<section class="bg-gray-900 py-6 text-gray-100">
 	<div class="container mx-auto flex flex-col items-center justify-center p-4 sm:p-10">
 		<p class="p-2 text-center text-sm font-medium uppercase tracking-wider">Development team</p>
 		<h1 class="text-center text-4xl font-bold leading-none sm:text-5xl">
