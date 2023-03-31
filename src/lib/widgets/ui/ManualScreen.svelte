@@ -1,6 +1,7 @@
 <script>
 	import { StepsList, TableOfСontents } from '../../entities';
 	import { mainTocData } from '../../shared';
+import { page } from '$app/stores';
 
 	const instrustionSteps = [
 		{
@@ -15,6 +16,8 @@
 
 <!-- <StepsList steps={instrustionSteps}/> -->
 
-<section class="flex h-full flex-col items-center justify-center pb-10">
-	<TableOfСontents {toc} />
+<section class="flex h-screen flex-col items-center justify-center pb-10">
+	<div class="container mx-auto max-w-6xl space-y-6 p-6 sm:space-y-12">
+    <TableOfСontents {toc} />
+	</div>
 </section>
