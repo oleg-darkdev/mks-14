@@ -17,24 +17,13 @@
 		<ul>
 			{#each toc.data as item}
 				<li class="">
-					<a class="hover:text-violet-700" href="{toc.link}{item.id}">{item.title}</a>
+					<a class="hover:text-violet-700" href="{toc.link}{item.id}"
+						><span class="text-violet-700">#{item.id}</span> {item.title}</a
+					>
 				</li>
 			{/each}
 		</ul>
 	</div>
 </div>
 
-<style>
-	li {
-		list-style: none;
-	}
 
-	li::before {
-		content: '\2022';
-		color: #661ae6;
-		font-weight: bold;
-		display: inline-block;
-		width: 1em;
-		margin-left: -1em;
-	}
-</style>
