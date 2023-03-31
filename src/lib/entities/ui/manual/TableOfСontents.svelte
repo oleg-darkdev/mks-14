@@ -3,21 +3,23 @@
 </script>
 
 <div
-	class="container mx-auto flex h-full max-w-4xl bg-gray-800 flex-col items-center justify-center rounded-lg rounded-lg  shadow"
+	class="container mx-auto flex h-full max-w-4xl flex-col items-center justify-center rounded-lg rounded-lg bg-gray-900  shadow"
 >
-
 	<ul class="divide flex flex-col divide-y">
 		{#each toc.data as navigation}
 			<li class="flex flex-row">
-				<a href='{toc.link}{navigation.id}' class="flex flex-1 cursor-pointer select-none items-center p-4">
-					<div class="mr-4 flex h-30 w-30 flex-col items-center justify-center">
-							<img
-								alt="{navigation.id}"
-								src={navigation.img}
-								class="mx-auto relative block h-40 w-40 rounded-full object-cover "
-							/>
+				<a
+					href="{toc.link}{navigation.id}"
+					class="flex flex-1 cursor-pointer select-none items-center p-4"
+				>
+					<div class="h-30 w-30 mr-4 flex flex-col items-center justify-center">
+						<img
+							alt={navigation.id}
+							src={navigation.img}
+							class="relative mx-auto block h-40 w-40 rounded-full object-cover "
+						/>
 					</div>
-					<div class="xl:mr-16 lg:mr-16 md:mr-16 flex-1 pl-1">
+					<div class="flex-1 pl-1 md:mr-16 lg:mr-16 xl:mr-16">
 						<div class="font-medium dark:text-white">{navigation.title}</div>
 						<div class="text-sm text-gray-600 dark:text-gray-200">
 							{#each navigation.desc as desc}
