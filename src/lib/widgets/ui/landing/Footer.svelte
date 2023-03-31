@@ -1,6 +1,6 @@
-<footer class="px-4 py-8 dark:bg-gray-800 dark:text-gray-400">
+<footer class="px-4 py-8 bg-violet-900 dark:text-gray-400">
 	<div
-		class="container mx-auto flex flex-wrap items-center justify-center space-y-4 sm:justify-between sm:space-y-0"
+		class="container  mx-auto flex flex-wrap items-center justify-center space-y-4 sm:justify-between sm:space-y-0"
 	>
 		<div class="flex flex-row space-x-4 pr-3 sm:space-x-8">
 			<div
