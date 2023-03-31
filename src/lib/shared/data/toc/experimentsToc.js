@@ -8,42 +8,40 @@ const TOC = {
 			id: '1',
 			img: '',
 
-			desc: [
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly'
+			shortDesc:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			fullDesc: [
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			]
 		},
 		{
 			title: 'Lorem ipsum is placeholder text',
 			id: '2',
 			img: '',
-
-			desc: [
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly'
+			shortDesc:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			fullDesc: [
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			]
 		},
 		{
 			title: 'Lorem ipsum is placeholder text',
 			id: '3',
 			img: '',
-
-			desc: [
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly'
+			shortDesc:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			fullDesc: [
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			]
 		},
 		{
 			title: 'Lorem ipsum is placeholder text',
 			id: '4',
 			img: '',
-			desc: [
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly'
+			shortDesc:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			fullDesc: [
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			]
 		},
 		{
@@ -51,10 +49,10 @@ const TOC = {
 			id: '5',
 			img: '',
 
-			desc: [
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly'
+			shortDesc:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			fullDesc: [
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			]
 		},
 		{
@@ -62,31 +60,30 @@ const TOC = {
 			id: '6',
 			img: '',
 
-			desc: [
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly'
+			shortDesc:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			fullDesc: [
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			]
 		},
 		{
 			title: 'Lorem ipsum is placeholder text',
 			id: '7',
 			img: '',
-
-			desc: [
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly'
+			shortDesc:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			fullDesc: [
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			]
 		},
 		{
 			title: 'Lorem ipsum is placeholder text',
 			id: '8',
 			img: '',
-			desc: [
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly'
+			shortDesc:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			fullDesc: [
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			]
 		},
 		{
@@ -94,20 +91,20 @@ const TOC = {
 			id: '9',
 			img: '',
 
-			desc: [
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly'
+			shortDesc:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			fullDesc: [
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			]
 		},
 		{
 			title: 'Lorem ipsum is placeholder text',
 			id: '10',
 			img: '',
-			desc: [
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly'
+			shortDesc:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			fullDesc: [
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			]
 		}
 	]

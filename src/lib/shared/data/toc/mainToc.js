@@ -6,35 +6,23 @@ const TOC = {
 		{
 			title: 'locations',
 			id: 'locations',
-			img: './images/manual/toc/toc_locations.png',
+			img: '/images/manual/toc/toc_locations.png',
 
-			desc: [
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly'
-			]
+			shortDesc: 'Lorem ipsum is placeholder text commonly'
 		},
 		{
 			title: 'persons',
 			id: 'persons',
-			img: './images/manual/toc/toc_persons.png',
+			img: '/images/manual/toc/toc_persons.png',
 
-			desc: [
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly'
-			]
+			shortDesc: 'Lorem ipsum is placeholder text commonly'
 		},
 		{
 			title: 'experiments',
 			id: 'experiments',
-			img: './images/manual/toc/toc_experiments.png',
+			img: '/images/manual/toc/toc_experiments.png',
 
-			desc: [
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly',
-				'Lorem ipsum is placeholder text commonly'
-			]
+			shortDesc: 'Lorem ipsum is placeholder text commonly'
 		}
 		// {
 		// 	title: 'Lorem ipsum is placeholder text',
