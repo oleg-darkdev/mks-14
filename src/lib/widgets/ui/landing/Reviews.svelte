@@ -1,95 +1,56 @@
-<section class="dark:bg-gray-800 dark:text-gray-100">
+<script>
+	import { ReviewCard } from '../../../entities';
+
+	const reviews = [
+		{
+			img: 'https://source.unsplash.com/50x50/?portrait?1',
+			position: 'CTO of Company Co.',
+			fullName: 'Lorem ipsum ',
+			title: 'Lorem ipsum dolor sit amet',
+			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+		},
+		{
+			img: 'https://source.unsplash.com/50x50/?portrait?2',
+			position: 'CTO of Company Co.',
+			fullName: 'Lorem ipsum ',
+			title: 'Lorem ipsum dolor sit amet',
+			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+		},
+		{
+			img: 'https://source.unsplash.com/50x50/?portrait?3',
+			position: 'CTO of Company Co.',
+			fullName: 'Lorem ipsum ',
+			title: 'Lorem ipsum dolor sit amet',
+			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+		},
+		{
+			img: 'https://source.unsplash.com/50x50/?portrait?4',
+			position: 'CTO of Company Co.',
+			fullName: 'Lorem ipsum ',
+			title: 'Lorem ipsum dolor sit amet',
+			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+		}
+	];
+</script>
+
+<section class="dark:bg-violet-800 dark:text-gray-100">
 	<div class="container mx-auto px-6 py-12">
 		<div class="grid items-center gap-4 xl:grid-cols-5">
 			<div class="mx-auto my-8 max-w-2xl space-y-4 text-center xl:col-span-2 xl:text-left">
-				<h2 class="text-4xl font-bold">Duo assum utroque appetere an</h2>
+				<h2 class="text-4xl font-bold">Feedback</h2>
 				<p class="dark:text-gray-400">
-					Pri ex magna scaevola moderatius. Nullam accommodare no vix, est ei diceret alienum, et
-					sit cetero malorum. Et sea iudico consequat, est sanctus adipisci ex.
+					Игра протестирована на тестовой группе, а так же среди учёных из космического сообщества.
 				</p>
 			</div>
 			<div class="p-6 xl:col-span-3">
 				<div class="grid gap-4 md:grid-cols-2">
 					<div class="grid content-center gap-4">
-						<div class="rounded p-6 shadow-md dark:bg-gray-900">
-							<p>
-								An audire commodo habemus cum. Ne sed corrumpit repudiandae. Tota aliquip democritum
-								pro in, nec democritum intellegam ne. Propriae volutpat dissentiet ea sit, nec at
-								lorem inani tritani, an ius populo perfecto vituperatoribus. Eu cum case modus
-								salutandi, ut eum vocent sensibus reprehendunt.
-							</p>
-							<div class="mt-4 flex items-center space-x-4">
-								<img
-									src="https://source.unsplash.com/50x50/?portrait?1"
-									alt=""
-									class="h-12 w-12 rounded-full bg-cover bg-center dark:bg-gray-500"
-								/>
-								<div>
-									<p class="text-lg font-semibold">Leroy Jenkins</p>
-									<p class="text-sm dark:text-gray-400">CTO of Company Co.</p>
-								</div>
-							</div>
-						</div>
-						<div class="rounded p-6 shadow-md dark:bg-gray-900">
-							<p>
-								Sit wisi sapientem ut, pri civibus temporibus voluptatibus et, ius cu hinc fabulas.
-								Nam meliore minimum et, regione convenire cum id. Ex pro eros mucius consectetuer,
-								pro magna nulla nonumy ne, eam putent iudicabit consulatu cu.
-							</p>
-							<div class="mt-4 flex items-center space-x-4">
-								<img
-									src="https://source.unsplash.com/50x50/?portrait?2"
-									alt=""
-									class="h-12 w-12 rounded-full bg-cover bg-center dark:bg-gray-500"
-								/>
-								<div>
-									<p class="text-lg font-semibold">Leroy Jenkins</p>
-									<p class="text-sm dark:text-gray-400">CTO of Company Co.</p>
-								</div>
-							</div>
-						</div>
+						<ReviewCard review={reviews[0]} />
+						<ReviewCard review={reviews[1]} />
 					</div>
 					<div class="grid content-center gap-4">
-						<div class="rounded p-6 shadow-md dark:bg-gray-900">
-							<p>
-								Putant omnium elaboraret per ut. Id dicta tritani nominavi quo, mea id justo errem
-								elaboraret. Agam mollis scripserit ea his, ut nec postea verear persecuti. Ea noster
-								senserit eam, ferri omittantur ei nec. Id mel solet libris efficiantur, commune
-								explicari et eos. Case movet ad est, sed tota vocent appetere ea.
-							</p>
-							<div class="mt-4 flex items-center space-x-4">
-								<img
-									src="https://source.unsplash.com/50x50/?portrait?3"
-									alt=""
-									class="h-12 w-12 rounded-full bg-cover bg-center dark:bg-gray-500"
-								/>
-								<div>
-									<p class="text-lg font-semibold">Leroy Jenkins</p>
-									<p class="text-sm dark:text-gray-400">CTO of Company Co.</p>
-								</div>
-							</div>
-						</div>
-						<div class="rounded p-6 shadow-md dark:bg-gray-900">
-							<p>
-								Te omnes virtute volutpat sed. Ei esse eros interesset vel, ei populo denique
-								ocurreret vix, eu cum pertinax mandamus vituperatoribus. Solum nihil luptatum per
-								ex, ei amet viderer eos. Ea illum labitur mnesarchum pro. Eius meis salutandi ei
-								nam, alterum expetenda et nec. Expetenda intellegat at eum, per mazim sanctus
-								honestatis ad. Ei noluisse invenire vix. Te ancillae patrioque qui, probo bonorum
-								vivendum ex vim.
-							</p>
-							<div class="mt-4 flex items-center space-x-4">
-								<img
-									src="https://source.unsplash.com/50x50/?portrait?4"
-									alt=""
-									class="h-12 w-12 rounded-full bg-cover bg-center dark:bg-gray-500"
-								/>
-								<div>
-									<p class="text-lg font-semibold">Leroy Jenkins</p>
-									<p class="text-sm dark:text-gray-400">CTO of Company Co.</p>
-								</div>
-							</div>
-						</div>
+						<ReviewCard review={reviews[2]} />
+						<ReviewCard review={reviews[3]} />
 					</div>
 				</div>
 			</div>
