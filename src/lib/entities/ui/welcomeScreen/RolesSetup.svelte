@@ -24,7 +24,7 @@
             peoplesOnGame = variant;
             step++;
           }}
-					class="rounded-box flex flex-col items-center bg-neutral p-2 text-neutral-content "
+					class="rounded-box border-2 border-violet-700 bg-violet-700 rounded-lg shadow-md shadow-violet-700 flex flex-col items-center  p-2 text-neutral-content "
 				>
 					<span class="font-mono countdown text-center text-5xl">
 						{variant}
