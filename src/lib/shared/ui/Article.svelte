@@ -1,4 +1,4 @@
-<div class="mx-auto p-5 dark:bg-gray-800 dark:text-gray-100 sm:p-10 md:p-16">
+<div class="mx-auto p-5 dark:bg-gray-900 dark:text-gray-100 sm:p-10 md:p-16">
 	<div class="mx-auto flex max-w-3xl flex-col overflow-hidden rounded">
 		<img
 			src="https://source.unsplash.com/random/480x360"
