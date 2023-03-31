@@ -2,6 +2,8 @@ import NavBtn from './ui/NavBtn.svelte';
 import LevelCard from './ui/LevelCard.svelte';
 import StepElement from './ui/StepElement.svelte';
 import Article from './ui/Article.svelte';
+import LargeBtn from './ui/app/LargeBtn.svelte';
+import HeaderLink from './ui/HeaderLink.svelte';
 
 import FeatureText from './ui/landing/FeatureText.svelte';
 import VerticalImage from './ui/landing/VerticalImage.svelte';
@@ -19,6 +21,8 @@ export {
 	LevelCard,
   StepElement,
   Article,
+  LargeBtn,
+  HeaderLink,
 
 
   FeatureText,

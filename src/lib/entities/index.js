@@ -7,10 +7,16 @@ import MapGenerator from './ui/welcomeScreen/MapGenerator.svelte';
 import RolesSetup from './ui/welcomeScreen/RolesSetup.svelte';
 import LevelSecelect from './ui/welcomeScreen/LevelSecelect.svelte';
 import FinalStepOnScreen from './ui/FinalStepOnScreen.svelte';
-import TableOfСontents from './ui/manual/TableOfСontents.svelte';
 
 import ReviewCard from './ui/landing/ReviewCard.svelte';
 import StepItem from './ui/landing/StepItem.svelte';
+import ShortTeamMemberCard from './ui/landing/ShortTeamMemberCard.svelte';
+import FullTeamMemberCard from './ui/landing/FullTeamMemberCard.svelte';
+
+import BannerTableOfContent from './ui/manual/BannerTableOfContent.svelte';
+import TableOfСontents from './ui/manual/TableOfСontents.svelte';
+import RecommendationBlock from './ui/manual/RecommendationBlock.svelte';
+
 
 export {
 	CountdownTimer,
@@ -23,5 +29,9 @@ export {
 	FinalStepOnScreen,
 	TableOfСontents,
 	ReviewCard,
-	StepItem
+	StepItem,
+	ShortTeamMemberCard,
+	FullTeamMemberCard,
+  BannerTableOfContent,
+  RecommendationBlock
 };

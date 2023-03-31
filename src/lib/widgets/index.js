@@ -3,7 +3,7 @@ import StartScreen from './ui/StartScreen.svelte';
 import GameProgressScreen from './ui/GameProgressScreen.svelte';
 import ManualScreen from './ui/ManualScreen.svelte';
 
-import HeaderLanding from './ui/landing/Header.svelte';
+import Header from './ui/Header.svelte';
 import HeroLanding from './ui/landing/Hero.svelte';
 import StatsLanding from './ui/landing/Stats.svelte';
 import FeaturesLanding from './ui/landing/Features.svelte';
@@ -19,7 +19,7 @@ export {
 	StartScreen,
 	GameProgressScreen,
 	ManualScreen,
-	HeaderLanding,
+	Header,
 	HeroLanding,
 	StatsLanding,
 	FeaturesLanding,
