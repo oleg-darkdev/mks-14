@@ -7,7 +7,7 @@
 		<img
 			src="./images/gallery_big_1.png"
 			alt="Big gallery image 1"
-			class="min-h-96 col-span-2 row-span-2 aspect-square h-full w-full rounded shadow-md border-2 border-violet-700 shadow-violet-700  dark:bg-violet-700 md:col-start-3 md:row-start-1"
+			class="min-h-96 col-span-2 row-span-2 aspect-square h-full w-full rounded   dark:bg-violet-700 md:col-start-3 md:row-start-1"
 		/>
     <SmallSquareImage img='./images/gallery_1.png' alt='gallery image 1'/>
     <SmallSquareImage img='./images/gallery_2.png' alt='gallery image 2'/>
@@ -20,7 +20,7 @@
 		<img
 			src="./images/gallery_big_2.png"
 			alt="Big gallery image 2"
-    	class="min-h-96 col-span-2 row-span-2 aspect-square h-full w-full rounded shadow-md border-2 border-violet-700 shadow-violet-700 dark:bg-violet-700 md:col-start-1 md:row-start-3"
+    	class="min-h-96 col-span-2 row-span-2 aspect-square h-full w-full rounded  dark:bg-violet-700 md:col-start-1 md:row-start-3"
 		/>
 
 	</div>
