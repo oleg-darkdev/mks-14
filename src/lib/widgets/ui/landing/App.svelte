@@ -9,7 +9,7 @@
 				<span class="text-lg font-bold">MKS-14</span>
 			</div>
 			<a
-				href="#"
+				href="/app"
 				rel="noreferrer noopener"
 				class="mt-4 block rounded-md border px-5 py-3 dark:border-gray-400 dark:bg-gray-50 dark:text-gray-900 lg:mt-0"
 				>Go to App</a
