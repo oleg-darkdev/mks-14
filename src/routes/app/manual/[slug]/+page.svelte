@@ -13,5 +13,5 @@
 		<BannerTableOfContent page={$page.params.slug} {toc} />
 		<TableOfСontents {toc} />
 	</div>
-	<LargeBtn link="/app" text="Go Home" />
+	<LargeBtn link="/app" text="Back to instruction" />
 </section>
