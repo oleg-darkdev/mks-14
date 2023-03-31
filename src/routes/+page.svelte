@@ -13,7 +13,7 @@
 	} from '../lib/widgets/';
 
 	const headerLeftSideLinks = [
-			{ link: '#app', text: 'App' },
+			{ link: '/app', text: 'App' },
 			{ link: '#about', text: 'About' },
 			{ link: '#team', text: 'Team' }
 		],
