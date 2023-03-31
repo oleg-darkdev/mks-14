@@ -4,9 +4,10 @@
 		mainTocData,
 		personsTocData,
 		locationsTocData,
-		experimentsTocData
+		experimentsTocData,
+    LargeBtn
 	} from '../../../../lib/shared';
-	import { TableOfСontents } from '../../../../lib/entities';
+	import { TableOfСontents, BannerTableOfContent } from '../../../../lib/entities';
 
 	$: toc =
 		$page.params.slug == 'locations'
@@ -16,10 +17,15 @@
 			: $page.params.slug == 'experiments'
 			? experimentsTocData
 			: mainTocData;
-
 </script>
 
-<div class="flex h-full w-full flex-col items-center justify-center pt-20 pb-10">
-	<TableOfСontents {toc} />
-	<a href='/app' class="btn-block btn btn-lg btn-info mt-4  max-w-2xl">Home</a>
-</div>
+<section
+	class="flex h-full w-full flex-col items-center justify-center pt-20 pb-10 dark:bg-gray-900 dark:text-gray-100"
+>
+	<div class="container mx-auto max-w-6xl space-y-6 p-6 sm:space-y-12">
+		<BannerTableOfContent page={$page.params.slug} {toc}/>
+		<TableOfСontents {toc} />
+	</div>
+  <LargeBtn link='/app' text='Go Home'/>
+
+</section>
