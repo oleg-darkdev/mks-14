@@ -7,10 +7,10 @@ import MapGenerator from './ui/welcomeScreen/MapGenerator.svelte';
 import RolesSetup from './ui/welcomeScreen/RolesSetup.svelte';
 import LevelSecelect from './ui/welcomeScreen/LevelSecelect.svelte';
 import FinalStepOnScreen from './ui/FinalStepOnScreen.svelte';
-
 import TableOfСontents from './ui/manual/TableOfСontents.svelte';
 
-
+import ReviewCard from './ui/landing/ReviewCard.svelte';
+import StepItem from './ui/landing/StepItem.svelte';
 
 export {
 	CountdownTimer,
@@ -21,5 +21,7 @@ export {
 	RolesSetup,
 	LevelSecelect,
 	FinalStepOnScreen,
-	TableOfСontents
+	TableOfСontents,
+	ReviewCard,
+	StepItem
 };
