@@ -1,40 +1,41 @@
 <script>
 	import { locationsList, generateMap, shuffle } from '../../../shared/';
+	import { BigMapElement, SmallMapElement, MediumMapElement } from '../../index';
 
 	const airLockLeft = locationsList.airLockLeft,
 		airLockRight = locationsList.airLockRight;
 
 	const locationsNumbers = [
-		locationsList.cargoFirst.id,
-		locationsList.center.id,
-		locationsList.laboratory.id,
-		locationsList.batteries.id,
-		locationsList.lounge.id,
-		locationsList.cargoSecond.id
+		locationsList.cargoFirst,
+		locationsList.center,
+		locationsList.laboratory,
+		locationsList.batteries,
+		locationsList.lounge,
+		locationsList.cargoSecond
 	];
 	const topOuther = [
-			locationsList.topOutherRight.id,
-			locationsList.topOutherCenter.id,
-			locationsList.topOutherLeft.id
+			locationsList.topOutherRight,
+			locationsList.topOutherCenter,
+			locationsList.topOutherLeft
 		],
 		bottomOuther = [
-			locationsList.bottomOutherRight.id,
-			locationsList.bottomOutherCenter.id,
-			locationsList.bottomOutherLeft.id
+			locationsList.bottomOutherRight,
+			locationsList.bottomOutherCenter,
+			locationsList.bottomOutherLeft
 		];
 
 	let mapGrid = generateMap(shuffle(locationsNumbers));
 </script>
 
-<div class="flex w-full flex-row justify-center text-white">
-	<div class="flex h-10 w-10 items-center pt-4"><span>{airLockLeft.id}</span></div>
-	{#each mapGrid as grid, i}
-		<div class="flex h-10 w-10 flex-col">
-			<span>{topOuther[i]}</span>
-			<span>{grid[0]}</span>
-			<span>{grid[1]}</span>
-			<span>{bottomOuther[i]}</span>
+<div class="flex w-full flex-row flex-wrap items-center justify-center text-white mt-10">
+	<BigMapElement gridElement={airLockLeft} />
+	{#each mapGrid as gridElement, i}
+		<div class="flex flex-col items-center">
+			<SmallMapElement gridElement={topOuther[i]} />
+			<MediumMapElement gridElement={gridElement[0]} />
+			<MediumMapElement gridElement={gridElement[1]} />
+			<SmallMapElement gridElement={bottomOuther[i]} />
 		</div>
 	{/each}
-	<div class="flex h-10 w-10 items-center pt-4"><span>{airLockRight.id}</span></div>
+	<BigMapElement gridElement={airLockRight} />
 </div>
