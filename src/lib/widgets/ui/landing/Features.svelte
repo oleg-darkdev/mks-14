@@ -52,22 +52,20 @@
 	];
 </script>
 
-<section class="dark:bg-gray-900 dark:text-gray-100">
-	<div class="container mx-auto max-w-xl space-y-24 p-6 py-12 lg:max-w-7xl lg:px-8">
-		<div>
-			<h2 class="text-center text-3xl font-bold tracking-tight dark:text-gray-50 sm:text-5xl">
-				Популяризационная настольная игра
+<section class="bg-gray-900 text-gray-100">
+	<div class="container mx-auto max-w-xl space-y-24 p-6 xl:py-12 lg:py-12 md:py-10 py-2 lg:max-w-7xl lg:px-2">
+		<div class="pt-6">
+			<h2 class="text-center text-2xl lg:text-3xl xl:text-3xl md:text-3xl font-bold tracking-tight text-gray-50 ">
+				Обучающая настольная игра
 			</h2>
-			<p class="mx-auto mt-4 max-w-3xl text-center text-xl dark:text-gray-400">
+			<p class="mx-auto mt-4 max-w-3xl text-center text-xl text-gray-400">
 				Quando cetero his ne, eum admodum sapientem ut.
 			</p>
 		</div>
 		<div class="grid lg:grid-cols-2 lg:items-center lg:gap-8">
 			<div>
-				<h3 class="text-2xl font-bold tracking-tight dark:text-gray-50 sm:text-3xl">
-					Настольная игра
-				</h3>
-				<p class="mt-3 text-lg dark:text-gray-400">
+				<h3 class="text-2xl font-bold tracking-tight text-gray-50 sm:text-3xl">Настольная игра</h3>
+				<p class="mt-3 text-lg text-gray-400">
 					Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius
 					eripuit quo id. Sit te euismod tacimates.
 				</p>
@@ -85,10 +83,8 @@
 		<div>
 			<div class="grid lg:grid-cols-2 lg:items-center lg:gap-8">
 				<div class="lg:col-start-2">
-					<h3 class="text-2xl font-bold tracking-tight dark:text-gray-50 sm:text-3xl">
-						Веб приложение
-					</h3>
-					<p class="mt-3 text-lg dark:text-gray-400">
+					<h3 class="text-2xl font-bold tracking-tight text-gray-50 sm:text-3xl">Веб приложение</h3>
+					<p class="mt-3 text-lg text-gray-400">
 						Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te latine theophrastus. Ea
 						his tale nibh dissentias, mei exerci tamquam euripidis cu.
 					</p>

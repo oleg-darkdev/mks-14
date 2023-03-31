@@ -3,24 +3,19 @@
 </script>
 
 <div
-	class="mx-6 my-12 flex w-full flex-col justify-center rounded-md px-8 text-center dark:bg-violet-700 shadow-md border-2 border-violet-700 shadow-violet-700  dark:text-gray-900 md:w-96 lg:w-80 xl:w-64 h-40"
+	class="xl:mx-6 lg:mx-6 md:mx-6 mx-1 lg:px-8 xl:px-8 md:px-6 px-2  my-12 flex h-40 w-full flex-col justify-center rounded-md border-2 border-violet-700 bg-violet-700 text-center text-gray-900  shadow-md shadow-violet-700 md:w-96 lg:w-80 xl:w-64"
 >
 	<img
-		alt="{member.fullName}"
-		class="-mt-12 h-24 w-24 flex-shrink-0 self-center rounded-full bg-cover bg-center dark:bg-gray-500"
-		src="{member.img}"
+		alt={member.fullName}
+		class="-mt-12 h-24 w-24 flex-shrink-0 self-center rounded-full bg-gray-500 bg-cover bg-center"
+		src={member.img}
 	/>
 	<div class="my-2 flex-1">
 		<p class="text-xl font-semibold leading-snug">{member.fullName}</p>
 		<p>{member.function}</p>
 	</div>
 	<div class="flex items-center justify-center space-x-3 border-t-2 p-3">
-		<a
-			rel="noopener noreferrer"
-			href="#"
-			title="Email"
-			class="dark:text-gray-900 hover:dark:text-violet-400"
-		>
+		<a rel="noopener noreferrer" href="#" title="Email" class="text-gray-900 hover:text-violet-400">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				viewBox="0 0 20 20"
@@ -35,7 +30,7 @@
 			rel="noopener noreferrer"
 			href="#"
 			title="Twitter"
-			class="dark:text-gray-900 hover:dark:text-violet-400"
+			class="text-gray-900 hover:text-violet-400"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +47,7 @@
 			rel="noopener noreferrer"
 			href="#"
 			title="LinkedIn"
-			class="dark:text-gray-900 hover:dark:text-violet-400"
+			class="text-gray-900 hover:text-violet-400"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +64,7 @@
 			rel="noopener noreferrer"
 			href="#"
 			title="GitHub"
-			class="dark:text-gray-900 hover:dark:text-violet-400"
+			class="text-gray-900 hover:text-violet-400"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
