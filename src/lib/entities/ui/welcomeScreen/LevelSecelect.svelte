@@ -49,7 +49,7 @@
 </script>
 
 <div class="flex h-full flex-col items-center justify-center md:mx-auto">
-	<h3 class="text-3xl font-semibold text-gray-300 sm:text-4xl">Setup map</h3>
+	<h3 class="text-3xl font-semibold text-gray-300 sm:text-4xl">Wybór poziomu trudności</h3>
 	<div class="flex flex-row flex-wrap items-center ">
 		{#each levelsList as levelInfo}
 			<LevelCard on:click={() => selectMode(levelInfo)} {levelInfo} />
