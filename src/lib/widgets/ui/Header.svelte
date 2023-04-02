@@ -1,5 +1,5 @@
 <script>
-	import { HeaderLink } from '../../shared/';
+	import { HeaderLink, SmallLogoLink } from '../../shared/';
 	export let leftSideLinks, rightSideLinks;
 </script>
 
@@ -11,14 +11,9 @@
 				</li>
 			{/each}
 		</ul>
-		<a
-			rel="noopener noreferrer"
-			href="/"
-			aria-label="Back to homepage"
-			class="flex items-center p-2"
-		>
-			<img src="/images/logo.svg" alt="mks-14 logo" class="h-20 w-20" srcset="" />
-		</a>
+		<div class="h-20 w-20">
+			<SmallLogoLink />
+		</div>
 		<ul class="hidden items-stretch space-x-3 md:flex">
 			{#each rightSideLinks as link}<li class="flex">
 					<HeaderLink {link} />

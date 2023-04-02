@@ -1,41 +1,37 @@
-<footer class="bg-violet-900 px-4 py-8 text-gray-400">
+<script>
+	import { SmallLogoLink } from '../../../shared';
+
+	const socialLinks = [
+		{
+			title: 'GitHub',
+			link: ''
+		}
+	];
+</script>
+
+<footer class="h-40 bg-violet-900 px-4 py-8 text-gray-400">
 	<div
 		class="container  mx-auto flex flex-wrap items-center justify-center space-y-4 sm:justify-between sm:space-y-0"
 	>
-		<div class="flex flex-row space-x-4 pr-3 sm:space-x-8">
-			<div
-				class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-violet-400"
-			>
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					viewBox="0 0 32 32"
-					fill="currentColor"
-					class="h-5 w-5 rounded-full text-gray-900"
-				>
-					<path
-						d="M18.266 26.068l7.839-7.854 4.469 4.479c1.859 1.859 1.859 4.875 0 6.734l-1.104 1.104c-1.859 1.865-4.875 1.865-6.734 0zM30.563 2.531l-1.109-1.104c-1.859-1.859-4.875-1.859-6.734 0l-6.719 6.734-6.734-6.734c-1.859-1.859-4.875-1.859-6.734 0l-1.104 1.104c-1.859 1.859-1.859 4.875 0 6.734l6.734 6.734-6.734 6.734c-1.859 1.859-1.859 4.875 0 6.734l1.104 1.104c1.859 1.859 4.875 1.859 6.734 0l21.307-21.307c1.859-1.859 1.859-4.875 0-6.734z"
-					/>
-				</svg>
+		<div class="flex flex-row flex-wrap items-center justify-center space-x-4 pr-3 sm:space-x-8">
+			<div class="h-10 w-40 flex-shrink-0 ">
+				<SmallLogoLink />
 			</div>
 			<ul class="flex flex-wrap items-center space-x-4 sm:space-x-8">
 				<li>
 					<a rel="noopener noreferrer" href="#">Terms of Use</a>
 				</li>
 				<li>
-					<a rel="noopener noreferrer" href="#">Privacy</a>
+					<a rel="noopener noreferrer" href="#">Web App</a>
 				</li>
 			</ul>
 		</div>
 		<ul class="flex flex-wrap space-x-4 pl-3 sm:space-x-8">
-			<li>
-				<a rel="noopener noreferrer" href="#">Instagram</a>
-			</li>
-			<li>
-				<a rel="noopener noreferrer" href="#">Facebook</a>
-			</li>
-			<li>
-				<a rel="noopener noreferrer" href="#">Twitter</a>
-			</li>
+			{#each socialLinks as link}
+				<li>
+					<a rel="noopener noreferrer" href={link.link}>{link.title}</a>
+				</li>
+			{/each}
 		</ul>
 	</div>
 </footer>
