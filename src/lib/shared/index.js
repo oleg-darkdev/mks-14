@@ -4,16 +4,19 @@ import StepElement from './ui/StepElement.svelte';
 import Article from './ui/Article.svelte';
 import LargeBtn from './ui/app/LargeBtn.svelte';
 import HeaderLink from './ui/HeaderLink.svelte';
+import HorisontalImage from './ui/app/HorisontalImage.svelte';
 
 import FeatureText from './ui/landing/FeatureText.svelte';
 import VerticalImage from './ui/landing/VerticalImage.svelte';
 import SmallSquareImage from './ui/landing/SmallSquareImage.svelte';
+import SmallLogoLink from './ui/SmallLogoLink.svelte';
 
 import mainTocData from './data/toc/mainToc';
 import personsTocData from './data/toc/personsToc';
 import locationsTocData from './data/toc/locationsToc';
 import experimentsTocData from './data/toc/experimentsToc';
 import locationsList from './data/locationsList';
+import getGameData from './data/getGame';
 
 // utils
 import getCurrentUrl from './utils/getCurrentUrl';
@@ -28,7 +31,8 @@ export {
 	StepElement,
 	Article,
 	LargeBtn,
-	HeaderLink,
+  HeaderLink,
+  HorisontalImage,
 	FeatureText,
 	VerticalImage,
 	SmallSquareImage,
@@ -41,5 +45,7 @@ export {
 	identifySelectedData,
 	locationsList,
 	generateMap,
-	shuffle
+	shuffle,
+	getGameData,
+	SmallLogoLink
 };

@@ -2,6 +2,7 @@ import CountdownTimer from './ui/CountdownTimer.svelte';
 import StepsList from './ui/StepsList.svelte';
 import TextBlock from './ui/TextBlock.svelte';
 import StepsBtns from './ui/StepsBtns.svelte';
+import TimeCounterBlock from './ui/TimeCounterBlock.svelte';
 
 import MapGenerator from './ui/welcomeScreen/MapGenerator.svelte';
 import RolesSetup from './ui/welcomeScreen/RolesSetup.svelte';
@@ -9,6 +10,7 @@ import LevelSecelect from './ui/welcomeScreen/LevelSecelect.svelte';
 import SmallMapElement from './ui/welcomeScreen/SmallMapElement.svelte';
 import BigMapElement from './ui/welcomeScreen/BigMapElement.svelte';
 import MediumMapElement from './ui/welcomeScreen/MediumMapElement.svelte';
+import GameStepsBtns from './ui/GameStepsBtns.svelte';
 
 import FinalStepOnScreen from './ui/FinalStepOnScreen.svelte';
 import ReviewCard from './ui/landing/ReviewCard.svelte';
@@ -22,7 +24,8 @@ import RecommendationBlock from './ui/manual/RecommendationBlock.svelte';
 
 
 export {
-	CountdownTimer,
+  CountdownTimer,
+  TimeCounterBlock,
 	StepsList,
 	TextBlock,
 	StepsBtns,
@@ -39,5 +42,6 @@ export {
 	RecommendationBlock,
 	SmallMapElement,
 	BigMapElement,
-	MediumMapElement
+  MediumMapElement,
+  GameStepsBtns
 };
