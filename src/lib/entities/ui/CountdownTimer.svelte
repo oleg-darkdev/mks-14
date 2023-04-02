@@ -1,7 +1,8 @@
 <script>
 	import { tweened } from 'svelte/motion';
-	let original = 5 * 60;
-	let timer = tweened(original);
+
+	export let timeToEnd;
+	$: timer = tweened(timeToEnd * 60);
 
 	setInterval(() => {
 		if ($timer > 0) $timer--;
@@ -14,6 +15,7 @@
 
 <div class="flex flex-row flex-wrap items-center justify-center ">
 	<span class="font-mono align-center countdown text-7xl">
+		<span style="--value:{minutes};" />:
 		<span style="--value:{seconds};" />
 	</span>
 </div>
