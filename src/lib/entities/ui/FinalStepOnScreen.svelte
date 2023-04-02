@@ -1,9 +1,13 @@
 <script>
+	import { HorisontalImage } from '../../shared';
+
 	export let desc, title, btnText;
 </script>
 
-<div class="py-14 border-2 border-violet-700 rounded-lg shadow-md shadow-violet-700 ">
-	<div class="mx-auto max-w-screen-xl px-4 md:px-8 md:text-center">
+<div class="rounded-lg border-2 border-violet-700 shadow-md shadow-violet-700 ">
+	<HorisontalImage slot="img" img="/images/manual/science_bg.png" alt="Science banner" />
+
+	<div class="mx-auto max-w-screen-xl py-6 px-4 md:px-8 md:text-center">
 		<div class="max-w-xl md:mx-auto">
 			<h3 class="text-3xl font-semibold text-gray-300 sm:text-4xl">{title}</h3>
 			{#each desc as text}
