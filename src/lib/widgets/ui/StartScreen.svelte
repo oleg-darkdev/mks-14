@@ -8,13 +8,14 @@
 		LevelSecelect,
 		FinalStepOnScreen
 	} from '../../entities';
+	import { HorisontalImage } from '../../shared';
 
 	const gameSteps = [
-		{
-			title: 'TextBlock L.O.R.',
-			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
-			img: ''
-		},
+		// {
+		// 	title: 'TextBlock L.O.R.',
+		// 	desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
+		// 	img: ''
+		// },
 		{
 			// игроки указывают количество участников - это повлияет на количество экспериментов и ресурсев
 			// Игроки должны выбрать себе 1 персонажа, отложить его карточку в колоду проиществий.
@@ -23,41 +24,42 @@
 			img: ''
 		},
 		{
-			title: 'Сетап карты',
+			title: 'Tworzenie mapy stacji MKS-14',
 			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
 			img: ''
 		},
 		{
-			title: 'Выберите уровень сложности',
+			title: 'Wybór poziomu trudności',
 			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
 			img: ''
 		},
 		{
-			title: 'Количество экспериментов',
+			title: 'Przygotowanie kart eksperymentów',
 			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
 			img: ''
 		},
 		{
-			title: 'Положите количество ресурсев на МКС',
+			title: 'Dostarczanie surowców do ISS',
 			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
 			img: ''
 		}
 	];
 
-	let step = 1;
-
+	let step = 0;
 	export let activeScreen;
 </script>
 
 <section class="flex min-h-screen flex-col items-center  justify-center pt-10 pb-40">
-		{#if step == 1}
-			<TextBlock
-				title="Lorem ipsum is placeholder"
-				desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-			>
-				<StepsBtns bind:step />
-			</TextBlock>
-		{:else if step == 2}
+	{#if step == 0}
+		<TextBlock
+			title="Witamy serdecznie na MKC-14"
+			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+		>
+			<HorisontalImage slot="img" img="./images/hero.png" alt=" Welcome banner" />
+			<StepsBtns slot="btn" bind:step />
+		</TextBlock>
+	{:else if step >= 0 && step <= 8}
+		{#if step == 2}
 			<StepsList steps={gameSteps}>
 				<StepsBtns bind:step />
 			</StepsList>
@@ -65,41 +67,43 @@
 			<RolesSetup bind:step />
 		{:else if step == 4}
 			<TextBlock
-				title="Setup map"
-				desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+				title="Przygotowanie mapy "
+				desc="W każdej grze kolejność lokalizacji (z 2 po 6) na na stacji MKS-14 zmienia się losowo."
 			>
-				<StepsBtns bind:step />
+				<StepsBtns slot="btn" bind:step />
 			</TextBlock>
-
 			<MapGenerator />
 		{:else if step == 5}
 			<LevelSecelect bind:step />
 		{:else if step == 6}
 			<TextBlock
-				title="Resources generator"
+				title="'Dostarczanie surowców do ISS"
 				desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
 			>
-				<StepsBtns bind:step />
+				<HorisontalImage slot="img" img="" alt="Science banner" />
+				<StepsBtns slot="btn" bind:step />
 			</TextBlock>
 		{:else if step == 7}
 			<TextBlock
-				title="Experiements generator"
+				title="Przygotowanie kart eksperymentów"
 				desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
 			>
-				<StepsBtns bind:step />
+				<HorisontalImage slot="img" img="/images/manual/science_bg.png" alt="Science banner" />
+				<StepsBtns slot="btn" bind:step />
 			</TextBlock>
-		{:else if step == 8}
-			<FinalStepOnScreen
-				title="Final setup game"
-				desc={[
-					'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
-					'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
-				]}
-				btnText="Got to instruction"
-				on:click={() => {
-					activeScreen = 'Instrukcja';
-					step = 1;
-				}}
-			/>
 		{/if}
+	{:else}
+		<FinalStepOnScreen
+			title="Yay, prawie skończyliśmy przygotowania"
+			desc={[
+				'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
+				'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
+			]}
+			btnText="Rozpocząć grę"
+			on:click={() => {
+				activeScreen = 'Rozgrywka';
+				step = 1;
+			}}
+		/>
+	{/if}
 </section>

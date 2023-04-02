@@ -1,110 +1,50 @@
 <script>
-	import { CountdownTimer, TextBlock, StepsBtns, FinalStepOnScreen } from '../../entities';
-
-	let step = 1;
+	import {
+		CountdownTimer,
+		TextBlock,
+		GameStepsBtns,
+		FinalStepOnScreen,
+		TimeCounterBlock
+	} from '../../entities';
+	import { HorisontalImage } from '../../shared';
+	let step = 0, timeToEnd = 12;
 </script>
 
 <div class="flex h-full flex-col justify-center">
-	<!-- <TextBlock
-		title="Lorem ipsum is placeholder"
-		desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-	>
-		<StepsBtns bind:step />
-	</TextBlock>
+	<!-- -->
 
-	<CountdownTimer /> -->
-
-	{#if step == 1}
+	{#if !step}
 		<TextBlock
-			title="Lorem ipsum is placeholder"
+			title="Przedyskutujcie plan działania z pozostałymi graczami. "
+			desc="Jak tylko naciśniesz przycisk start, gra się rozpoczyna i zaczyna się timer."
+		>
+			<HorisontalImage slot="img" img="./images/hero.png" alt=" Welcome banner" />
+			<button
+				slot="btn"
+				class="btn-lg  btn mx-6 mt-4 max-w-2xl bg-violet-700"
+				on:click={() => step++}>Rozpocząć grę</button
+			>
+			/>
+		</TextBlock>
+	{:else if step >= 1 && step <= 12}
+		<TimeCounterBlock
+			title="Przedyskutujcie plan działania z pozostałymi graczami. "
 			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
 		>
-			<StepsBtns bind:step />
-		</TextBlock>
-	{:else if step == 2}
-		<TextBlock
-			title="Lorem ipsum is placeholder"
-			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-		>
-			<StepsBtns bind:step />
-		</TextBlock>
-	{:else if step == 3}
-		<TextBlock
-			title="Lorem ipsum is placeholder"
-			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-		>
-			<StepsBtns bind:step />
-		</TextBlock>
-	{:else if step == 4}
-		<TextBlock
-			title="Lorem ipsum is placeholder"
-			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-		>
-			<StepsBtns bind:step />
-		</TextBlock>
-	{:else if step == 5}
-		<TextBlock
-			title="Lorem ipsum is placeholder"
-			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-		>
-			<StepsBtns bind:step />
-		</TextBlock>
-	{:else if step == 6}
-		<TextBlock
-			title="Lorem ipsum is placeholder"
-			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-		>
-			<StepsBtns bind:step />
-		</TextBlock>
-	{:else if step == 7}
-		<TextBlock
-			title="Lorem ipsum is placeholder"
-			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-		>
-			<StepsBtns bind:step />
-		</TextBlock>
-	{:else if step == 8}
-		<TextBlock
-			title="Lorem ipsum is placeholder"
-			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-		>
-			<StepsBtns bind:step />
-		</TextBlock>
-	{:else if step == 9}
-		<TextBlock
-			title="Lorem ipsum is placeholder"
-			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-		>
-			<StepsBtns bind:step />
-		</TextBlock>
-	{:else if step == 10}
-		<TextBlock
-			title="Lorem ipsum is placeholder"
-			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-		>
-			<StepsBtns bind:step />
-		</TextBlock>
-	{:else if step == 11}
-		<TextBlock
-			title="Lorem ipsum is placeholder"
-			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-		>
-			<StepsBtns bind:step />
-		</TextBlock>
-	{:else if step == 12}
-		<TextBlock
-			title="Lorem ipsum is placeholder"
-			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-		>
-			<StepsBtns bind:step />
-		</TextBlock>
+			<CountdownTimer slot="timer" bind:timeToEnd />
+			<GameStepsBtns slot="btn" bind:step bind:timeToEnd/>
+		</TimeCounterBlock>
 	{:else if step == 13}
 		<FinalStepOnScreen
-    title="Final  game"
-			desc={['Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.', 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.']}
-			btnText="Got to &&&"
+			title="Final  game"
+			desc={[
+				'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
+				'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
+			]}
+			btnText="Zacznij grę od nowa"
 			on:click={() => {
 				step = 0;
-			}} />
+			}}
+		/>
 	{/if}
 </div>
