@@ -1,7 +1,7 @@
 <script>
-	import { StepsList, TableOfСontents } from '../../entities';
-	import { mainTocData } from '../../shared';
-import { page } from '$app/stores';
+	import { StepsList, TableOfСontents, RecommendationBlock } from '../../entities';
+	import { mainTocData, extensionsTocData } from '../../shared';
+	import { page } from '$app/stores';
 
 	const instrustionSteps = [
 		{
@@ -11,13 +11,31 @@ import { page } from '$app/stores';
 		}
 	];
 
+	let reccomendations = [
+		{
+			title: 'synopsis',
+			id: 'synopsis',
+			img: '/images/manual/toc/toc_synopsis.png',
+
+			shortDesc: 'Lorem ipsum is placeholder text commonly'
+		}
+	];
+
+
+
 	$: toc = mainTocData;
 </script>
 
 <!-- <StepsList steps={instrustionSteps}/> -->
 
-<section class="flex lg:min-h-screen xl:min-h-screen md:min-h-screen h-auto flex-col items-center justify-center xl:pb-10 md:pb-14 pb-36 lg:pb-10">
-	<div class="container mx-auto max-w-6xl space-y-6 xl:p-6 lg:p-6 md:p-4 p-2 ">
-    <TableOfСontents {toc} />
-	</div>
-</section>
+<div class="container mx-auto max-w-6xl space-y-6 p-2 md:p-4 lg:p-6 xl:p-6 ">
+	<TableOfСontents {toc} />
+</div>
+
+<div class="mb-10">
+	{#each reccomendations as recommendation}
+		<RecommendationBlock link='mks-14' {recommendation} />
+	{/each}
+</div>
+
+
