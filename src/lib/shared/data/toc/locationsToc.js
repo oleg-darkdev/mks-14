@@ -2,7 +2,7 @@ import locationsList from '../locationsList';
 
 const TOC = {
 	link: '/app/locations/',
-	img: '',
+	img: '/images/manual/toc/toc_locations.png',
 
 	data: [
 		locationsList.airLockLeft,
