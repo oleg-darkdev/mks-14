@@ -3,7 +3,7 @@
 	const coreTeam = [
 		{
 			fullName: 'Oleg Medvedev',
-			function: 'Game designer / front-end developer',
+			function: 'Author / designer / developer',
 			img: 'https://source.unsplash.com/100x100/?portrait?1',
 			linkedin: '',
 			github: ''
