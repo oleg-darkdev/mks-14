@@ -15,6 +15,7 @@ import mainTocData from './data/toc/mainToc';
 import personsTocData from './data/toc/personsToc';
 import locationsTocData from './data/toc/locationsToc';
 import experimentsTocData from './data/toc/experimentsToc';
+import extensionsTocData from './data/toc/extensionsToc';
 import locationsList from './data/locationsList';
 import getGameData from './data/getGame';
 
@@ -31,8 +32,8 @@ export {
 	StepElement,
 	Article,
 	LargeBtn,
-  HeaderLink,
-  HorisontalImage,
+	HeaderLink,
+	HorisontalImage,
 	FeatureText,
 	VerticalImage,
 	SmallSquareImage,
@@ -47,5 +48,6 @@ export {
 	generateMap,
 	shuffle,
 	getGameData,
-	SmallLogoLink
+	SmallLogoLink,
+	extensionsTocData
 };
