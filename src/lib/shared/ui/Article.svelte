@@ -3,27 +3,6 @@
 	import { RecommendationBlock } from '../../entities/';
 	import { mainTocData } from '../../shared';
 
-	// const recommendations = [
-	// 	{
-	// 		img: '',
-	// 		link: '/app/locations/',
-	// 		title: 'Lorem ipsum dolor sit amet, consectetur.',
-	// 		desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-	// 	},
-	// 	{
-	// 		img: '',
-	// 		link: '/app/persons/',
-	// 		title: 'Lorem ipsum dolor sit amet, consectetur.',
-	// 		desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-	// 	},
-	// 	{
-	// 		img: '',
-	// 		link: '/app/locations/',
-	// 		title: 'Lorem ipsum dolor sit amet, consectetur.',
-	// 		desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-	// 	},
-	// ];
-
 	const headerLeftSideLinks = [
 			{ link: '/', text: 'Home' }
 			// { link: '', text: '' }
@@ -53,7 +32,7 @@
 			>
 				<div class="space-y-2">
 					<h1 class="inline-block text-2xl font-semibold sm:text-3xl">
-						#{manualArticle.id} location - {manualArticle.title}
+						#{manualArticle.id} {manualArticle.title}
 					</h1>
 				</div>
 				<div class="text-gray-100">
@@ -66,7 +45,7 @@
 	</article>
 </section>
 
-<section class="flex flex-col bg-gray-900 p-2 pb-20 text-gray-50 ">
+<section class="flex flex-row justify-between bg-gray-900 p-2 pb-4 text-gray-50 mb-6">
 	{#each mainTocData.data as recommendation}
 		<RecommendationBlock {recommendation} />
 	{/each}
