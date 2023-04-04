@@ -10,8 +10,6 @@
 	let step = 0, timeToEnd = 12;
 </script>
 
-<div class="flex h-full flex-col justify-center">
-	<!-- -->
 
 	{#if !step}
 		<TextBlock
@@ -47,4 +45,3 @@
 			}}
 		/>
 	{/if}
-</div>
