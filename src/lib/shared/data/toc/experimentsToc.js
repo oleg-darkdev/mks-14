@@ -1,6 +1,6 @@
 const TOC = {
 	link: '/app/experiments/',
-	img: '',
+	img: '/images/manual/toc/toc_experiments.png',
 
 	data: [
 		{
