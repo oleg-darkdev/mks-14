@@ -1,7 +1,11 @@
 <script>
 	import { page } from '$app/stores';
-	import { identifySelectedData, LargeBtn } from '../../../../lib/shared';
-	import { TableOfСontents, BannerTableOfContent } from '../../../../lib/entities';
+	import { identifySelectedData, LargeBtn, extensionsTocData } from '../../../../lib/shared';
+	import {
+		TableOfСontents,
+		BannerTableOfContent,
+		RecommendationBlock
+	} from '../../../../lib/entities';
 
 	$: toc = identifySelectedData($page.params.slug);
 </script>
@@ -13,5 +17,16 @@
 		<BannerTableOfContent page={$page.params.slug} {toc} />
 		<TableOfСontents {toc} />
 	</div>
+
+	{#if $page.params.slug == 'persons'}
+		<div
+			class="grid w-full grid-cols-2 gap-2 bg-gray-900 pb-10  text-gray-100 lg:w-10/12 xl:w-10/12"
+		>
+			{#each extensionsTocData.data as recommendation}
+				<RecommendationBlock link="/app/extensions" {recommendation} />
+			{/each}
+		</div>
+	{/if}
+
 	<LargeBtn link="/app" text="Back to instruction" />
 </section>
