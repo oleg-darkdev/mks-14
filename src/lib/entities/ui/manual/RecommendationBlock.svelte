@@ -1,10 +1,10 @@
 <script>
-	export let recommendation;
+	export let recommendation, link;
 </script>
 
 <a
 	rel="noopener noreferrer"
-	href="/app/manual/{recommendation.id}"
+	href="{link}/{recommendation.id}"
 	class="my-2 inline-flex items-center  text-sm text-violet-400"
 >
 	<div
@@ -12,7 +12,7 @@
 	>
 		<div
 			class=" col-span-full rounded-lg bg-gray-700 bg-cover bg-no-repeat lg:col-span-4"
-			style="background-image: url({recommendation.img}); background-position: center center; background-blend-mode: multiply; background-size: cover;"
+			style="background-image: url({recommendation.img}); background-position: center center; background-size: cover;"
 		/>
 		<div class="col-span-full row-span-full flex flex-col p-6 lg:col-span-8 lg:p-10">
 			<h1 class="text-3xl font-semibold">{recommendation.title}</h1>
