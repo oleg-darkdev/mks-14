@@ -1,6 +1,10 @@
 <script>
 	import { page } from '$app/stores';
-	import { identifySelectedData, LargeBtn, extensionsTocData } from '../../../../lib/shared';
+	import {
+		identifySelectedData,
+		LargeBtn,
+		extensionsCountriesTocTocData
+	} from '../../../../lib/shared';
 	import {
 		TableOfСontents,
 		BannerTableOfContent,
@@ -22,7 +26,7 @@
 		<div
 			class="grid w-full grid-cols-2 gap-2 bg-gray-900 pb-10  text-gray-100 lg:w-10/12 xl:w-10/12"
 		>
-			{#each extensionsTocData.data as recommendation}
+			{#each extensionsCountriesTocTocData.data as recommendation}
 				<RecommendationBlock link="/app/extensions" {recommendation} />
 			{/each}
 		</div>

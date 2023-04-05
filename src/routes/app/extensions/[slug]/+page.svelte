@@ -5,7 +5,7 @@
 		getCurrentUrl,
 		getLocationFromUrl,
 		identifySelectedData,
-		extensionsTocData
+		extensionsCountriesTocTocData
 	} from '../../../../lib/shared/';
 	import { RecommendationBlock } from '../../../../lib/entities';
 
@@ -20,7 +20,7 @@
 	Other extensions
 </h2>
 <div class="mb-6 mb-4 grid w-full grid-cols-2 gap-2">
-	{#each extensionsTocData.data as recommendation}
+	{#each extensionsCountriesTocTocData.data as recommendation}
 		<RecommendationBlock link="/app/manual" {recommendation} />
 	{/each}
 </div>
