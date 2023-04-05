@@ -1,6 +1,6 @@
 <script>
 	import { StepsList, TableOfСontents, RecommendationBlock } from '../../entities';
-	import { mainTocData, extensionsTocData } from '../../shared';
+	import { mainTocData, extensionsCountriesTocTocData } from '../../shared';
 	import { page } from '$app/stores';
 
 	const instrustionSteps = [
@@ -21,8 +21,6 @@
 		}
 	];
 
-
-
 	$: toc = mainTocData;
 </script>
 
@@ -34,8 +32,6 @@
 
 <div class="mb-10">
 	{#each reccomendations as recommendation}
-		<RecommendationBlock link='mks-14' {recommendation} />
+		<RecommendationBlock link="mks-14" {recommendation} />
 	{/each}
 </div>
-
-
