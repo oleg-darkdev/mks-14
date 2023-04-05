@@ -1,4 +1,10 @@
-import { mainTocData, personsTocData, locationsTocData, experimentsTocData, extensionsTocData } from '../index';
+import {
+	mainTocData,
+	personsTocData,
+	locationsTocData,
+	experimentsTocData,
+	extensionsCountriesTocTocData
+} from '../index';
 
 const textArray = (locationValue) =>
 	locationValue == 'locations'
@@ -8,7 +14,7 @@ const textArray = (locationValue) =>
 		: locationValue == 'experiments'
 		? experimentsTocData
 		: locationValue == 'extensions'
-		? extensionsTocData
+		? extensionsCountriesTocTocData
 		: mainTocData;
 
 export default textArray;
