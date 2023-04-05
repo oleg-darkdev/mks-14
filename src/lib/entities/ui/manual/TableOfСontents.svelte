@@ -3,7 +3,7 @@
 </script>
 
 <div class="grid grid-cols-1 justify-center gap-1 sm:grid-cols-2 lg:grid-cols-3 ">
-	{#each  toc.data  as navigation, index}
+	{#each toc.data as navigation, index}
 		<a
 			rel="noopener noreferrer"
 			href="{toc.link}{navigation.id}"
@@ -27,4 +27,3 @@
 		</a>
 	{/each}
 </div>
-
