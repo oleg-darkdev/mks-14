@@ -12,7 +12,10 @@ import AppLanding from './ui/landing/App.svelte';
 import StepsLanding from './ui/landing/Steps.svelte';
 import ReviewsLanding from './ui/landing/Reviews.svelte';
 import TeamLanding from './ui/landing/Team.svelte';
+import VideoLanding from './ui/landing/Video.svelte';
+import GameKitLanding from './ui/landing/GameKit.svelte';
 import FooterLanding from './ui/landing/Footer.svelte';
+
 
 export {
 	FooterApp,
@@ -28,5 +31,7 @@ export {
 	StepsLanding,
 	ReviewsLanding,
 	FooterLanding,
-	TeamLanding
+  TeamLanding,
+  GameKitLanding,
+	VideoLanding
 };

@@ -15,9 +15,14 @@ import mainTocData from './data/toc/mainToc';
 import personsTocData from './data/toc/personsToc';
 import locationsTocData from './data/toc/locationsToc';
 import experimentsTocData from './data/toc/experimentsToc';
-import extensionsTocData from './data/toc/extensionsToc';
 import locationsList from './data/locationsList';
 import getGameData from './data/getGame';
+import ResourcesType from './utils/ResourcesType';
+
+// extensions
+import extensionsCountriesTocTocData from './data/toc/extensions/extensionsCountriesToc';
+// import extensionsExperimentsTocTocData from './data/toc/extensionsExperimentsToc';
+
 
 // utils
 import getCurrentUrl from './utils/getCurrentUrl';
@@ -49,5 +54,7 @@ export {
 	shuffle,
 	getGameData,
 	SmallLogoLink,
-	extensionsTocData
+	extensionsCountriesTocTocData,
+  // extensionsExperimentsTocTocData,
+  ResourcesType
 };
