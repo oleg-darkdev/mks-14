@@ -9,7 +9,9 @@
 		StepsLanding,
 		ReviewsLanding,
 		TeamLanding,
-		FooterLanding
+    VideoLanding,
+		FooterLanding,
+    GameKitLanding
 	} from '../lib/widgets/';
 
 	const headerLeftSideLinks = [
@@ -33,14 +35,20 @@
 
 <FeaturesLanding />
 
+<VideoLanding />
+
 <a name="gallery" />
 <GalleryLanding />
 
 <a name="app" />
 <AppLanding />
 
+
+
 <a name="updates" />
 <StepsLanding />
+
+<GameKitLanding />
 
 <!-- pricing -->
 <!-- <section class="py-6 bg-gray-900 text-gray-50">
