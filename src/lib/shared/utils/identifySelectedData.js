@@ -3,7 +3,6 @@ import {
 	personsTocData,
 	locationsTocData,
 	experimentsTocData,
-	extensionsCountriesTocTocData
 } from '../index';
 
 const textArray = (locationValue) =>
@@ -14,7 +13,7 @@ const textArray = (locationValue) =>
 		: locationValue == 'experiments'
 		? experimentsTocData
 		: locationValue == 'extensions'
-		? extensionsCountriesTocTocData
+		? experimentsTocData
 		: mainTocData;
 
 export default textArray;
