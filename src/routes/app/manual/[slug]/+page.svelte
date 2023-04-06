@@ -3,7 +3,8 @@
 	import {
 		identifySelectedData,
 		LargeBtn,
-		extensionsCountriesTocTocData
+		extensionsExperimentsToc,
+		extensionsPersonsToc
 	} from '../../../../lib/shared';
 	import {
 		TableOfСontents,
@@ -15,22 +16,34 @@
 </script>
 
 <section
-	class="flex h-full w-full flex-col items-center justify-center bg-gray-900 pt-20 pb-10 text-gray-100"
+	class="flex h-full w-full flex-col items-center justify-center bg-gray-900 pt-20  text-gray-100"
 >
 	<div class="container mx-auto max-w-6xl space-y-6 p-2 sm:space-y-12 md:p-4 lg:p-6 xl:p-6">
 		<BannerTableOfContent page={$page.params.slug} {toc} />
 		<TableOfСontents {toc} />
 	</div>
 
-	{#if $page.params.slug == 'persons'}
+	<LargeBtn link="/app" text="Back to instruction" />
+</section>
+
+<section
+	class="flex h-full w-full flex-col items-center justify-center bg-gray-900 pt-4 pb-10 text-gray-100"
+>
+  {#if $page.params.slug != 'experiments' || 'persons'}
+		<h2 class="text-6xl font-semibold text-violet-700">Extensions: {$page.params.slug}</h2>
+
 		<div
 			class="grid w-full grid-cols-2 gap-2 bg-gray-900 pb-10  text-gray-100 lg:w-10/12 xl:w-10/12"
 		>
-			{#each extensionsCountriesTocTocData.data as recommendation}
-				<RecommendationBlock link="/app/extensions" {recommendation} />
-			{/each}
+			{#if $page.params.slug == 'persons'}
+				{#each extensionsPersonsToc.data as recommendation}
+					<RecommendationBlock link="/app/extensions" {recommendation} />
+				{/each}
+			{:else if $page.params.slug == 'experiments'}
+				{#each extensionsExperimentsToc.data as recommendation}
+					<RecommendationBlock link="/app/extensions" {recommendation} />
+				{/each}
+			{/if}
 		</div>
 	{/if}
-
-	<LargeBtn link="/app" text="Back to instruction" />
 </section>
