@@ -5,7 +5,7 @@
 </script>
 
 <div class="rounded-lg border-2 border-violet-700 shadow-md shadow-violet-700 ">
-	<HorisontalImage slot="img" img="/images/manual/science_bg.png" alt="Science banner" />
+	<HorisontalImage slot="img" img="./images/hero.png" alt="Hello banner" />
 
 	<div class="mx-auto max-w-screen-xl py-6 px-4 md:px-8 md:text-center">
 		<div class="max-w-xl md:mx-auto">
