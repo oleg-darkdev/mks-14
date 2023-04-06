@@ -3,7 +3,7 @@
 	import { page } from '$app/stores';
 	import { getCurrentUrl, getLocationFromUrl, identifySelectedData } from '../../../../lib/shared/';
 
-	const locationValue = getLocationFromUrl(getCurrentUrl(window)),
+	const locationValue = getLocationFromUrl(getCurrentUrl(window), 2),
 		textArray = identifySelectedData(locationValue),
 		getThisArticleText = (textArray) => textArray.data[$page.params.slug - 1];
 </script>
