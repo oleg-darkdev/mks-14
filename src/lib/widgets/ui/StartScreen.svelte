@@ -57,14 +57,14 @@
 		<HorisontalImage slot="img" img="./images/hero.png" alt=" Welcome banner" />
 		<StepsBtns slot="btn" bind:step />
 	</TextBlock>
-{:else if step >= 0 && step <= 8}
-	{#if step == 2}
+{:else if step >= 1 && step <= 6}
+	{#if step == 1}
 		<StepsList steps={gameSteps}>
 			<StepsBtns bind:step />
 		</StepsList>
-	{:else if step == 3}
+	{:else if step == 2}
 		<RolesSetup bind:step />
-	{:else if step == 4}
+	{:else if step == 3}
 		<TextBlock
 			title="Przygotowanie mapy "
 			desc="W każdej grze kolejność lokalizacji (z 2 po 6) na na stacji MKS-14 zmienia się losowo."
@@ -72,9 +72,9 @@
 			<StepsBtns slot="btn" bind:step />
 		</TextBlock>
 		<MapGenerator />
-	{:else if step == 5}
+	{:else if step == 4}
 		<LevelSecelect bind:step />
-	{:else if step == 6}
+	{:else if step == 5}
 		<TextBlock
 			title="'Dostarczanie surowców do ISS"
 			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
@@ -82,7 +82,7 @@
 			<HorisontalImage slot="img" img="" alt="Science banner" />
 			<StepsBtns slot="btn" bind:step />
 		</TextBlock>
-	{:else if step == 7}
+	{:else if step == 6}
 		<TextBlock
 			title="Przygotowanie kart eksperymentów"
 			desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
