@@ -1,6 +1,6 @@
-function getLocationFromUrl(urlString) {
+function getLocationFromUrl(urlString, paramametr) {
 	const urlArray = urlString.split('/'),
-		location = urlArray[2];
+		location = urlArray[paramametr];
 
 	return location;
 }
