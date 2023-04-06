@@ -7,10 +7,10 @@
 		getCurrentUrl,
 		getLocationFromUrl,
 		identifySelectedData,
-		extensionsCountriesTocTocData
+		extensionsExperimentsToc
 	} from '../../../../lib/shared/';
 
-	const locationValue = getLocationFromUrl(getCurrentUrl(window)),
+	const locationValue = getLocationFromUrl(getCurrentUrl(window), 2),
 		textArray = identifySelectedData(locationValue),
 		getThisArticleText = (textArray) => textArray.data[$page.params.slug - 1];
 </script>
@@ -21,7 +21,7 @@
 	More persons in extensions
 </h2>
 <div class="mb-6 mb-4 grid w-full grid-cols-2 gap-2">
-	{#each extensionsCountriesTocTocData.data as recommendation}
+	{#each extensionsExperimentsToc.data as recommendation}
 		<RecommendationBlock link="/app/manual" {recommendation} />
 	{/each}
 </div>
