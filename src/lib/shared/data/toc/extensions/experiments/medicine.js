@@ -1,29 +1,14 @@
-import ResourcesType from '../../utils/ResourcesType.js';
+import ResourcesType from '../../../../utils/ResourcesType';
 
 const TOC = {
 	link: '/app/experiments/',
-	img: '/images/manual/toc/toc_experiments.png',
+	img: '/images/manual/toc/experiments/medicine.png',
 
 	data: [
-		// {
-		// 	title: '',
-		// 	id: '26',
-		// 	img: '',
-		// 	sources: [
-		// 		{
-		// 			title: 'Nasa official site',
-		// 			link: ''
-		// 		}
-		// 	],
-		// 	resources: new ResourcesType(4, 1, 3, 4).all(),
-		// 	shortDesc:
-		// 		'',
-		// 	fullDesc: ['']
-		// },
 		{
 			title: 'Cardiac Stem Cells',
 			id: 26,
-			img: '',
+			img: '/images/manual/toc/experiments/medicine.png',
 			sources: [
 				{
 					title: 'NASA.gov',
@@ -43,7 +28,7 @@ const TOC = {
 		{
 			title: 'Effect of microgravity on the human body',
 			id: 27,
-			img: '',
+			img: '/images/manual/toc/experiments/medicine.png',
 			sources: [
 				{
 					title: 'NASA',
@@ -64,7 +49,7 @@ const TOC = {
 		{
 			title: 'Microbial Tracking-2: A Study of the ISS Environment',
 			id: 28,
-			img: '',
+			img: '/images/manual/toc/experiments/medicine.png',
 			sources: [
 				{
 					title: 'NASA official site',
@@ -84,7 +69,7 @@ const TOC = {
 			title:
 				'Vascular Aging: Ultrasound Indices of Arterial Stiffness and Wave Reflection in Space',
 			id: 29,
-			img: '',
+			img: '/images/manual/toc/experiments/medicine.png',
 			sources: [
 				{
 					title: 'NASA Human Research Program',
@@ -104,7 +89,7 @@ const TOC = {
 		{
 			title: 'Microbial tracking-2',
 			id: 30,
-			img: '',
+			img: '/images/manual/toc/experiments/medicine.png',
 			sources: [
 				{
 					title: 'NASA official website',
@@ -124,7 +109,7 @@ const TOC = {
 		{
 			title: 'The Effects of Long-Duration Space Flight on Eye Structure and Function',
 			id: 31,
-			img: '',
+			img: '/images/manual/toc/experiments/medicine.png',
 			sources: [
 				{
 					title: 'NASA official site',
@@ -144,7 +129,7 @@ const TOC = {
 		{
 			title: 'Nutritional Status Assessment',
 			id: 32,
-			img: '',
+			img: '/images/manual/toc/experiments/medicine.png',
 			sources: [
 				{
 					title: 'Nasa official site',
@@ -163,7 +148,7 @@ const TOC = {
 		{
 			title: 'Microbiome Immunity Team-2 (MIT-2)',
 			id: 33,
-			img: '',
+			img: '/images/manual/toc/experiments/medicine.png',
 			sources: [
 				{
 					title: 'NASA',
@@ -182,7 +167,7 @@ const TOC = {
 		{
 			title: 'Microbial Tracking-2',
 			id: 34,
-			img: '',
+			img: '/images/manual/toc/experiments/medicine.png',
 			sources: [
 				{
 					title: 'NASA',
@@ -201,7 +186,7 @@ const TOC = {
 		{
 			title: 'Microbial Tracking-2 (MT-2)',
 			id: 35,
-			img: '',
+			img: '/images/manual/toc/experiments/medicine.png',
 			sources: [
 				{
 					title: 'NASA official website',
@@ -220,7 +205,7 @@ const TOC = {
 		{
 			title: 'Biochemical Profile experiment',
 			id: 36,
-			img: '',
+			img: '/images/manual/toc/experiments/medicine.png',
 			sources: [
 				{
 					title: 'NASA official website',
@@ -240,7 +225,7 @@ const TOC = {
 		{
 			title: 'Cardiovascular Health Consequences of Long-Duration Spaceflight',
 			id: 37,
-			img: '',
+			img: '/images/manual/toc/experiments/medicine.png',
 			sources: [
 				{
 					title: 'NASA Human Research Program',
@@ -260,7 +245,7 @@ const TOC = {
 		{
 			title: 'Cardiac Stem Cells',
 			id: 38,
-			img: '',
+			img: '/images/manual/toc/experiments/medicine.png',
 			sources: [
 				{
 					title: 'NASA Human Research Program',
@@ -280,7 +265,7 @@ const TOC = {
 			title:
 				'Functional Immune Alterations, Latent Herpesvirus Reactivation, Physiological Stress and Clinical Incidence Onboard the International Space Station',
 			id: 39,
-			img: '',
+			img: '/images/manual/toc/experiments/medicine.png',
 			sources: [
 				{
 					title: 'Nasa official site',
@@ -299,7 +284,7 @@ const TOC = {
 		{
 			title: 'Muscle Atrophy Research and Exercise System (MARES)',
 			id: 40,
-			img: '',
+			img: '/images/manual/toc/experiments/medicine.png',
 			sources: [
 				{
 					title: 'European Space Agency',
@@ -319,7 +304,7 @@ const TOC = {
 		{
 			title: 'Cardio-Ox',
 			id: '41',
-			img: '',
+			img: '/images/manual/toc/experiments/medicine.png',
 			sources: [
 				{
 					title: 'NASA',
@@ -338,7 +323,7 @@ const TOC = {
 		{
 			title: 'Cardiac Bioelectricity and Arrhythmia Center of Excellence (C-BRACE)',
 			id: 42,
-			img: '',
+			img: '/images/manual/toc/experiments/medicine.png',
 			sources: [
 				{
 					title: 'NASA - C-BRACE',
@@ -358,7 +343,7 @@ const TOC = {
 		{
 			title: 'JAXA Skin Aging Study',
 			id: 43,
-			img: '',
+			img: '/images/manual/toc/experiments/medicine.png',
 			sources: [
 				{
 					title: 'JAXA official site',

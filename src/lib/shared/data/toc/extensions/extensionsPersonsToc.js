@@ -1,7 +1,6 @@
 const TOC = {
-	link: '/app/extensions/',
+	link: '/app/extensions/persons/',
 	img: '/images/manual/toc/toc_extensions.png',
-
 	data: [
 		{
 			title: 'extension: USA',

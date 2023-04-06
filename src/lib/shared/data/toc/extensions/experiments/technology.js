@@ -1,12 +1,10 @@
-import ResourcesType from '../../utils/ResourcesType.js';
+import ResourcesType from '../../../../utils/ResourcesType';
 
 const TOC = {
 	link: '/app/experiments/',
-	img: '/images/manual/toc/toc_experiments.png',
+	img: '/images/manual/toc/experiments/technology.png',
 
-	data: [
-	
-	]
+	data: []
 };
 
 export default TOC;

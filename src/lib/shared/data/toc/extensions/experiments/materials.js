@@ -1,13 +1,13 @@
-import ResourcesType from '../../utils/ResourcesType.js';
+import ResourcesType from '../../../../utils/ResourcesType';
 
 const TOC = {
 	link: '/app/experiments/',
-	img: '/images/manual/toc/toc_experiments.png',
+	img: '/images/manual/toc/experiments/',
 
 	data: [
 		{
 			title: 'Materials International Space Station Experiment - 9 (MISSE-9)',
-			id: 44,
+			id: 100,
 			img: '',
 			sources: [
 				{
@@ -27,7 +27,7 @@ const TOC = {
 		},
 		{
 			title: 'Recrystallization of Lead Telluride in Microgravity',
-			id: 45,
+			id: 101,
 			img: '',
 			sources: [
 				{
@@ -45,8 +45,8 @@ const TOC = {
 			]
 		},
 		{
-			title: 'MISSE-FF Materials Exposure and the Space Environment Flight Facility',
-			id: 46,
+			title: 'Materials Exposure and the Space Environment Flight Facility (MISSE-FF)',
+			id: 102,
 			img: '',
 			sources: [
 				{
@@ -65,7 +65,7 @@ const TOC = {
 		},
 		{
 			title: 'Radiation Monitoring Equipment III (RME-III)',
-			id: 47,
+			id: 103,
 			img: '',
 			sources: [
 				{
@@ -83,7 +83,7 @@ const TOC = {
 		},
 		{
 			title: 'Gecko Gripper Adhesion Study',
-			id: 48,
+			id: 104,
 			img: '',
 			sources: [
 				{
@@ -102,8 +102,8 @@ const TOC = {
 			]
 		},
 		{
-			title: 'ACME (Advanced Combustion via Microgravity Experiments) - 3',
-			id: 49,
+			title: 'Advanced Combustion via Microgravity Experiments - 3 (ACME - 3)',
+			id: 105,
 			img: '',
 			sources: [
 				{
@@ -121,7 +121,7 @@ const TOC = {
 		},
 		{
 			title: 'Advanced Colloids Experiment (ACE)',
-			id: 50,
+			id: 106,
 			img: '',
 			sources: [
 				{
@@ -140,7 +140,7 @@ const TOC = {
 		},
 		{
 			title: 'Reaction Kinetics in Microgravity: Isothermal DSC',
-			id: 51,
+			id: 107,
 			img: '',
 			sources: [
 				{
@@ -159,7 +159,7 @@ const TOC = {
 		},
 		{
 			title: 'Radiation-Induced Self-Assembly (RISA) of Nanostructured Materials',
-			id: 52,
+			id: 108,
 			img: '',
 			sources: [
 				{
@@ -179,7 +179,7 @@ const TOC = {
 		},
 		{
 			title: 'Biomimetic Membranes and Proton Conductivity in Water-Free Membranes',
-			id: 53,
+			id: 109,
 			img: '',
 			sources: [
 				{
