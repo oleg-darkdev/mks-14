@@ -21,11 +21,12 @@ import FullTeamMemberCard from './ui/landing/FullTeamMemberCard.svelte';
 import BannerTableOfContent from './ui/manual/BannerTableOfContent.svelte';
 import TableOfСontents from './ui/manual/TableOfСontents.svelte';
 import RecommendationBlock from './ui/manual/RecommendationBlock.svelte';
+import SquareImagesWrapper from './ui/manual/SquareImagesWrapper.svelte';
 
 
 export {
-  CountdownTimer,
-  TimeCounterBlock,
+	CountdownTimer,
+	TimeCounterBlock,
 	StepsList,
 	TextBlock,
 	StepsBtns,
@@ -42,6 +43,7 @@ export {
 	RecommendationBlock,
 	SmallMapElement,
 	BigMapElement,
-  MediumMapElement,
-  GameStepsBtns
+	MediumMapElement,
+	GameStepsBtns,
+	SquareImagesWrapper
 };
