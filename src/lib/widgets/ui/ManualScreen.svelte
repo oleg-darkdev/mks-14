@@ -1,6 +1,6 @@
 <script>
 	import { StepsList, TableOfСontents, RecommendationBlock } from '../../entities';
-	import { mainTocData, extensionsCountriesTocTocData } from '../../shared';
+	import { mainTocData, extensionsExperimentsToc } from '../../shared';
 	import { page } from '$app/stores';
 
 	const instrustionSteps = [
