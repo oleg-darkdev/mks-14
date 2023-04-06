@@ -1,16 +1,42 @@
 <script>
-	import { Article } from '../../../../lib/shared/';
+	import { SquareImagesWrapper, RecommendationBlock } from '../../../../lib/entities';
 	import { page } from '$app/stores';
-	import { getCurrentUrl, getLocationFromUrl, identifySelectedData } from '../../../../lib/shared/';
+	import {
+		extensionsExperimentsToc,
+		Article,
+		astronomyExperiments,
+		biophysicsExperiments,
+		biotechnologyExperiments,
+		ecologyExperiments,
+		materialsExperiments,
+		medicineExperiments,
+		microbiologyExperiments,
+		microgravityExperiments,
+		physicsExperiments,
+		technologyExperiments,
+		experimentsTocData
+	} from '../../../../lib/shared/';
 
-	const locationValue = getLocationFromUrl(getCurrentUrl(window)),
-		textArray = identifySelectedData(locationValue),
-		getThisArticleText = (textArray) => textArray.data[$page.params.slug - 1];
+	const allExperimentsList = [].concat(
+		experimentsTocData.data,
+		astronomyExperiments.data,
+		biophysicsExperiments.data,
+		biotechnologyExperiments.data,
+		ecologyExperiments.data,
+		materialsExperiments.data,
+		medicineExperiments.data,
+		microbiologyExperiments.data,
+		microgravityExperiments.data,
+		physicsExperiments.data,
+		technologyExperiments.data
+	);
 
-  const experimentData = getThisArticleText(textArray)
+	const experimentData = allExperimentsList.find(u => u.id == $page.params.slug);
 </script>
 
-<Article manualArticle={experimentData} />
+<Article manualArticle={experimentData}>
+	<SquareImagesWrapper data={experimentData} />
+</Article>
 
 <section
 	class="mx-auto max-w-2xl rounded-lg border-2 border-violet-700 p-6 shadow-md shadow-violet-700  md:px-8"
@@ -34,11 +60,24 @@
 				{#each experimentData.sources as item}
 					<tr class="hover:bg-gray-100 ">
 						<td class="whitespace-nowrap px-6 py-4">
-              <a href="{item.link}">{item.title}</a>
-            </td>
+							<a href={item.link}>{item.title}</a>
+						</td>
 					</tr>
 				{/each}
 			</tbody>
 		</table>
+	</div>
+</section>
+
+<section
+	class="mx-auto w-full rounded-lg border-2 border-violet-700 p-6 shadow-md shadow-violet-700  md:px-8"
+>
+	<h2 class="mb-2 w-full text-center  text-7xl font-bold tracking-tighter  text-gray-100">
+		Other extensions
+	</h2>
+	<div class="w-full mb-6 mb-4 grid  grid-cols-2 gap-2">
+		{#each extensionsExperimentsToc.data as recommendation}
+			<RecommendationBlock link="/app/extensions/experiments" {recommendation} />
+		{/each}
 	</div>
 </section>
