@@ -12,10 +12,11 @@ import technologyExperiments from './experiments/technology';
 const TOC = {
 	link: '/app/extensions/experiments/',
 	img: '/images/manual/toc/toc_extensions.png',
+  title: 'Experiments extensions',
 
 	data: [
 		{
-			title: 'extension: Astronomy experiments',
+			title: 'Astronomy experiments',
 			id: '1',
 			link: 'astronomy',
 
@@ -28,7 +29,7 @@ const TOC = {
 			experimentsList: astronomyExperiments
 		},
 		{
-			title: 'extension: Biophysics experiments',
+			title: 'Biophysics experiments',
 			id: '2',
 			link: 'biophysics',
 
@@ -41,7 +42,7 @@ const TOC = {
 			experimentsList: biophysicsExperiments
 		},
 		{
-			title: 'extension: Biotechnology experiments',
+			title: 'Biotechnology experiments',
 			id: '3',
 			link: 'biotechnology',
 
@@ -54,7 +55,7 @@ const TOC = {
 			experimentsList: biotechnologyExperiments
 		},
 		{
-			title: 'extension: Ecological  experiments',
+			title: 'Ecological  experiments',
 			id: '4',
 			link: 'ecology',
 
@@ -67,7 +68,7 @@ const TOC = {
 			experimentsList: ecologyExperiments
 		},
 		{
-			title: 'extension: Material science experiments',
+			title: 'Material science experiments',
 			id: '5',
 			link: 'material',
 
@@ -80,7 +81,7 @@ const TOC = {
 			experimentsList: materialsExperiments
 		},
 		{
-			title: 'extension: Medicine experiments',
+			title: 'Medicine experiments',
 			id: '6',
 			link: 'medicine',
 
@@ -93,7 +94,7 @@ const TOC = {
 			experimentsList: medicineExperiments
 		},
 		{
-			title: 'extension: Microbiology experiments',
+			title: 'Microbiology experiments',
 			id: '7',
 			link: 'microbiology',
 
@@ -106,7 +107,7 @@ const TOC = {
 			experimentsList: microbiologyExperiments
 		},
 		{
-			title: 'extension: Experiments on microgravity',
+			title: 'Experiments on microgravity',
 			id: '8',
 			link: 'microgravity',
 
@@ -119,7 +120,7 @@ const TOC = {
 			experimentsList: microgravityExperiments
 		},
 		{
-			title: 'extension: Physics experiments',
+			title: 'Physics experiments',
 			id: '9',
 			link: 'physics',
 
@@ -132,7 +133,7 @@ const TOC = {
 			experimentsList: physicsExperiments
 		},
 		{
-			title: 'extension: Technological experiments',
+			title: 'Technological experiments',
 			id: '10',
 			link: 'technologies',
 			img: '/images/manual/toc/experiments/technology.png',

@@ -1,6 +1,8 @@
 import ResourcesType from '../../../../utils/ResourcesType';
 
 const TOC = {
+	      title: 'ecology',
+
 	link: '/app/experiments/',
 	img: '/images/manual/toc/experiments/ecology.png',
 
@@ -23,8 +25,8 @@ const TOC = {
 				'The MAS hardware consists of a small, battery-powered device that collects air samples using a centrifugal sampler. The sampler collects microorganisms onto a sterile swab, which is then placed into a small container for storage until it can be returned to Earth for analysis. The experiment is conducted periodically throughout the year to capture seasonal variations in microbial populations.',
 				'The samples collected by MAS are analyzed using a variety of techniques, including DNA sequencing and microscopy, to identify and characterize the microorganisms present. This information is used to create a comprehensive picture of the microbial ecology of the ISS, as well as to assess the effectiveness of the station’s air filtration and microbial control systems.',
 				'The results of the MAS experiment are important for maintaining the health and safety of the ISS crew, as well as for designing future space habitats and life support systems. By better understanding the microbial ecology of the ISS, scientists can develop more effective methods for controlling and monitoring microbial populations in space.'
-			]
-		},
+    			]
+    		},
 		{
 			title: 'Advanced Combustion via Microgravity Experiments (ACME)',
 			id: 201,

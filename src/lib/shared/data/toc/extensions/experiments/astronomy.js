@@ -1,6 +1,7 @@
 import ResourcesType from '../../../../utils/ResourcesType';
 
 const TOC = {
+  title: 'astronomy',
 	link: '/app/experiments/',
 	img: '/images/manual/toc/experiments/astronomy.png',
 

@@ -1,13 +1,15 @@
 import ResourcesType from '../../../../utils/ResourcesType';
 
 const TOC = {
+		      title: 'science of materials',
+
 	link: '/app/experiments/',
 	img: '/images/manual/toc/experiments/',
 
 	data: [
 		{
 			title: 'Materials International Space Station Experiment - 9 (MISSE-9)',
-			id: 100,
+			id: 500,
 			img: '',
 			sources: [
 				{
@@ -27,7 +29,7 @@ const TOC = {
 		},
 		{
 			title: 'Recrystallization of Lead Telluride in Microgravity',
-			id: 101,
+			id: 501,
 			img: '',
 			sources: [
 				{
@@ -46,7 +48,7 @@ const TOC = {
 		},
 		{
 			title: 'Materials Exposure and the Space Environment Flight Facility (MISSE-FF)',
-			id: 102,
+			id: 502,
 			img: '',
 			sources: [
 				{
@@ -65,7 +67,7 @@ const TOC = {
 		},
 		{
 			title: 'Radiation Monitoring Equipment III (RME-III)',
-			id: 103,
+			id: 503,
 			img: '',
 			sources: [
 				{
@@ -83,7 +85,7 @@ const TOC = {
 		},
 		{
 			title: 'Gecko Gripper Adhesion Study',
-			id: 104,
+			id: 504,
 			img: '',
 			sources: [
 				{
@@ -103,7 +105,7 @@ const TOC = {
 		},
 		{
 			title: 'Advanced Combustion via Microgravity Experiments - 3 (ACME - 3)',
-			id: 105,
+			id: 505,
 			img: '',
 			sources: [
 				{
@@ -121,7 +123,7 @@ const TOC = {
 		},
 		{
 			title: 'Advanced Colloids Experiment (ACE)',
-			id: 106,
+			id: 506,
 			img: '',
 			sources: [
 				{
@@ -140,7 +142,7 @@ const TOC = {
 		},
 		{
 			title: 'Reaction Kinetics in Microgravity: Isothermal DSC',
-			id: 107,
+			id: 507,
 			img: '',
 			sources: [
 				{
@@ -159,7 +161,7 @@ const TOC = {
 		},
 		{
 			title: 'Radiation-Induced Self-Assembly (RISA) of Nanostructured Materials',
-			id: 108,
+			id: 508,
 			img: '',
 			sources: [
 				{
@@ -179,7 +181,7 @@ const TOC = {
 		},
 		{
 			title: 'Biomimetic Membranes and Proton Conductivity in Water-Free Membranes',
-			id: 109,
+			id: 509,
 			img: '',
 			sources: [
 				{
