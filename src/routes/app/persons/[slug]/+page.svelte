@@ -7,7 +7,7 @@
 		getCurrentUrl,
 		getLocationFromUrl,
 		identifySelectedData,
-		extensionsExperimentsToc
+		extensionsPersonsToc
 	} from '../../../../lib/shared/';
 
 	const locationValue = getLocationFromUrl(getCurrentUrl(window), 2),
@@ -21,7 +21,7 @@
 	More persons in extensions
 </h2>
 <div class="mb-6 mb-4 grid w-full grid-cols-2 gap-2">
-	{#each extensionsExperimentsToc.data as recommendation}
+	{#each extensionsPersonsToc.data as recommendation}
 		<RecommendationBlock link="/app/manual" {recommendation} />
 	{/each}
 </div>
