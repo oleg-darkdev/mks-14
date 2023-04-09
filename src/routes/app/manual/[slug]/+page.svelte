@@ -37,7 +37,7 @@
 		>
 			{#if $page.params.slug == 'persons'}
 				{#each extensionsPersonsToc.data as recommendation}
-					<RecommendationBlock link="/app/extensions" {recommendation} />
+					<RecommendationBlock link="/app/persons" {recommendation} />
 				{/each}
 			{:else if $page.params.slug == 'experiments'}
 				{#each extensionsExperimentsToc.data as recommendation}
