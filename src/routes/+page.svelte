@@ -9,49 +9,51 @@
 		StepsLanding,
 		ReviewsLanding,
 		TeamLanding,
-    VideoLanding,
+		VideoLanding,
 		FooterLanding,
-    GameKitLanding
+		Testimonial
 	} from '../lib/widgets/';
 
 	const headerLeftSideLinks = [
-			{ link: '/app', text: 'App' },
-			{ link: '#about', text: 'About' },
-			{ link: '#team', text: 'Team' }
+			{ link: '/app', img: 'header_app.svg', text: 'App' },
+			{ link: '#about', img: 'header_about.svg', text: 'About' },
+			{ link: '#team', img: 'header_team.svg',  text: 'Team' }
 		],
 		headerRightSideLinks = [
-			{ link: '#updates', text: 'Updates' },
-			{ link: '#gallery', text: 'Gallery' },
-			{ link: '#reviews', text: 'Reviews' }
+			{ link: '#updates', img: 'header_updates.svg', text: 'Updates' },
+			{ link: '#gallery', img: 'header_gallery.svg', text: 'Gallery' },
+			{ link: '#reviews', img: 'header_reviews.svg', text: 'Reviews' }
 		];
 </script>
 
-<Header leftSideLinks={headerLeftSideLinks} rightSideLinks={headerRightSideLinks} />
+<div class="flex h-screen bg-gray-900 flex-col overflow-hidden">
+	<Header leftSideLinks={headerLeftSideLinks} rightSideLinks={headerRightSideLinks} />
+	<main class="flex-1 overflow-y-scroll bg-gray-900">
 
-<HeroLanding />
+		<HeroLanding />
 
-<a name="about" />
-<StatsLanding />
+		<a name="about" />
+		<StatsLanding />
 
-<FeaturesLanding />
+		<FeaturesLanding />
 
-<VideoLanding />
+		<Testimonial />
 
-<a name="gallery" />
-<GalleryLanding />
+		<VideoLanding />
 
-<a name="app" />
-<AppLanding />
+		<a name="gallery" />
+		<GalleryLanding />
 
+		<a name="app" />
+		<AppLanding />
 
+		<a name="updates" />
+		<StepsLanding />
 
-<a name="updates" />
-<StepsLanding />
+		<!-- <GameKitLanding /> -->
 
-<GameKitLanding />
-
-<!-- pricing -->
-<!-- <section class="py-6 bg-gray-900 text-gray-50">
+		<!-- pricing -->
+		<!-- <section class="py-6 bg-gray-900 text-gray-50">
 	<div class="container mx-auto flex flex-col items-center justify-center max-w-lg p-4 lg:max-w-full sm:p-10 lg:flex-row">
 		<div class="flex flex-col items-center justify-center flex-1 p-4 pb-8 sm:p-8 lg:p-16 bg-gray-900">
 			<span class="text-sm">Basic</span>
@@ -67,10 +69,12 @@
 		</div>
 	</div>
 </section> -->
-<a name="team" />
-<TeamLanding />
 
-<a name="reviews" />
-<ReviewsLanding />
+		<a name="team" />
+		<TeamLanding />
 
-<FooterLanding />
+		<a name="reviews" />
+		<ReviewsLanding />
+	</main>
+	<!-- <FooterLanding /> -->
+</div>
