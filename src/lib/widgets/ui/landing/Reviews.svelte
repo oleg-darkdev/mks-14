@@ -39,9 +39,11 @@
 			<div
 				class="mx-auto my-1 max-w-2xl space-y-4 text-center md:my-4 lg:my-8 xl:col-span-2 xl:my-8 xl:text-left"
 			>
-				<h2 class="text-4xl font-bold">Feedback</h2>
+				<h2 class="text-4xl font-bold">Opinie społeczności</h2>
 				<p class="text-gray-400">
-					Игра протестирована на тестовой группе, а так же среди учёных из космического сообщества.
+					Gra została przetestowana w grupie testowej
+          <a href="https://www.facebook.com/PortoTypy/" target="_blank"  class="text-gray-900">Portotypy</a>
+          , a także wśród naukowców ze środowiska kosmicznego.
 				</p>
 			</div>
 			<div class="p-2 md:p-6 lg:p-6 xl:col-span-3 xl:p-6">
