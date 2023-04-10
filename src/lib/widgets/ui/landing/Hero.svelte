@@ -1,10 +1,10 @@
 <section class="hero min-h-screen" style="background-image: url(./images/hero.png);">
 	<div class="hero-overlay bg-opacity-60" />
 	<div class="hero-content text-center text-neutral-content">
-		<div class="mt-20 max-w-md">
-			<h1 class="text-2xl font-bold leading-none md:text-4xl lg:text-4xl xl:text-4xl ">
-				Edukacyjna gra planszowa <br /> o kosmosie <br />
-				<span class="text-violet-700">i pracy na ISS</span>
+		<div class=" max-w-lg">
+			<h1 class="trxt-white text-4xl font-bold leading-none  md:text-5xl lg:text-7xl xl:text-7xl">
+				Edukacyjna kolekcjonerska <br />gra o kosmosie <br /> i pracy na ISS
+				<!-- <span class="text-violet-700"></span> -->
 			</h1>
 			<div class="flex flex-wrap justify-center pt-4">
 				<a
@@ -14,7 +14,7 @@
 				>
 				<a
 					href="#about"
-					class="m-2 rounded border border-gray-700 px-8 py-3 text-lg text-gray-50 hover:bg-white hover:text-gray-900"
+					class="m-2 rounded border-2 font-semibold border-white px-8 py-3 text-lg text-gray-200 hover:bg-violet-700 hover:text-gray-900"
 					>Więcej o grze</a
 				>
 			</div>
