@@ -4,6 +4,7 @@ import StepElement from './ui/StepElement.svelte';
 import Article from './ui/Article.svelte';
 import LargeBtn from './ui/app/LargeBtn.svelte';
 import HeaderLink from './ui/HeaderLink.svelte';
+import StatElement from './ui/landing/StatElement.svelte';
 import HorisontalImage from './ui/app/HorisontalImage.svelte';
 
 import FeatureText from './ui/landing/FeatureText.svelte';
@@ -27,7 +28,7 @@ import microgravityExperiments from './data/toc/extensions/experiments/micrograv
 import physicsExperiments from './data/toc/extensions/experiments/physics';
 import technologyExperiments from './data/toc/extensions/experiments/technology';
 // persons
-import austria from './data/toc/extensions/persons/austria'; 
+import austria from './data/toc/extensions/persons/austria';
 import belgium from './data/toc/extensions/persons/belgium';
 import brazil from './data/toc/extensions/persons/brazil';
 import canada from './data/toc/extensions/persons/canada';
@@ -40,7 +41,7 @@ import georgia from './data/toc/extensions/persons/georgia';
 import germany from './data/toc/extensions/persons/germany';
 import hungary from './data/toc/extensions/persons/hungary';
 import india from './data/toc/extensions/persons/india';
-import israel from './data/toc/extensions/persons/israel'; 
+import israel from './data/toc/extensions/persons/israel';
 import italy from './data/toc/extensions/persons/italy';
 import japan from './data/toc/extensions/persons/japan';
 import kazakhstan from './data/toc/extensions/persons/kazakhstan';
@@ -51,7 +52,7 @@ import norway from './data/toc/extensions/persons/norway';
 import poland from './data/toc/extensions/persons/poland';
 import portugal from './data/toc/extensions/persons/portugal';
 import romania from './data/toc/extensions/persons/romania';
-import russia from './data/toc/extensions/persons/russia'; 
+import russia from './data/toc/extensions/persons/russia';
 import spain from './data/toc/extensions/persons/spain';
 import sweden from './data/toc/extensions/persons/sweden';
 import switzerland from './data/toc/extensions/persons/switzerland';
@@ -63,8 +64,6 @@ import usa from './data/toc/extensions/persons/usa';
 import locationsList from './data/locationsList';
 import getGameData from './data/getGame';
 import gameComplect from './data/gameComplect';
-
-
 import ResourcesType from './utils/ResourcesType';
 
 // extensions
@@ -79,8 +78,38 @@ import generateMap from './utils/generateMap';
 import shuffle from './utils/shuffle';
 
 export {
-  austria,
-  belgium, russia, spain, sweden, switzerland, tatarstan, ukraine, usa, brazil, canada, china, czech, denmark, france, gb, georgia, germany, hungary, india, israel, italy, japan, kazakhstan, korea, luxembourg, netherlands, norway, poland, portugal, romania, 
+	StatElement,
+	austria,
+	belgium,
+	russia,
+	spain,
+	sweden,
+	switzerland,
+	tatarstan,
+	ukraine,
+	usa,
+	brazil,
+	canada,
+	china,
+	czech,
+	denmark,
+	france,
+	gb,
+	georgia,
+	germany,
+	hungary,
+	india,
+	israel,
+	italy,
+	japan,
+	kazakhstan,
+	korea,
+	luxembourg,
+	netherlands,
+	norway,
+	poland,
+	portugal,
+	romania,
 	astronomyExperiments,
 	biophysicsExperiments,
 	biotechnologyExperiments,
@@ -116,5 +145,5 @@ export {
 	extensionsExperimentsToc,
 	ResourcesType,
 	extensionsPersonsToc,
-  gameComplect
+	gameComplect
 };

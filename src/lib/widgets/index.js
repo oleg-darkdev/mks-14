@@ -14,12 +14,14 @@ import ReviewsLanding from './ui/landing/Reviews.svelte';
 import TeamLanding from './ui/landing/Team.svelte';
 import VideoLanding from './ui/landing/Video.svelte';
 import GameKitLanding from './ui/landing/GameKit.svelte';
+import Testimonial from './ui/landing/Testimonial.svelte';
 import FullGameKit from './ui/FullGameKit.svelte';
 import FooterLanding from './ui/landing/Footer.svelte';
 
 
 export {
   FullGameKit,
+  Testimonial,
 	FooterApp,
 	StartScreen,
 	GameProgressScreen,
