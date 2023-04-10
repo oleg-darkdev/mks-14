@@ -8,10 +8,7 @@
 	// });
 </script>
 
-<main class="">
-	<slot />
-</main>
+<slot />
 
 <style>
-
 </style>
