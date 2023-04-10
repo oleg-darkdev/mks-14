@@ -3,11 +3,11 @@
 </script>
 
 <div
-	class="xl:mx-6 lg:mx-6 md:mx-6 mx-1  my-12 flex lg:px-8 xl:px-8 md:px-6 px-2 w-full flex-col justify-center rounded-md border-2 border-violet-700 bg-violet-700 text-center text-gray-900  shadow-md shadow-violet-700 md:w-96 lg:w-80 xl:w-64"
+	class="xl:mx-6 lg:mx-6 md:mx-6 mx-1  mt-20 mb-4 flex lg:px-8 xl:px-8 md:px-6 px-2 w-full flex-col justify-center rounded-md border-2 border-violet-700 bg-violet-700 text-center text-gray-900  shadow-md shadow-violet-700 md:w-96 lg:w-80 xl:w-64"
 >
 	<img
 		alt={member.fullName}
-		class="-mt-12 h-24 w-24 flex-shrink-0 self-center rounded-full bg-gray-500 bg-cover bg-center"
+		class="-mt-20 h-40 w-40 flex-shrink-0 self-center rounded-lg bg-gray-500 bg-cover bg-center"
 		src={member.img}
 	/>
 	<div class="my-2 flex-1">
