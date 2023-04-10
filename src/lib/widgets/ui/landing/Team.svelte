@@ -4,7 +4,7 @@
 		{
 			fullName: 'Oleg Medvedev',
 			function: 'Author / designer / developer',
-			img: 'https://source.unsplash.com/100x100/?portrait?1',
+			img: '/images/team/author_1.png',
 			linkedin: '',
 			github: ''
 		}
@@ -14,36 +14,40 @@
 		{
 			fullName: 'Tymofii Lisovychenko',
 			function: 'Consultant',
-			img: 'https://source.unsplash.com/100x100/?portrait?1'
+			img: '/images/team/member_2.png'
 		},
 		{
 			fullName: 'Savichau Anton',
 			function: 'Consultant',
-			img: 'https://source.unsplash.com/100x100/?portrait?2'
-		},
-		{
-			fullName: 'Lorem ipsum',
-			function: 'Consultant',
-			img: 'https://source.unsplash.com/100x100/?portrait?3'
+			img: '/images/team/member_1.png'
 		}
 	];
 </script>
 
-<section class="bg-gray-900 py-6 text-gray-100">
-	<div class="container mx-auto flex flex-col items-center justify-center p-4 sm:p-10">
-		<p class="p-2 text-center text-sm font-medium uppercase tracking-wider">Zespół projektu</p>
-		<h1 class="text-center text-4xl font-bold leading-none sm:text-5xl max-w-xl">
-			Ten projekt był możliwy dzięki tym osobom
-		</h1>
-		<div class="mt-8 flex flex-row flex-wrap-reverse justify-center">
-			{#each coreTeam as member}
-				<FullTeamMemberCard {member} />
-			{/each}
-		</div>
-		<div class="flex flex-row flex-wrap-reverse justify-center">
-			{#each supportTeam as member}
-				<ShortTeamMemberCard {member} />
-			{/each}
+<section class="py-6 text-gray-100">
+	<div class="container mx-auto flex items-center justify-center p-4 sm:p-10">
+		<div
+			class="rounded-lg border-2 border-violet-700 bg-gray-800 bg-gray-900 p-6 shadow-md shadow-violet-700  "
+		>
+			<p class="text-md p-2 text-center font-medium uppercase tracking-wider">Zespół projektu</p>
+
+			<h2 class="max-w-3xl text-center text-2xl font-bold leading-none sm:text-5xl">
+				Dzięki tym osobom prototyp gry został zaimplementowany na
+				<a
+					href="https://www.facebook.com/events/742158657156499/742158660489832/"
+					class="text-violet-700 underline">"Science Game Jam 2023"</a
+				>
+			</h2>
+			<div class="mt-8 flex flex-row flex-wrap-reverse justify-center">
+				{#each coreTeam as member}
+					<FullTeamMemberCard {member} />
+				{/each}
+			</div>
+			<div class="flex flex-row flex-wrap-reverse justify-center">
+				{#each supportTeam as member}
+					<ShortTeamMemberCard {member} />
+				{/each}
+			</div>
 		</div>
 	</div>
 </section>
