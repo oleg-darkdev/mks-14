@@ -4,7 +4,7 @@
 	export let activeScreen;
 </script>
 
-<div class="btm-nav btm-nav-lg bg-violet-700 shadow-md shadow-violet-700">
+<div class="btm-nav btm-nav-lg flex flex-row bg-violet-700 shadow-md shadow-violet-700">
 	<NavBtn on:click={() => (activeScreen = 'Rozpoczęcie')} {activeScreen} text={'Rozpoczęcie'}>
 		<path
 			stroke-linecap="round"
