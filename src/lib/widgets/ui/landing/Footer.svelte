@@ -60,27 +60,9 @@
 					</h1>
 					<div class="grid grid-cols-2 gap-2 text-center lg:grid-cols-6">
 						<div class="bg-primary-light flex items-center justify-center bg-opacity-25 p-6">
-							<img src="/logos/todoist.svg" alt="Todoist Logo" class="block h-16 object-contain" />
+							<img src="" alt="Todoist Logo" class="block h-16 object-contain" />
 						</div>
-						<div class="bg-primary-light flex items-center justify-center bg-opacity-25 p-6">
-							<img src="/logos/slack-icon.svg" alt="Slack Logo" class="block h-16 object-contain" />
-						</div>
-						<div class="bg-primary-light flex items-center justify-center bg-opacity-25 p-6">
-							<img
-								src="/logos/typeform.svg"
-								alt="Typeform Logo"
-								class="block h-16 object-contain"
-							/>
-						</div>
-						<div class="bg-primary-light flex items-center justify-center bg-opacity-25 p-6">
-							<img src="/logos/postcss.svg" alt="Postcss Logo" class="block h-16 object-contain" />
-						</div>
-						<div class="bg-primary-light flex items-center justify-center bg-opacity-25 p-6">
-							<img src="/logos/yahoo.svg" alt="Yahoo Logo" class="block h-16 object-contain" />
-						</div>
-						<div class="bg-primary-light flex items-center justify-center bg-opacity-25 p-6">
-							<img src="/logos/algolia.svg" alt="Algolia Logo" class="block h-16 object-contain" />
-						</div>
+
 					</div>
 				</div>
 			</div>
