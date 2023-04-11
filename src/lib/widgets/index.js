@@ -15,13 +15,17 @@ import TeamLanding from './ui/landing/Team.svelte';
 import VideoLanding from './ui/landing/Video.svelte';
 import GameKitLanding from './ui/landing/GameKit.svelte';
 import Testimonial from './ui/landing/Testimonial.svelte';
+import PriceBox from './ui/landing/PriceBox.svelte';
+import PriceExtensions from './ui/landing/PriceExtensions.svelte';
 import FullGameKit from './ui/FullGameKit.svelte';
 import FooterLanding from './ui/landing/Footer.svelte';
 
 
 export {
-  FullGameKit,
-  Testimonial,
+	FullGameKit,
+	Testimonial,
+	PriceExtensions,
+	PriceBox,
 	FooterApp,
 	StartScreen,
 	GameProgressScreen,
@@ -35,7 +39,7 @@ export {
 	StepsLanding,
 	ReviewsLanding,
 	FooterLanding,
-  TeamLanding,
-  GameKitLanding,
+	TeamLanding,
+	GameKitLanding,
 	VideoLanding
 };
