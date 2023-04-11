@@ -54,7 +54,7 @@
 		<PriceBox />
     <PriceExtensions />
 
-    
+
 		<!-- <GameKitLanding /> -->
 
 		<!-- pricing -->
@@ -80,6 +80,8 @@
 
 		<a name="reviews" />
 		<ReviewsLanding />
+    <FooterLanding />
 	</main>
-	<!-- <FooterLanding /> -->
+
 </div>
+
