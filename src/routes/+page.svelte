@@ -11,13 +11,15 @@
 		TeamLanding,
 		VideoLanding,
 		FooterLanding,
-		Testimonial
+		Testimonial,
+		PriceExtensions,
+		PriceBox
 	} from '../lib/widgets/';
 
 	const headerLeftSideLinks = [
 			{ link: '/app', img: 'header_app.svg', text: 'App' },
 			{ link: '#about', img: 'header_about.svg', text: 'About' },
-			{ link: '#team', img: 'header_team.svg',  text: 'Team' }
+			{ link: '#team', img: 'header_team.svg', text: 'Team' }
 		],
 		headerRightSideLinks = [
 			{ link: '#updates', img: 'header_updates.svg', text: 'Updates' },
@@ -26,10 +28,9 @@
 		];
 </script>
 
-<div class="flex h-screen bg-gray-900 flex-col overflow-hidden">
+<div class="flex h-screen flex-col overflow-hidden bg-gray-900">
 	<Header leftSideLinks={headerLeftSideLinks} rightSideLinks={headerRightSideLinks} />
 	<main class="flex-1 overflow-y-scroll bg-gray-900">
-
 		<HeroLanding />
 
 		<a name="about" />
@@ -48,8 +49,12 @@
 		<AppLanding />
 
 		<a name="updates" />
-		<StepsLanding />
+		<!-- <StepsLanding /> -->
 
+		<PriceBox />
+    <PriceExtensions />
+
+    
 		<!-- <GameKitLanding /> -->
 
 		<!-- pricing -->
