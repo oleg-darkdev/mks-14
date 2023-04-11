@@ -2,7 +2,7 @@
   export let levelInfo;
 </script>
 
-<div class="card card-height w-96 m-2 bg-primary text-primary-content">
+<div class="card card-height lg:w-96 xl:w-96 md:w-96 w-full m-2 bg-primary text-primary-content">
 	<div class="card-body">
 		<h2 class="card-title">{levelInfo.title}</h2>
 		<p>{levelInfo.desc}</p>

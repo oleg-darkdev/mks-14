@@ -11,7 +11,7 @@
 	export let step;
 </script>
 
-<div class="rounded-lg border-2 border-violet-700 shadow-md shadow-violet-700 ">
+<div class="mx-2 rounded-lg border-2 border-violet-700 shadow-md shadow-violet-700 ">
 	<HorisontalImage img="./images/manual/persons_bg.png" alt="Roles banner" />
 
 	<div class="mx-auto max-w-screen-xl py-6 px-4 md:px-8 md:text-center">

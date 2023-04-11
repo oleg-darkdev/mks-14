@@ -2,7 +2,7 @@
 	export let title, desc;
 </script>
 
-<div class="h-full rounded-lg border-2 border-violet-700  shadow-md shadow-violet-700">
+<div class="mx-2 h-full rounded-lg border-2 border-violet-700  shadow-md shadow-violet-700">
 	<slot name="img" />
 	<div class="py-6">
 		<div class="mx-auto max-w-screen-xl px-4 md:px-8 md:text-center">
@@ -12,7 +12,7 @@
 					{desc}
 				</p>
 			</div>
-			<div class="mt-4 flex items-center gap-3 md:justify-center">
+			<div class="mt-4 flex items-center justify-center">
 				<slot name="btn"/>
 			</div>
 		</div>
