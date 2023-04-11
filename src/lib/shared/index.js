@@ -9,12 +9,15 @@ import DarkPriceItem from './ui/landing/DarkPriceItem.svelte';
 import LightPriceItem from './ui/landing/LightPriceItem.svelte';
 import HorisontalImage from './ui/app/HorisontalImage.svelte';
 
-
-
+// landing
 import FeatureText from './ui/landing/FeatureText.svelte';
 import VerticalImage from './ui/landing/VerticalImage.svelte';
 import SmallSquareImage from './ui/landing/SmallSquareImage.svelte';
+import FooterLink from './ui/landing/FooterLink.svelte';
+
+
 import SmallLogoLink from './ui/SmallLogoLink.svelte';
+
 
 // data
 import mainTocData from './data/toc/mainToc';
@@ -82,6 +85,7 @@ import generateMap from './utils/generateMap';
 import shuffle from './utils/shuffle';
 
 export {
+  FooterLink,
   StatElement,
   LightPriceItem,
   DarkPriceItem,
