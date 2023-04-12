@@ -3,7 +3,7 @@
 	import Header from '../../../../lib/widgets/ui/Header.svelte';
 	import {
 		identifySelectedData,
-		headerLinks,
+		headerAppLinks,
 		extensionsExperimentsToc,
 		extensionsPersonsToc
 	} from '../../../../lib/shared';
@@ -16,7 +16,7 @@
 	$: toc = identifySelectedData($page.params.slug);
 </script>
 
-<Header links={headerLinks} />
+<Header links={headerAppLinks} />
 
 <section
 	class="flex h-full w-full flex-col items-center justify-center bg-gray-900 pt-20  text-gray-100"

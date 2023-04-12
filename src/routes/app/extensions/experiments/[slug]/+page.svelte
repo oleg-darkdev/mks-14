@@ -1,15 +1,15 @@
 <script>
 	import { page } from '$app/stores';
-	import { extensionsExperimentsToc, headerLinks } from '../../../../../lib/shared';
+	import { extensionsExperimentsToc, headerAppLinks } from '../../../../../lib/shared';
 	import { TableOfСontents, BannerTableOfContent } from '../../../../../lib/entities';
-  import { Header } from '../../../../../lib/widgets';
+	import { Header } from '../../../../../lib/widgets';
 
 	const getExtensionData = (textArray) => textArray.data[$page.params.slug - 1];
 
 	const extensionData = getExtensionData(extensionsExperimentsToc);
 </script>
 
-<Header links={headerLinks} />
+<Header links={headerAppLinks} />
 
 <section
 	class="flex h-full w-full flex-col items-center justify-center bg-gray-900 pt-20 pb-10 text-gray-100"

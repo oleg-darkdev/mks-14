@@ -1,10 +1,14 @@
 <script>
-	import { headerLinks, extensionsExperimentsToc, extensionsPersonsToc } from '../../../lib/shared';
+	import {
+		headerAppLinks,
+		extensionsExperimentsToc,
+		extensionsPersonsToc
+	} from '../../../lib/shared';
 	import { TableOfСontents, BannerTableOfContent } from '../../../lib/entities';
-  import { Header } from '../../../lib/widgets';
+	import { Header } from '../../../lib/widgets';
 </script>
 
-<Header links={headerLinks} />
+<Header links={headerAppLinks} />
 
 <section
 	class="flex h-full w-full flex-col items-center justify-center bg-gray-900 pt-20 pb-10 text-gray-100"
