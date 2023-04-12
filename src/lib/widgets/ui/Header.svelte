@@ -31,9 +31,9 @@
 	<div
 		style="top: 15.5%;"
 		id="myHeader"
-		class="nav-wrap sticky z-10 mx-auto flex h-auto max-w-lg items-center justify-center rounded-bl-lg rounded-br-lg bg-violet-700 p-4 shadow-md shadow-violet-700 md:space-x-8"
+		class="nav-wrap sticky z-10 w-full mx-auto flex h-auto max-w-md items-center justify-center rounded-bl-lg rounded-br-lg bg-violet-700 p-2 shadow-md shadow-violet-700 md:space-x-8"
 	>
-		<ul class="container grid grid-cols-6 gap-1 overflow-hidden xl:grid-cols-6 ">
+		<ul class="container grid grid-cols-6 gap-2 overflow-hidden xl:grid-cols-6 ">
 			{#each links as link}
 				<li class="flex flex-col items-center  ">
 					<HeaderLink {link} />
