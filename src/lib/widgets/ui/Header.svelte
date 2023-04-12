@@ -13,6 +13,7 @@
 		function myFunction() {
 			if (window.pageYOffset > sticky) {
 				header.classList.add('sticky');
+				header.style.top = 0;
 			} else {
 				header.classList.remove('sticky');
 			}
@@ -23,17 +24,18 @@
 </script>
 
 <header
-	style="margin-bottom: -230px;"
-	class="header relative flex w-full max-w-lg flex-col items-center justify-center rounded-bl-lg rounded-br-lg bg-violet-700 shadow-md shadow-violet-700 p-2 text-gray-100 lg:p-4"
+	style="margin-bottom: -230px; height: 200px;"
+	class="header relative z-20 flex w-full max-w-lg flex-col items-center rounded-bl-lg rounded-br-lg bg-violet-700 p-2 text-gray-100 shadow-md shadow-violet-700 lg:p-4"
 >
 	<SmallLogoLink />
 	<div
+		style="top: 15.5%;"
 		id="myHeader"
-		class="nav-wrap container sticky z-10 mx-auto flex h-auto max-w-lg items-center justify-center rounded-bl-lg rounded-br-lg bg-violet-700 shadow-md shadow-violet-700 p-4 md:space-x-8"
+		class="nav-wrap sticky z-10 mx-auto flex h-auto max-w-lg items-center justify-center rounded-bl-lg rounded-br-lg bg-violet-700 p-4 shadow-md shadow-violet-700 md:space-x-8"
 	>
 		<ul class="container grid grid-cols-6 gap-1 overflow-hidden xl:grid-cols-6 ">
 			{#each links as link}
-        <li class="flex flex-col items-center  ">
+				<li class="flex flex-col items-center  ">
 					<HeaderLink {link} />
 				</li>
 			{/each}
@@ -58,15 +60,13 @@
 		}
 	}
 
-  	@media (min-width: 1200px) {
+	@media (min-width: 1200px) {
 		.header {
 			left: 34%;
 		}
 	}
 
-
 	.sticky {
 		position: fixed;
-		top: 0;
 	}
 </style>
