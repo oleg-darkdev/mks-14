@@ -26,8 +26,8 @@ export default class ResourcesTypes {
 		this.amountLaser = optionalResources[4];
 		this.amountMeteor = optionalResources[5];
 
-		// locations
-		this.amountObservatory = locations[0];
+		// locations 
+		this.amountObservatory = locations[0]; 
 		this.amountLounge = locations[1];
 
 		// rounds
@@ -73,6 +73,8 @@ export default class ResourcesTypes {
 			this.getRound10(),
 			this.getRound11(),
 			this.getRound12(),
+      this.getObservatory(),
+      this.getLounge()
 		];
 	}
 
@@ -111,7 +113,15 @@ export default class ResourcesTypes {
 	}
 
 	// locations
+	get observatory() {
+		return this.getObservatory; 
+	}
+	get lounge() {
+		return this.getLounge;
+	}
 
+
+    
 	// rounds
 	get round1() {
 		return this.getRound1;
@@ -156,7 +166,7 @@ export default class ResourcesTypes {
 			title: 'food',
 			color: '',
 			img: '/images/manual/toc/sources/food.svg',
-			amount: this.amountFood
+			amount: this.amountFood ? this.amountFood : 0
 		};
 	}
 	getWater() {
@@ -164,7 +174,7 @@ export default class ResourcesTypes {
 			title: 'water',
 			color: '',
 			img: '/images/manual/toc/sources/water.svg',
-			amount: this.amountWater
+			amount: this.amountWater ? this.amountWater : 0
 		};
 	}
 	getScience() {
@@ -172,7 +182,7 @@ export default class ResourcesTypes {
 			title: 'science',
 			color: '',
 			img: '/images/manual/toc/sources/science.svg',
-			amount: this.amounScience
+			amount: this.amounScience ? this.amounScience : 0
 		};
 	}
 	getEnergy() {
@@ -180,7 +190,7 @@ export default class ResourcesTypes {
 			title: 'energy',
 			color: '',
 			img: '/images/manual/toc/sources/energy.svg',
-			amount: this.amountEnegry
+			amount: this.amountEnegry ? this.amountEnegry : 0
 		};
 	}
 
@@ -190,7 +200,7 @@ export default class ResourcesTypes {
 			title: 'repair kit',
 			color: '',
 			img: '/images/manual/toc/sources/kit.svg',
-			amount: this.amountReapirKit
+			amount: this.amountReapirKit ? this.amountReapirKit : 0
 		};
 	}
 	getSolarPanels() {
@@ -198,7 +208,7 @@ export default class ResourcesTypes {
 			title: 'solar panels',
 			color: '',
 			img: '/images/manual/toc/sources/solar.svg',
-			amount: this.amountSolarPanels
+			amount: this.amountSolarPanels ? this.amountSolarPanels : 0
 		};
 	}
 	getHydroponic() {
@@ -206,7 +216,7 @@ export default class ResourcesTypes {
 			title: 'hydroponic',
 			color: '',
 			img: '/images/manual/toc/sources/hydroponic.svg',
-			amount: this.amountHydroponic
+			amount: this.amountHydroponic ? this.amountHydroponic : 0
 		};
 	}
 	getBattery() {
@@ -214,7 +224,7 @@ export default class ResourcesTypes {
 			title: 'batteries',
 			color: '',
 			img: '/images/manual/toc/sources/battery.svg',
-			amount: this.amountBattery
+			amount: this.amountBattery ? this.amountBattery : 0
 		};
 	}
 	getLaser() {
@@ -222,7 +232,7 @@ export default class ResourcesTypes {
 			title: 'laser',
 			color: '',
 			img: '/images/manual/toc/sources/laser.svg',
-			amount: this.amountLaser
+			amount: this.amountLaser ? this.amountLaser : 0
 		};
 	}
 	getMeteor() {
@@ -230,11 +240,29 @@ export default class ResourcesTypes {
 			title: 'meteor',
 			color: '',
 			img: '/images/manual/toc/sources/meteor.svg',
-			amount: this.amountMeteor
+			amount: this.amountMeteor ? this.amountMeteor : 0
 		};
 	}
 
+  
 	// locations
+	getObservatory() {
+		return {
+			title: 'observatory', 
+			color: '',
+			img: '/images/manual/toc/sources/observatory.svg',
+			amount: this.amountObservatory ? this.amountObservatory : 0
+		};
+  }
+	getLounge() {
+		return {
+			title: 'lounge',
+			color: '',
+			img: '/images/manual/toc/sources/lounge.svg',
+			amount: this.amountLounge ? this.amountLounge : 0
+		};
+  }
+   
 
 	// rounds
 	getRound1() {
@@ -242,7 +270,7 @@ export default class ResourcesTypes {
 			title: 'round 1',
 			color: '',
 			img: '/images/manual/toc/sources/round_1.svg',
-			amount: this.amountRound1
+			amount: this.amountRound1 ? this.amountRound1 : 0
 		};
 	}
 	getRound2() {
@@ -250,7 +278,7 @@ export default class ResourcesTypes {
 			title: 'round 2',
 			color: '',
 			img: '/images/manual/toc/sources/round_2.svg',
-			amount: this.amountRound1
+			amount: this.amountRound2 ? this.amountRound2 : 0
 		};
 	}
 	getRound3() {
@@ -258,7 +286,7 @@ export default class ResourcesTypes {
 			title: 'round 3',
 			color: '',
 			img: '/images/manual/toc/sources/round_3.svg',
-			amount: this.amountRound1
+			amount: this.amountRound3 ? this.amountRound3 : 0
 		};
 	}
 	getRound4() {
@@ -266,7 +294,7 @@ export default class ResourcesTypes {
 			title: 'round 4',
 			color: '',
 			img: '/images/manual/toc/sources/round_4.svg',
-			amount: this.amountRound1
+			amount: this.amountRound4 ? this.amountRound4 : 0
 		};
 	}
 	getRound5() {
@@ -274,7 +302,7 @@ export default class ResourcesTypes {
 			title: 'round 5',
 			color: '',
 			img: '/images/manual/toc/sources/round_5.svg',
-			amount: this.amountRound1
+			amount: this.amountRound5 ? this.amountRound5 : 0
 		};
 	}
 	getRound6() {
@@ -282,7 +310,7 @@ export default class ResourcesTypes {
 			title: 'round 6',
 			color: '',
 			img: '/images/manual/toc/sources/round_6.svg',
-			amount: this.amountRound1
+			amount: this.amountRound6 ? this.amountRound6 : 0
 		};
 	}
 	getRound7() {
@@ -290,7 +318,7 @@ export default class ResourcesTypes {
 			title: 'round 7',
 			color: '',
 			img: '/images/manual/toc/sources/round_7.svg',
-			amount: this.amountRound1
+			amount: this.amountRound7 ? this.amountRound7 : 0
 		};
 	}
 	getRound8() {
@@ -298,7 +326,7 @@ export default class ResourcesTypes {
 			title: 'round 8',
 			color: '',
 			img: '/images/manual/toc/sources/round_8.svg',
-			amount: this.amountRound1
+			amount: this.amountRound8 ? this.amountRound8 : 0
 		};
 	}
 	getRound9() {
@@ -306,7 +334,7 @@ export default class ResourcesTypes {
 			title: 'round 9',
 			color: '',
 			img: '/images/manual/toc/sources/round_9.svg',
-			amount: this.amountRound1
+			amount: this.amountRound9 ? this.amountRound9 : 0
 		};
 	}
 	getRound10() {
@@ -314,7 +342,7 @@ export default class ResourcesTypes {
 			title: 'round 10',
 			color: '',
 			img: '/images/manual/toc/sources/round_10.svg',
-			amount: this.amountRound1
+			amount: this.amountRound10 ? this.amountRound10 : 0
 		};
 	}
 	getRound11() {
@@ -322,7 +350,7 @@ export default class ResourcesTypes {
 			title: 'round 11',
 			color: '',
 			img: '/images/manual/toc/sources/round_11.svg',
-			amount: this.amountRound1
+			amount: this.amountRound11 ? this.amountRound11 : 0
 		};
 	}
 	getRound12() {
@@ -330,7 +358,7 @@ export default class ResourcesTypes {
 			title: 'round 12',
 			color: '',
 			img: '/images/manual/toc/sources/round_12.svg',
-			amount: this.amountRound1
+			amount: this.amountRound12 ? this.amountRound12 : 0
 		};
 	}
 }
