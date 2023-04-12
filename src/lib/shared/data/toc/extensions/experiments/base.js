@@ -18,7 +18,7 @@ export default [
 		],
 		resources: new ResourcesType(
 			[4, 1, 3, 4],
-			[1, 1, 1, 1, 1, 1],
+			[1, 1, 1, 1],
 			[1, 1],
 			[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 		).all(),
