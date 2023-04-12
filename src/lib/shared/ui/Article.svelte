@@ -12,7 +12,9 @@
 
 			// { link: '', text: '' }
 		];
+
 	export let manualArticle;
+	console.log(manualArticle.fullDesc);
 </script>
 
 <Header leftSideLinks={headerLeftSideLinks} rightSideLinks={headerRightSideLinks} />
@@ -36,10 +38,10 @@
 						{manualArticle.title}
 					</h1>
 				</div>
-				<slot/>
+				<slot />
 				<div class="text-gray-100">
 					{#each manualArticle.fullDesc as fullDesc}
-						<p>{fullDesc}</p>
+						<p class='my-2'>{fullDesc}</p>
 					{/each}
 				</div>
 			</div>
@@ -47,8 +49,8 @@
 	</article>
 </section>
 
-<section class="mb-6 flex flex-row justify-between bg-gray-900 p-2 pb-4 text-gray-50">
+<section class="mb-6 flex flex-row flex-wrap justify-center bg-gray-900 p-2 pb-4 text-gray-50">
 	{#each mainTocData.data as recommendation}
-		<RecommendationBlock link='/app/manual' {recommendation} />
+		<RecommendationBlock link="/app/manual" {recommendation} />
 	{/each}
 </section>

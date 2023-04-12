@@ -19,10 +19,12 @@ import PriceBox from './ui/landing/PriceBox.svelte';
 import PriceExtensions from './ui/landing/PriceExtensions.svelte';
 import FullGameKit from './ui/FullGameKit.svelte';
 import FooterLanding from './ui/landing/Footer.svelte';
+import ArticleSourceList from './ui/landing/ArticleSourceList.svelte';
 
 
 export {
-	FullGameKit,
+  FullGameKit,
+  ArticleSourceList,
 	Testimonial,
 	PriceExtensions,
 	PriceBox,

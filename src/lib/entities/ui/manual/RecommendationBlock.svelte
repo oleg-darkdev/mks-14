@@ -5,7 +5,7 @@
 <a
 	rel="noopener noreferrer"
 	href="{link}/{recommendation.id}"
-	class="my-2 inline-flex items-center  text-sm text-violet-400"
+	class="m-2 inline-flex items-center  text-sm text-violet-400"
 >
 	<div
 		class="container  mx-auto grid max-w-2xl grid-cols-12 rounded-lg border-2 border-violet-700 bg-gray-900 shadow-md shadow-violet-700"

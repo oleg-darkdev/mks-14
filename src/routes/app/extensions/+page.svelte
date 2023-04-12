@@ -25,5 +25,5 @@
 		</div>
 	</div>
 
-	<LargeBtn link="/app" text="Back to instruction" />
+	<LargeBtn link="/app" text="Fix this btn" />
 </section>
