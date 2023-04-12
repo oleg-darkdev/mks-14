@@ -18,7 +18,7 @@
 		experimentsTocData
 	} from '../../../../lib/shared/';
 
-	const allExperimentsList = [].concat(
+	const allextensionData = [].concat(
 		experimentsTocData.data,
 		astronomyExperiments.data,
 		biophysicsExperiments.data,
@@ -32,7 +32,7 @@
 		technologyExperiments.data
 	);
 
-	const experimentData = allExperimentsList.find((u) => u.id == $page.params.slug);
+	const experimentData = allextensionData.find((u) => u.id == $page.params.slug);
 </script>
 
 <Article manualArticle={experimentData}>
