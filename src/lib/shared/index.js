@@ -71,7 +71,9 @@ import usa from './data/toc/extensions/persons/usa';
 import locationsList from './data/locationsList';
 import getGameData from './data/getGame';
 import gameComplect from './data/gameComplect';
-import headerLinks from './data/app/headerLinks';
+import headerAppLinks from './data/app/headerLinks';
+import landingHeaderLinks from './data/landingHeaderLinks';
+
 import ResourcesType from './utils/ResourcesType';
 
 // extensions
@@ -84,10 +86,13 @@ import getLocationFromUrl from './utils/getLocationFromUrl';
 import identifySelectedData from './utils/identifySelectedData';
 import generateMap from './utils/generateMap';
 import shuffle from './utils/shuffle';
+import checkTitleResource from './utils/checkTitleResource';
 
 export {
   FooterLink,
-  headerLinks,
+  landingHeaderLinks,
+  checkTitleResource,
+  headerAppLinks,
   StatElement,
   LightPriceItem,
   DarkPriceItem,
