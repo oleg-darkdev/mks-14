@@ -1,8 +1,8 @@
-<section class="hero min-h-screen" style="background-image: url(./images/hero.png);">
+<section class="z-0 hero min-h-screen" style="background-image: url(./images/hero.png);">
 	<div class="hero-overlay bg-opacity-60" />
 	<div class="hero-content text-center text-neutral-content">
-		<div class=" max-w-lg">
-			<h1 class="trxt-white text-4xl font-bold leading-none  md:text-5xl lg:text-7xl xl:text-7xl">
+		<div class="pt-20 max-w-lg">
+			<h1 class="text-white text-4xl font-bold leading-none  md:text-5xl lg:text-7xl xl:text-7xl">
 				Edukacyjna kolekcjonerska <br />gra o kosmosie <br /> i pracy na ISS
 				<!-- <span class="text-violet-700"></span> -->
 			</h1>

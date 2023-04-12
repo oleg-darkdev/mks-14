@@ -27,10 +27,10 @@
 			{ link: '#reviews', img: 'header_reviews.svg', text: 'Reviews' }
 		];
 </script>
-
-<div class="flex h-screen flex-col overflow-hidden bg-gray-900">
+<!-- overflow-hidden h-screen  overflow-y-scroll-->
+<!-- <div class="flex  flex-col  bg-gray-900"> -->
 	<Header leftSideLinks={headerLeftSideLinks} rightSideLinks={headerRightSideLinks} />
-	<main class="flex-1 overflow-y-scroll bg-gray-900">
+	<main class=" bg-gray-900 ">
 		<HeroLanding />
 
 		<a name="about" />
@@ -83,5 +83,5 @@
     <FooterLanding />
 	</main>
 
-</div>
+<!-- </div> -->
 
