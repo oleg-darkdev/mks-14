@@ -17,10 +17,10 @@
 
 <Article manualArticle={getThisArticleText(textArray)} />
 
-<h2 class="mb-2 w-full text-center  text-6xl font-bold tracking-tighter  text-gray-100">
+<h2 class="mb-2 w-full text-center  lg:text-6xl md:text-6xl text-4xl font-bold tracking-tighter  text-gray-100">
 	More persons in extensions
 </h2>
-<div class="mb-6 mb-4 grid w-full grid-cols-2 gap-2">
+<div class="mb-6 mb-4 flex flex-row flex-wrap w-full ">
 	{#each extensionsPersonsToc.data as recommendation}
 		<RecommendationBlock link="/app/manual" {recommendation} />
 	{/each}
