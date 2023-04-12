@@ -2,12 +2,12 @@
 	export let toc;
 </script>
 
-<div class="grid grid-cols-1 justify-center gap-1 sm:grid-cols-2 lg:grid-cols-3 ">
+<div class=" grid grid-cols-1 justify-center gap-1 sm:grid-cols-2 lg:grid-cols-3 ">
 	{#each toc.data as navigation, index}
 		<a
 			rel="noopener noreferrer"
 			href="{toc.link}{navigation.id}"
-			class="group mx-auto max-w-sm rounded-lg border-2 border-violet-700 bg-gray-900 shadow-md shadow-violet-700 hover:bg-violet-700 hover:no-underline focus:no-underline"
+			class="group m-1 max-w-sm rounded-lg border-2 border-violet-700 bg-gray-900 shadow-md shadow-violet-700 hover:bg-violet-700 hover:no-underline focus:no-underline"
 		>
 			<img
 				role="presentation"
