@@ -1,5 +1,5 @@
 <script>
-  const regex = /round/;
+  import { checkTitleResource } from "../../../shared";
 
 	export let data;
 </script>
@@ -19,8 +19,8 @@
 				</figure>
 
 				<span
-					class:hidden={regex.test(resources.title)}
-					class="absolute inset-x-10 inset-y-3 text-8xl text-gray-100">{resources.amount}</span
+					class:hidden={checkTitleResource(resources.title)}
+					class="absolute inset-x-10 inset-y-3 text-8xl font-numbers text-gray-100"> {resources.amount}</span
 				>
 			</div>
 		{/each}
