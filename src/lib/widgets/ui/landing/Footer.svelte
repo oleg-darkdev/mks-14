@@ -72,7 +72,7 @@
 					<h3 class="text-3xl font-bold uppercase tracking-wider text-gray-300">
 						Extensions: Experiments
 					</h3>
-					<ul role="list" class="mt-1 flex flex-row flex-wrap justify-center space-y-2 ">
+					<ul role="list" class="mt-1 flex flex-row flex-wrap justify-center md:justify-start xl:justify-start lg:justify-start  space-y-2 ">
 						{#each extensionsExperimentsToc.data as experiment}
 							<FooterLink data={experiment} link="/app/extensions/experiments/{experiment.id}" />
 						{/each}
@@ -83,7 +83,7 @@
 					<h3 class="text-3xl  font-bold uppercase tracking-wider text-gray-300">
 						Extensions: Persons
 					</h3>
-					<ul role="list" class="mt-1 flex flex-row flex-wrap justify-center space-y-2 ">
+					<ul role="list" class="mt-1 flex flex-row flex-wrap justify-center md:justify-start xl:justify-start lg:justify-start  space-y-2 ">
 						{#each extensionsPersonsToc.data as person}
 							<FooterLink data={person} link="/app/extensions/persons/{person.id}" />
 						{/each}
