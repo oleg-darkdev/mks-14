@@ -37,17 +37,18 @@
 
 <Article manualArticle={experimentData}>
 	<SquareImagesWrapper data={experimentData} />
+	<div slot="sources">
+		<ArticleSourceList>
+			{#each experimentData.sources as item}
+				<tr class="hover:bg-gray-100 ">
+					<td class="whitespace-nowrap px-6 py-4">
+						<a href={item.link}>{item.title}</a>
+					</td>
+				</tr>
+			{/each}
+		</ArticleSourceList>
+	</div>
 </Article>
-
-<ArticleSourceList>
-	{#each experimentData.sources as item}
-		<tr class="hover:bg-gray-100 ">
-			<td class="whitespace-nowrap px-6 py-4">
-				<a href={item.link}>{item.title}</a>
-			</td>
-		</tr>
-	{/each}
-</ArticleSourceList>
 
 <section class="w-full p-2 md:p-4 lg:p-6">
 	<h2
