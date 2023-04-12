@@ -68,7 +68,7 @@
 				<p class="mt-3 text-lg text-gray-400">
 					edukacyjna kolekcjonerska gra o międzynarodowej stacji kosmicznej
 				</p>
-				<div class="mt-12 space-y-12">
+				<div class="mt-6 space-y-4">
 					{#each featuresBoardgame as text}
 						<FeatureText {text} />
 					{/each}
