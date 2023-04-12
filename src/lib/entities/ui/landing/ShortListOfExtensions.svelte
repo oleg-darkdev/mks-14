@@ -1,13 +1,16 @@
 <script>
-  export let data, link;
+	export let data, link;
 </script>
 
 <div
-	class="max-w-2xl m-1  rounded-lg border-2 border-violet-700 bg-gray-900 p-6 p-4 shadow-md  shadow shadow-violet-700 sm:p-8"
+	class="m-1 max-w-2xl  rounded-lg border-2 border-violet-700 bg-gray-900 p-6 p-4 shadow-md  shadow shadow-violet-700 sm:p-8"
 >
 	<div class="mb-4 flex items-center justify-between">
 		<h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white">{data.title}</h5>
-		<a href='{link}{data.link}' class="text-sm font-medium text-violet-700 hover:underline dark:text-blue-500">
+		<a
+			href="{link}{data.link}"
+			class="text-sm font-medium text-violet-700 hover:underline dark:text-blue-500"
+		>
 			View all
 		</a>
 	</div>
@@ -31,7 +34,7 @@
 						<div
 							class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white"
 						>
-							{category.experimentsList.length}
+							{category.extensionData.length}
 						</div>
 					</div>
 				</li>
