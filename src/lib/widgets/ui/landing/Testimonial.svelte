@@ -1,8 +1,8 @@
 <script>
 </script>
 
-<section class="mb-6 bg-gray-900 text-gray-100">
-	<div class="container mx-auto flex flex-col items-center space-y-6 p-4 md:p-8">
+<section class="mb-12 w-full">
+	<div class="bg-violet-900 max-w-6xl rounded-lg container mx-auto flex flex-col items-center space-y-6 p-4 md:p-8">
 		<img src="/images/landing/testimonial.svg" class="h-40 w-40" alt="testimonial" />
 
 		<p
