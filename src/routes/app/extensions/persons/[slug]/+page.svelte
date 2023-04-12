@@ -1,13 +1,15 @@
 <script>
-	import { extensionsExperimentsToc, LargeBtn } from '../../../../../lib/shared';
-
-	import { page } from '$app/stores';
+  import { page } from '$app/stores';
+  import Header from '../../../../../lib/widgets/ui/Header.svelte';
+	import { extensionsExperimentsToc, headerLinks } from '../../../../../lib/shared';
 	import { TableOfСontents, BannerTableOfContent  } from '../../../../../lib/entities';
 
 	const getExtensionData = (textArray) => textArray.data[$page.params.slug - 1];
 
 	const extensionData = getExtensionData(extensionsExperimentsToc);
 </script>
+
+<Header links={headerLinks} />
 
 <section
 	class="flex h-full w-full flex-col items-center justify-center bg-gray-900 pt-20 pb-10 text-gray-100"
@@ -22,5 +24,4 @@
 		</div>
 	</div>
 
-	<LargeBtn link="/app" text="Fix this btn" />
 </section>

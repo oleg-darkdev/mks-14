@@ -19,12 +19,12 @@
 		}
 	});
 
-	export let leftSideLinks, rightSideLinks;
+	export let links;
 </script>
 
 <header
 	style="margin-bottom: -230px;"
-	class="header relative flex w-full max-w-lg flex-col items-center rounded-bl-lg rounded-br-lg bg-violet-700 shadow-md shadow-violet-700 p-2 text-gray-100 lg:p-4"
+	class="header relative flex w-full max-w-lg flex-col items-center justify-center rounded-bl-lg rounded-br-lg bg-violet-700 shadow-md shadow-violet-700 p-2 text-gray-100 lg:p-4"
 >
 	<SmallLogoLink />
 	<div
@@ -32,12 +32,7 @@
 		class="nav-wrap container sticky z-10 mx-auto flex h-auto max-w-lg items-center justify-center rounded-bl-lg rounded-br-lg bg-violet-700 shadow-md shadow-violet-700 p-4 md:space-x-8"
 	>
 		<ul class="container grid grid-cols-6 gap-1 overflow-hidden xl:grid-cols-6 ">
-			{#each leftSideLinks as link}
-        <li class="flex flex-col items-center ">
-					<HeaderLink {link} />
-				</li>
-			{/each}
-			{#each rightSideLinks as link}
+			{#each links as link}
         <li class="flex flex-col items-center  ">
 					<HeaderLink {link} />
 				</li>

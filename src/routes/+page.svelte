@@ -16,49 +16,46 @@
 		PriceBox
 	} from '../lib/widgets/';
 
-	const headerLeftSideLinks = [
-			{ link: '/app', img: 'header_app.svg', text: 'App' },
-			{ link: '#about', img: 'header_about.svg', text: 'About' },
-			{ link: '#team', img: 'header_team.svg', text: 'Team' }
-		],
-		headerRightSideLinks = [
-			{ link: '#updates', img: 'header_updates.svg', text: 'Updates' },
-			{ link: '#gallery', img: 'header_gallery.svg', text: 'Gallery' },
-			{ link: '#reviews', img: 'header_reviews.svg', text: 'Reviews' }
-		];
+	const headerLinks = [
+		{ link: '/app', img: 'header_app.svg', text: 'App' },
+		{ link: '#about', img: 'header_about.svg', text: 'About' },
+		{ link: '#team', img: 'header_team.svg', text: 'Team' },
+		{ link: '#updates', img: 'header_updates.svg', text: 'Updates' },
+		{ link: '#gallery', img: 'header_gallery.svg', text: 'Gallery' },
+		{ link: '#reviews', img: 'header_reviews.svg', text: 'Reviews' }
+	];
 </script>
-<!-- overflow-hidden h-screen  overflow-y-scroll-->
-<!-- <div class="flex  flex-col  bg-gray-900"> -->
-	<Header leftSideLinks={headerLeftSideLinks} rightSideLinks={headerRightSideLinks} />
-	<main class=" bg-gray-900 ">
-		<HeroLanding />
 
-		<a name="about" />
-		<StatsLanding />
+<Header links={headerLinks} />
 
-		<FeaturesLanding />
+<main class=" bg-gray-900 ">
+	<HeroLanding />
 
-		<Testimonial />
+	<a name="about" />
+	<StatsLanding />
 
-		<VideoLanding />
+	<FeaturesLanding />
 
-		<a name="gallery" />
-		<GalleryLanding />
+	<Testimonial />
 
-		<a name="app" />
-		<AppLanding />
+	<VideoLanding />
 
-		<a name="updates" />
-		<!-- <StepsLanding /> -->
+	<a name="gallery" />
+	<GalleryLanding />
 
-		<PriceBox />
-    <PriceExtensions />
+	<a name="app" />
+	<AppLanding />
 
+	<a name="updates" />
+	<!-- <StepsLanding /> -->
 
-		<!-- <GameKitLanding /> -->
+	<PriceBox />
+	<PriceExtensions />
 
-		<!-- pricing -->
-		<!-- <section class="py-6 bg-gray-900 text-gray-50">
+	<!-- <GameKitLanding /> -->
+
+	<!-- pricing -->
+	<!-- <section class="py-6 bg-gray-900 text-gray-50">
 	<div class="container mx-auto flex flex-col items-center justify-center max-w-lg p-4 lg:max-w-full sm:p-10 lg:flex-row">
 		<div class="flex flex-col items-center justify-center flex-1 p-4 pb-8 sm:p-8 lg:p-16 bg-gray-900">
 			<span class="text-sm">Basic</span>
@@ -75,13 +72,10 @@
 	</div>
 </section> -->
 
-		<a name="team" />
-		<TeamLanding />
+	<a name="team" />
+	<TeamLanding />
 
-		<a name="reviews" />
-		<ReviewsLanding />
-    <FooterLanding />
-	</main>
-
-<!-- </div> -->
-
+	<a name="reviews" />
+	<ReviewsLanding />
+	<FooterLanding />
+</main>

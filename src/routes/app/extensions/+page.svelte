@@ -1,7 +1,10 @@
 <script>
-	import { LargeBtn, extensionsExperimentsToc, extensionsPersonsToc } from '../../../lib/shared';
+	import { headerLinks, extensionsExperimentsToc, extensionsPersonsToc } from '../../../lib/shared';
 	import { TableOfСontents, BannerTableOfContent } from '../../../lib/entities';
+  import { Header } from '../../../lib/widgets';
 </script>
+
+<Header links={headerLinks} />
 
 <section
 	class="flex h-full w-full flex-col items-center justify-center bg-gray-900 pt-20 pb-10 text-gray-100"
@@ -24,6 +27,4 @@
 			<TableOfСontents toc={extensionsPersonsToc} />
 		</div>
 	</div>
-
-	<LargeBtn link="/app" text="Fix this btn" />
 </section>

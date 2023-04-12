@@ -1,8 +1,9 @@
 <script>
 	import { page } from '$app/stores';
+	import Header from '../../../../lib/widgets/ui/Header.svelte';
 	import {
 		identifySelectedData,
-		LargeBtn,
+		headerLinks,
 		extensionsExperimentsToc,
 		extensionsPersonsToc
 	} from '../../../../lib/shared';
@@ -15,6 +16,8 @@
 	$: toc = identifySelectedData($page.params.slug);
 </script>
 
+<Header links={headerLinks} />
+
 <section
 	class="flex h-full w-full flex-col items-center justify-center bg-gray-900 pt-20  text-gray-100"
 >
@@ -22,19 +25,17 @@
 		<BannerTableOfContent page={$page.params.slug} {toc} />
 		<TableOfСontents {toc} />
 	</div>
-
-	<LargeBtn link="/app" text="Back to instruction" />
 </section>
 
 <section
 	class="flex h-full w-full flex-col items-center justify-center bg-gray-900 pt-4 pb-10 text-gray-100"
 >
-  {#if $page.params.slug != 'experiments' || 'persons'}
-		<h2 class="text-6xl font-semibold text-violet-700">Extensions: {$page.params.slug}</h2>
+	{#if $page.params.slug != 'experiments' || 'persons'}
+		<h2 class=" text-4xl font-semibold text-violet-700 md:text-6xl lg:text-6xl">
+			Extensions: {$page.params.slug}
+		</h2>
 
-		<div
-			class="grid w-full grid-cols-2 gap-2 bg-gray-900 pb-10  text-gray-100 lg:w-10/12 xl:w-10/12"
-		>
+		<div class=" flex w-full flex-row flex-wrap justify-center bg-gray-900  pb-10 text-gray-100">
 			{#if $page.params.slug == 'persons'}
 				{#each extensionsPersonsToc.data as recommendation}
 					<RecommendationBlock link="/app/persons" {recommendation} />
