@@ -1,7 +1,7 @@
 import ResourcesType from '../../../../utils/ResourcesType';
 
 const TOC = {
-  		      title: 'medicine',
+	title: 'medicine',
 
 	link: '/app/experiments/',
 	img: '/images/manual/toc/experiments/medicine.png',
@@ -17,7 +17,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2705.html'
 				}
 			],
-			resources: new ResourcesType(3, 2, 3, 2).all(),
+			resources: new ResourcesType(
+				[3, 2, 3, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Cardiac Stem Cells study investigated the regenerative properties of cardiac stem cells in microgravity to determine whether stem cells could be used to treat heart disease in humans.',
 			fullDesc: [
@@ -37,7 +42,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html'
 				}
 			],
-			resources: new ResourcesType(3, 3, 3, 3).all(),
+			resources: new ResourcesType(
+				[3, 3, 3, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'This study investigates the impact of microgravity on the human body, with a focus on bone and muscle loss, cardiovascular changes, and changes in the immune system.',
 			fullDesc: [
@@ -58,7 +68,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/1177.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbial Tracking-2 (MT-2) investigation studies the types of microbes present on the ISS and how the microbial population evolves over time.',
 			fullDesc: [
@@ -78,7 +93,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2959.html'
 				}
 			],
-			resources: new ResourcesType(0, 1, 0, 1).all(),
+			resources: new ResourcesType(
+				[0, 1, 0, 1],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'This experiment aimed to study the effects of microgravity on arterial stiffness and wave reflection, which are important markers of vascular aging.',
 			fullDesc: [
@@ -98,7 +118,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7358'
 				}
 			],
-			resources: new ResourcesType(2, 1, 1, 0).all(),
+			resources: new ResourcesType(
+				[2, 1, 1, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Microbial Tracking-2 aims to identify the types of microbes present on the International Space Station (ISS) and monitor changes in the microbial community over time.',
 			fullDesc: [
@@ -118,7 +143,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=3885'
 				}
 			],
-			resources: new ResourcesType(2, 1, 2, 3).all(),
+			resources: new ResourcesType(
+				[2, 1, 2, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'This experiment studies the effects of long-term spaceflight on the human eye, including changes to the shape of the eye, the optic nerve, and visual function.',
 			fullDesc: [
@@ -138,7 +168,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/1576.html'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Nutritional Status Assessment is a long-term study that aims to understand the changes in the nutritional status of astronauts during long-duration spaceflight.',
 			fullDesc: [
@@ -157,7 +192,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2528.html'
 				}
 			],
-			resources: new ResourcesType(2, 1, 2, 1).all(),
+			resources: new ResourcesType(
+				[2, 1, 2, 1],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbiome Immunity Team-2 (MIT-2) experiment studies how spaceflight affects the human immune system and the microorganisms that live in and on our bodies.',
 			fullDesc: [
@@ -176,7 +216,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/MEPS.html'
 				}
 			],
-			resources: new ResourcesType(0, 0, 0, 0).all(),
+			resources: new ResourcesType(
+				[0, 0, 0, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Microbial Tracking-2 uses traditional culture-based methods, modern molecular techniques, and whole-genome sequencing to identify and quantify the types of microbes on the ISS and to assess changes in the microbial community over time.',
 			fullDesc: [
@@ -195,7 +240,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=982'
 				}
 			],
-			resources: new ResourcesType(2, 2, 1, 1).all(),
+			resources: new ResourcesType(
+				[2, 2, 1, 1],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbial Tracking-2 (MT-2) experiment studied how the microbial community on the ISS changes over time and how it differs from similar communities on Earth.',
 			fullDesc: [
@@ -214,7 +264,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/447.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 1, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 1, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Biochemical Profile experiment aims to measure the levels of certain molecules in astronauts’ blood and urine during and after spaceflight, helping scientists to better understand the effects of microgravity on human physiology.',
 			fullDesc: [
@@ -234,7 +289,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/hrp/bodyinspace'
 				}
 			],
-			resources: new ResourcesType(4, 4, 4, 4).all(),
+			resources: new ResourcesType(
+				[4, 4, 4, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'This study aimed to investigate the cardiovascular health consequences of long-duration spaceflight by monitoring changes in the structure and function of the heart, blood vessels, and the autonomic nervous system.',
 			fullDesc: [
@@ -254,7 +314,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/1118.html'
 				}
 			],
-			resources: new ResourcesType(0, 0, 0, 0).all(),
+			resources: new ResourcesType(
+				[0, 0, 0, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Cardiac Stem Cells experiment investigated the effects of microgravity on the growth, proliferation, and differentiation of cardiac stem cells, which could provide insight into the mechanisms of cardiovascular disease.',
 			fullDesc: [
@@ -274,7 +339,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/13.html'
 				}
 			],
-			resources: new ResourcesType(1, 0, 0, 0).all(),
+			resources: new ResourcesType(
+				[1, 0, 0, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc: `The study aimed to explore the immune system's response to the space environment and whether it increases the reactivation of latent herpesvirus, and causes physiological stress and clinical incidence.`,
 			fullDesc: [
 				"The immune system is an essential part of the body that helps protect against infections and diseases. Spaceflight is known to affect the immune system of astronauts, making them more susceptible to infections. This study aimed to explore the immune system's response to the space environment and whether it increases the reactivation of latent herpesvirus, and causes physiological stress and clinical incidence.",
@@ -293,7 +363,12 @@ const TOC = {
 					link: 'https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Research/Muscle_Atrophy_Research_and_Exercise_System_MARES'
 				}
 			],
-			resources: new ResourcesType(4, 1, 4, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 4, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'MARES investigates the effects of microgravity and how to reduce muscle atrophy in astronauts.',
 			fullDesc: [
@@ -313,7 +388,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7737'
 				}
 			],
-			resources: new ResourcesType(5, 0, 0, 5).all(),
+			resources: new ResourcesType(
+				[5, 0, 0, 5],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc: 'Cardiovascular health in spaceflight',
 			fullDesc: [
 				'Cardio-Ox is a NASA experiment aimed at studying the effects of spaceflight on the cardiovascular system of astronauts. The goal is to better understand the mechanisms that underlie the increased risk of cardiovascular disease in astronauts, and to develop interventions to mitigate these risks.',
@@ -332,7 +412,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/13.html'
 				}
 			],
-			resources: new ResourcesType(2, 1, 0, 0).all(),
+			resources: new ResourcesType(
+				[2, 1, 0, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				"The Cardiac Bioelectricity and Arrhythmia Center of Excellence (C-BRACE) aimed to study the effects of microgravity on the heart's electrical system and its potential impact on the health of astronauts.",
 			fullDesc: [
@@ -352,7 +437,12 @@ const TOC = {
 					link: 'https://iss.jaxa.jp/en/kuoa/medical/skin_aging_study/'
 				}
 			],
-			resources: new ResourcesType(3, 0, 1, 0).all(),
+			resources: new ResourcesType(
+				[3, 0, 1, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The JAXA Skin Aging Study investigates the changes in skin elasticity and thickness due to microgravity and radiation exposure.',
 			fullDesc: [

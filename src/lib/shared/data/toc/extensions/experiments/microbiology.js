@@ -1,7 +1,7 @@
 import ResourcesType from '../../../../utils/ResourcesType';
 
 const TOC = {
-  title: 'microbiology',
+	title: 'microbiology',
 
 	link: '/app/experiments/',
 	img: '/images/manual/toc/experiments/microbiology.png',
@@ -17,7 +17,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=756'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The ACE-M-1 experiment studies the behavior of small colloidal particles suspended in a liquid in microgravity.',
 			fullDesc: [
@@ -37,7 +42,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/70.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The AEBERS-1 experiment aimed to evaluate the effectiveness of a novel method for eradicating bacterial biofilms in microgravity, using automated technology that can work in a closed environment. Biofilms are a significant problem on spacecraft, as they can contaminate surfaces and equipment, and may pose a risk to crew health.',
 			fullDesc: [
@@ -57,7 +67,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=851'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Biofilm Adhesion and Sensing in Space (BASS) was an experiment conducted on the ISS to investigate how bacteria grow in microgravity and how they form biofilms.',
 			fullDesc: [
@@ -78,7 +93,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7727'
 				}
 			],
-			resources: new ResourcesType(3, 3, 3, 3).all(),
+			resources: new ResourcesType(
+				[3, 3, 3, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The BIORHYTHMS study aimed to investigate the effects of long-term microgravity on the human cardiovascular system by analyzing 24-hour ECG recordings of astronauts on the ISS.',
 			fullDesc: [
@@ -99,7 +119,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Cell Biology Experiment Facility (CBEF) is a facility on the International Space Station designed to conduct biological experiments in microgravity.',
 			fullDesc: [
@@ -120,7 +145,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7669'
 				}
 			],
-			resources: new ResourcesType(4, 2, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Effect of Pulsed Stimuli on Microbial Biofilms (EPOD) investigates how microgravity affects the way biofilms grow on surfaces, such as inside spacecraft, as well as how they react to various treatments.',
 			fullDesc: [
@@ -139,7 +169,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=720'
 				}
 			],
-			resources: new ResourcesType(3, 3, 3, 3).all(),
+			resources: new ResourcesType(
+				[3, 3, 3, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Fluids Integrated Experiment 2 (FLEX-2) is a microgravity experiment that investigates the behavior of fluids in containers subjected to thermal gradients in space. ',
 			fullDesc: [
@@ -159,7 +194,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=3957'
 				}
 			],
-			resources: new ResourcesType(2, 1, 1, 2).all(),
+			resources: new ResourcesType(
+				[2, 1, 1, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'ICV2 is an experiment on the International Space Station aimed at studying the effects of microgravity on cardiovascular health and function.',
 			fullDesc: [
@@ -179,7 +219,12 @@ const TOC = {
 					link: 'https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Research/Kubik_Incubator'
 				}
 			],
-			resources: new ResourcesType(2, 0, 1, 1).all(),
+			resources: new ResourcesType(
+				[2, 0, 1, 1],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Kubik Incubator is a small facility designed to study the effects of microgravity on biological samples, including bacteria, fungi, plant seeds, and insect eggs.',
 			fullDesc: [
@@ -199,7 +244,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=98'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbial Tracking-1 (Microbial Tracking-1) experiment aims to identify and quantify the types of microorganisms present on the International Space Station (ISS) and track their changes over time.',
 			fullDesc: [
@@ -218,7 +268,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/1318.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Offshore Membrane Enclosures for Growing Algae (OMEGA) experiment uses the International Space Station (ISS) to evaluate the ability of algae to recycle waste into oxygen and edible biomass for long-duration human spaceflight.',
 			fullDesc: [
@@ -237,7 +292,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/centers/kennedy/spaceport-magazine/spaceport-magazine-2014/spm-may-2014.pdf'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Orbiting and Bioreactor Technology Experiment (ORBITE) aimed to study how bacteria grows in microgravity and compare the results to Earth-based control experiments.',
 			fullDesc: [
@@ -258,7 +318,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2943.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Shear History Extensional Rheology Experiment 2 (SHERE-2) aims to investigate the behavior of complex fluids in microgravity conditions, particularly how they flow and deform in response to mechanical stresses.',
 			fullDesc: [
@@ -279,7 +344,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7624'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Vascular Aging experiment investigates the effect of spaceflight on blood vessels and cognitive performance in humans, with a focus on the role of inflammation.',
 			fullDesc: [
@@ -298,7 +368,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/news/micro-11/'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Micro-11 experiment investigated the effects of microgravity on the antibiotic resistance of three strains of bacteria: Escherichia coli (E. coli), Staphylococcus aureus (MRSA), and Lactobacillus acidophilus (L. acidophilus).',
 			fullDesc: [
@@ -319,7 +394,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/1034.html'
 				}
 			],
-			resources: new ResourcesType(4, 2, 2, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 2, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The AstroMicrobiology experiment aims to determine the types and amounts of microorganisms, including potentially pathogenic and antibiotic-resistant organisms, that exist on surfaces of the ISS and to study their population dynamics.',
 			fullDesc: [
@@ -338,7 +418,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1952'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbial Observatory-1 experiment is a microbial monitoring study aimed at characterizing the microbial community present on the International Space Station (ISS) and assessing its potential impact on crew health and spacecraft systems.',
 			fullDesc: [
@@ -358,7 +443,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=1087'
 				}
 			],
-			resources: new ResourcesType(3, 2, 3, 4).all(),
+			resources: new ResourcesType(
+				[3, 2, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbial Observatory-2 (MOb-2) investigation monitored the diversity and dynamics of microbial communities aboard the International Space Station (ISS) using advanced sequencing technologies and innovative culturing methods.',
 			fullDesc: [
@@ -378,7 +468,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7684'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Genes in Space-3 experiment aims to identify unknown pathogens aboard the ISS through DNA sequencing.',
 			fullDesc: [
@@ -399,7 +494,12 @@ const TOC = {
 					link: 'https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Exposure_of_functional_molecular_samples_to_space_radiation_Dosimetry_and_effects_EXPOSE-R2'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The EXPOSE-R2 experiment exposed a variety of biological and chemical samples to space radiation to study the effects of radiation on various organic compounds.',
 			fullDesc: [
@@ -419,7 +519,12 @@ const TOC = {
 					link: 'https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station/Biological_Experiment_Laboratory_BIOLAB'
 				}
 			],
-			resources: new ResourcesType(5, 2, 4, 4).all(),
+			resources: new ResourcesType(
+				[5, 2, 4, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'BIOLAB is a research facility on board the ISS designed to enable research in the field of biology, biochemistry, and physiology.',
 			fullDesc: [
@@ -439,7 +544,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=590'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microgravity Validation Project (MVP) aims to validate a system that will enable real-time genetic analysis of microbial samples in space.',
 			fullDesc: [
@@ -461,7 +571,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1676'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Plant-Microbial Fuel Cell experiment studies how electricity-producing bacteria and higher plants can work together as a single entity to create a sustainable, regenerative life support system in space.',
 			fullDesc: [
@@ -482,7 +597,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7648'
 				}
 			],
-			resources: new ResourcesType(2, 2, 2, 2).all(),
+			resources: new ResourcesType(
+				[2, 2, 2, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'BRIC-19 is a study on the International Space Station that investigates the effects of microgravity on plant-microbe interactions in the context of spaceflight.',
 			fullDesc: [
@@ -503,7 +623,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7643'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbiome Immunity Project seeks to understand the effects of spaceflight on the human immune system and the microbial communities that live on and inside the human body.',
 			fullDesc: [
@@ -523,7 +648,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2913.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbial Resistance in Space (MRS) experiment investigates how microgravity affects the way bacteria resist antibiotics and how their virulence changes.',
 			fullDesc: [
@@ -544,7 +674,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7455'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The SPACE-MATE experiment aimed to investigate how spaceflight affects the antibiotic resistance and virulence gene expression of microbes.',
 			fullDesc: [
@@ -564,7 +699,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7660'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Biorock experiment investigates the growth and behavior of biofilms, which are communities of microorganisms that attach to a surface and create a protective matrix. The experiment also studies the potential use of microbial electrochemical systems in space exploration.',
 			fullDesc: [
@@ -585,7 +725,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Microbial Payload-1 was an experiment designed to investigate how microbes survive and grow on spacecraft surfaces during long-duration spaceflight.',
 			fullDesc: [
@@ -605,7 +750,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/news/genes_in_space/'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Nanobiosym Genes experiment tested a portable device for real-time, on-site genetic analysis of biological samples aboard the ISS.',
 			fullDesc: [
@@ -626,7 +776,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/72.html'
 				}
 			],
-			resources: new ResourcesType(2, 2, 2, 2).all(),
+			resources: new ResourcesType(
+				[2, 2, 2, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Veggie facility was developed to study the in-orbit growth of fresh produce using LED lighting technology.',
 			fullDesc: [
@@ -646,7 +801,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2187.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'MOHMM is a study of the interaction between human and microbial metabolism in space.',
 			fullDesc: [

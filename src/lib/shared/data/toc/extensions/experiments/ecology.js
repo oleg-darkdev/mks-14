@@ -1,7 +1,7 @@
 import ResourcesType from '../../../../utils/ResourcesType';
 
 const TOC = {
-	      title: 'ecology',
+	title: 'ecology',
 
 	link: '/app/experiments/',
 	img: '/images/manual/toc/experiments/ecology.png',
@@ -17,7 +17,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2216.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbial Air Sampler (MAS) experiment is designed to identify and characterize the microorganisms present in the air on the International Space Station (ISS).',
 			fullDesc: [
@@ -25,8 +30,8 @@ const TOC = {
 				'The MAS hardware consists of a small, battery-powered device that collects air samples using a centrifugal sampler. The sampler collects microorganisms onto a sterile swab, which is then placed into a small container for storage until it can be returned to Earth for analysis. The experiment is conducted periodically throughout the year to capture seasonal variations in microbial populations.',
 				'The samples collected by MAS are analyzed using a variety of techniques, including DNA sequencing and microscopy, to identify and characterize the microorganisms present. This information is used to create a comprehensive picture of the microbial ecology of the ISS, as well as to assess the effectiveness of the station’s air filtration and microbial control systems.',
 				'The results of the MAS experiment are important for maintaining the health and safety of the ISS crew, as well as for designing future space habitats and life support systems. By better understanding the microbial ecology of the ISS, scientists can develop more effective methods for controlling and monitoring microbial populations in space.'
-    			]
-    		},
+			]
+		},
 		{
 			title: 'Advanced Combustion via Microgravity Experiments (ACME)',
 			id: 201,
@@ -37,7 +42,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/centers/glenn/shuttlestation/station/science/experiments/ACME.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc: 'ACME is an experiment that studies combustion in microgravity.',
 			fullDesc: [
 				'Advanced Combustion via Microgravity Experiments (ACME) is a series of experiments conducted on the International Space Station (ISS) to better understand the fundamental processes that govern combustion and fire safety in microgravity. ACME studies how different fuels and oxidizers burn in microgravity, and how this differs from combustion on Earth. By performing these experiments in a microgravity environment, researchers can observe how fluids behave differently, and how flames spread and interact in ways that are impossible to observe on Earth due to gravity.',
@@ -55,7 +65,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=1619'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The ATP experiment aimed to develop a real-time method for monitoring microbial contamination in the potable water system aboard the ISS.',
 			fullDesc: [
@@ -75,7 +90,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7669'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Spaceborne Computer-2 experiment is designed to test the performance of computer hardware and software in space, and to study the effects of radiation on electronic devices.',
 			fullDesc: [
@@ -95,7 +115,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/ames/research/space-biosciences/biomolecule-extraction-and-sequencing-technology-best'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Biomolecule Extraction and Sequencing Technology (BEST) experiment on the International Space Station (ISS) aims to study how microgravity affects DNA and RNA sequencing, with the goal of developing more efficient methods for biomolecule extraction and sequencing in space.',
 			fullDesc: [
@@ -114,7 +139,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=756'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				"MUSES is a remote sensing platform installed outside the ISS that provides high-quality, real-time imagery and data collection of Earth's surface.",
 			fullDesc: [
@@ -134,7 +164,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/centers/marshall/space-life/environmental-monitoring-and-microbial-analysis-emma'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'EMMA is a series of experiments conducted on the International Space Station (ISS) to monitor the microbial environment onboard the ISS and develop technologies to improve crew health and spacecraft systems.',
 			fullDesc: [
@@ -155,7 +190,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7605'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				"Microbial Tracking-1 (MT-1) is an experiment that examines the microorganisms on board the International Space Station (ISS) to understand how they affect both the crew and the station's systems.",
 			fullDesc: [
@@ -175,7 +215,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=779'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The APEX experiment aimed to study the growth and development of plants in space and their response to microgravity, lighting conditions, and other environmental factors.',
 			fullDesc: [
@@ -195,7 +240,12 @@ const TOC = {
 					link: 'https://www.earthkam.org/'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'EarthKAM is an educational program that allows middle school students to request photographs of specific locations on Earth taken by a camera mounted on the International Space Station.',
 			fullDesc: [
@@ -215,7 +265,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/386.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Water Recovery System (WRS) is a critical technology on the International Space Station (ISS) that recycles wastewater from various sources into potable water for the crew to use during long-duration missions.',
 			fullDesc: [
@@ -235,7 +290,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=140'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Air Quality Monitor (AQM) is an experiment designed to measure the levels of certain atmospheric pollutants aboard the International Space Station (ISS).',
 			fullDesc: [
@@ -255,7 +315,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/SPHERES.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'SPHERES is an experimental platform consisting of three volleyball-sized satellites that are used to test formation flight and docking algorithms for future spacecraft.',
 			fullDesc: [
@@ -276,7 +341,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7665'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Plant Habitat-01 is a space biology investigation that studies plant growth and function in the microgravity environment of the space station.',
 			fullDesc: [
@@ -296,7 +366,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2559.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Cold Atom Laboratory (CAL) is a facility for studying ultra-cold quantum gases in the microgravity environment of the International Space Station (ISS).',
 			fullDesc: [
@@ -316,7 +391,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=1465'
 				}
 			],
-			resources: new ResourcesType(2, 3, 3, 3).all(),
+			resources: new ResourcesType(
+				[2, 3, 3, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Japanese Experiment Module - Extreme Universe Space Observatory (JEM-EUSO) is a cosmic ray observatory designed to detect ultra-high-energy cosmic rays from the International Space Station (ISS).',
 			fullDesc: [
@@ -336,7 +416,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1245'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'FluidPac is an experiment on the International Space Station designed to study fluid dynamics in microgravity.',
 			fullDesc: [
@@ -357,7 +442,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7436'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Spheres-Zero Robotics experiment is a robotics competition where high school students design and operate robots on board the International Space Station.',
 			fullDesc: [
@@ -376,7 +466,12 @@ const TOC = {
 					link: 'https://earthobservatory.nasa.gov/features/CERISE'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				"The CERISE experiment is a citizen science initiative that involves astronauts on the ISS taking photos of Earth's surface to help researchers study the risks and impacts of space environment on our planet.",
 			fullDesc: [
@@ -395,7 +490,12 @@ const TOC = {
 					link: 'https://www.esa.int/Enabling_Support/Space_Engineering_Technology/The_Electromagnetic_Levitator_EML'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Electromagnetic Levitator (EML) is an experiment designed to study the properties of metallic alloys and their solidification in microgravity.',
 			fullDesc: [
@@ -415,7 +515,12 @@ const TOC = {
 					link: 'https://earthobservatory.nasa.gov/features/GOSAT2'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				"The Greenhouse Gas Observing Satellite-2 (GOSAT-2) is a Japanese satellite designed to measure greenhouse gases in Earth's atmosphere.",
 			fullDesc: [
@@ -434,7 +539,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/384.html'
 				}
 			],
-			resources: new ResourcesType(3, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[3, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The TAGES experiment aimed to study the gene expression of Arabidopsis thaliana plants in the microgravity environment of the ISS.',
 			fullDesc: [
@@ -453,7 +563,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=885'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The EcAMSat experiment is designed to investigate the effects of microgravity on the antibiotic resistance of E. coli bacteria.',
 			fullDesc: [
@@ -472,7 +587,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/935.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Osteo-4 experiment investigated the effects of microgravity on bone tissue and the mechanisms that cause bone loss in space.',
 			fullDesc: [
@@ -492,7 +612,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/contamination_monitoring_system/'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Contamination Monitoring System (CMS) is an experiment designed to monitor the International Space Station (ISS) for biological and chemical contaminants.',
 			fullDesc: [
@@ -511,7 +636,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/888.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Experimental Animal Habitat Module (ExHAM) is a facility on the International Space Station (ISS) designed for the housing and observation of mice in microgravity.',
 			fullDesc: [
@@ -531,7 +661,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/servir/microsites/iserv/index.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The ISS SERVIR Environmental Research and Visualization System (ISERV) is a high-resolution imaging system mounted on the International Space Station (ISS) designed to acquire imagery of the Earth’s surface for environmental monitoring and disaster response efforts.',
 			fullDesc: [
@@ -551,7 +686,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1145'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbial Tracking-2 (MT-2) experiment aims to identify and characterize the types of microorganisms present on the International Space Station (ISS) and track changes in the microbial community over time.',
 			fullDesc: [
@@ -571,7 +711,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/383.html'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Biological Rhythms 48 (BR48) study aimed to investigate how circadian rhythms (our internal biological clocks) are affected by spaceflight.',
 			fullDesc: [
@@ -590,7 +735,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2744.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The APEX-02 experiment is designed to study the effects of microgravity on plant roots and their interaction with beneficial fungi.',
 			fullDesc: [
@@ -611,7 +761,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1098'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Antimicrobial Coatings for Spacecraft Applications (ACSA) experiment tests the effectiveness of an antimicrobial coating on the surfaces of the International Space Station (ISS) to prevent the growth of bacteria and other microorganisms.',
 			fullDesc: [
@@ -630,7 +785,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/916.html'
 				}
 			],
-			resources: new ResourcesType(3, 3, 3, 2).all(),
+			resources: new ResourcesType(
+				[3, 3, 3, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Biomolecule Extraction and Sequencing Technology (BEST-2) is a project designed to investigate how to extract and sequence DNA, RNA, and proteins from biological samples in space.',
 			fullDesc: [
@@ -649,7 +809,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7654'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Capillary Flow Experiment with the Cosmonauts (CFE-C) is a fluid physics experiment that studies capillary flows and bubble behavior in microgravity.',
 			fullDesc: [
@@ -668,7 +833,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2308.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc: `The Cygnus cargo vehicle's Orbital Laboratory Reflight (Cygnus-OLI) is an experiment designed to test the capability of an advanced life support system on board the International Space Station.`,
 			fullDesc: [
 				'The Cygnus cargo vehicle is a type of resupply spacecraft that is used to deliver food, water, and other supplies to the International Space Station. In addition to its primary mission of delivering supplies, the Cygnus-OLI experiment also provides an opportunity to test an advanced life support system, which is critical for future long-duration missions to the Moon and Mars.',
@@ -687,7 +857,12 @@ const TOC = {
 					link: 'https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Scientific_experiments/European_Modular_Cultivation_System_EMCS'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The European Modular Cultivation System (EMCS) is a state-of-the-art facility designed to study plant growth and development in microgravity conditions.',
 			fullDesc: [
@@ -706,7 +881,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/319.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Fast Neutron Spectrometer (FNS) is a device designed to measure the neutron radiation environment on board the International Space Station (ISS).',
 			fullDesc: [
@@ -726,7 +906,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7653'
 				}
 			],
-			resources: new ResourcesType(3, 1, 3, 3).all(),
+			resources: new ResourcesType(
+				[3, 1, 3, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Fruit Fly Lab-02 (FFL-02) is an experiment that aims to study the effects of microgravity on fruit flies.',
 			fullDesc: [
@@ -746,7 +931,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The High Definition Earth Viewing (HDEV) experiment streams live views of Earth from the International Space Station (ISS) to help researchers study Earth and its atmosphere.',
 			fullDesc: [
@@ -765,7 +955,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2459.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microgravity Expanded Stem Cells (MESC) investigation aimed to identify how microgravity affects the process of cell division and growth of stem cells. The study specifically focused on expanding the number of stem cells that could be produced in microgravity, which could have significant implications for regenerative medicine and treating a range of diseases and injuries.',
 			fullDesc: [
@@ -785,7 +980,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=743'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Capillary Structures Investigation (CSI) experiment aims to study the behavior of fluid flow in microgravity and test capillary structures for potential use in future space missions.',
 			fullDesc: [
@@ -805,7 +1005,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/3014.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'MAG3D is an experiment aimed at studying the effects of microgravity on the magnetic levitation of biological samples and their 3D cell cultures. The experiment utilizes a magnetic levitation device to suspend and manipulate the samples.',
 			fullDesc: [
@@ -824,7 +1029,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7679'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Metabolic Tracking (Meta) investigation aims to better understand the effects of microgravity on metabolism and to identify potential targets for personalized medicine.',
 			fullDesc: [
@@ -844,7 +1054,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/1566.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Packed Bed Reactor Experiment (PBRE) investigates how to use microbes to convert methane into water and oxygen on future long-duration space missions, while also producing a byproduct that could be used to produce additional food for the crew.',
 			fullDesc: [
@@ -863,7 +1078,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/PCG.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Protein Crystal Growth (PCG) experiment aims to study the formation of protein crystals in microgravity, with the goal of improving the development of protein-based drugs and treatments for a variety of diseases.',
 			fullDesc: [
@@ -883,7 +1103,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/STP-H5.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Systems Tests and Operations Missions-1 (STP-H5) experiment tested the effectiveness of a new technology called Microbial Tracking-2 (MT-2) for identifying and characterizing microorganisms in the space station environment. This technology has implications for understanding the presence and behavior of microorganisms in space, as well as for human spaceflight health and safety.',
 			fullDesc: [
@@ -902,7 +1127,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7563'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Tissue Engineering and Mechanobiology (TEM) investigation aims to study the effects of microgravity on the behavior of stem cells and the growth of tissue constructs, which could lead to new therapies for repairing damaged tissue on Earth.',
 			fullDesc: [
@@ -922,7 +1152,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=290'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microgravity Science Glovebox (MSG) is a facility on the International Space Station (ISS) that allows astronauts to perform experiments that require a sealed environment while still being able to manipulate materials with their hands.',
 			fullDesc: [
@@ -942,7 +1177,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/337.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Thermal Amine Scrubber (TAS) is a technology demonstration that aims to reduce the amount of carbon dioxide (CO2) and other trace contaminants in the air of crewed spacecraft.',
 			fullDesc: [
@@ -962,7 +1202,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=7576'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Microbial Tracking-2 (MT-2) is an experiment that studies how microbial communities evolve in a closed environment like the International Space Station (ISS).',
 			fullDesc: [
@@ -982,7 +1227,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2681.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Cardiac Bioelectricity and Arrhythmia Mechanisms (CARBAM) experiment aims to investigate how microgravity affects the electrical properties of heart tissue, potentially leading to the development of new treatments for cardiac arrhythmias in space and on Earth.',
 			fullDesc: [
@@ -1002,7 +1252,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/1889.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Colorimetric Solid Phase Extraction (CSPE) experiment studied the ability of a new type of resin to selectively remove metal ions from wastewater.',
 			fullDesc: [
@@ -1022,7 +1277,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/815.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Light Microscopy Module (LMM) is a suite of microscopes and supporting equipment designed for a wide range of biological and physical science investigations in microgravity.',
 			fullDesc: [
@@ -1042,7 +1302,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/1252.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbial Observatory-2 (Micro-2) experiment studies how microorganisms grow and form biofilms on surfaces under microgravity conditions.',
 			fullDesc: [
@@ -1061,7 +1326,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/1452.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The MACISS experiment aims to study the impact of long-term spaceflight on microbial populations aboard the International Space Station (ISS) and to develop countermeasures to mitigate any potential health risks for astronauts.',
 			fullDesc: [
@@ -1082,7 +1352,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1132'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Environmental Control and Life Support System (ECLSS) is a vital experiment on the International Space Station (ISS) that focuses on developing and maintaining life support systems for long-duration space missions.',
 			fullDesc: [
@@ -1103,7 +1378,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/STP-H6.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Space Test Program - Houston 6 (STP-H6) is an experiment conducted on the International Space Station (ISS) aimed at studying the growth and adaptation of various microorganisms in space.',
 			fullDesc: [
@@ -1123,7 +1403,12 @@ const TOC = {
 					link: 'https://ntrs.nasa.gov/search.jsp?R=20120006271'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Gradient Heating Facility (GHF) is an experiment designed to study how plants and other organisms respond to different levels of heat and humidity, which can help researchers better understand the effects of climate change on Earth.',
 			fullDesc: [
@@ -1143,7 +1428,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7437'
 				}
 			],
-			resources: new ResourcesType(3, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[3, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbial Observatory-1 (Micro-1) experiment is focused on studying the microbial communities in the International Space Station (ISS) and how they are affected by microgravity.',
 			fullDesc: [
@@ -1163,7 +1453,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/229.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Space Automated Bioproduct Lab (SABL) is a research facility on the International Space Station (ISS) that is designed to study the growth and metabolism of cells and microorganisms in microgravity.',
 			fullDesc: [
@@ -1183,7 +1478,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/ecostress'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				"The Ecosystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) is a NASA mission to study the Earth's ecosystems and how they respond to changes in water availability.",
 			fullDesc: [
@@ -1202,7 +1502,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1949'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'BioRock is an experiment that investigates the use of microbes to produce materials in space.',
 			fullDesc: [
@@ -1222,7 +1527,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/feature/langley/genes-in-space-3-analyzes-dna-sequences-in-space'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Genes in Space-3 is a project that aimed to analyze DNA sequences in space to determine how microgravity affects gene expression.',
 			fullDesc: [
@@ -1243,7 +1553,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/354.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Strata-1 investigates the properties of regolith, or the layer of loose soil and rock on the surface of a planet, asteroid, or moon, to support the development of long-term human habitation on other planets.',
 			fullDesc: [
@@ -1263,7 +1578,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7652'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Vascular Aging study aims to investigate the effects of long-duration spaceflight on the cardiovascular system by comparing the blood vessels of astronauts on the International Space Station to those on Earth.',
 			fullDesc: [
@@ -1283,7 +1603,12 @@ const TOC = {
 					link: 'https://www.unoosa.org/oosa/en/ourwork/topics/kibocube.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'KiboCUBE is an initiative between the United Nations Office for Outer Space Affairs (UNOOSA) and the Japan Aerospace Exploration Agency (JAXA) that offers educational and research institutions from developing countries the opportunity to deploy a CubeSat from the International Space Station (ISS).',
 			fullDesc: [
@@ -1303,7 +1628,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1198'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Water Security experiment investigates the ability to recycle waste water and provide astronauts with safe, clean drinking water during long-duration spaceflight.',
 			fullDesc: [
@@ -1323,7 +1653,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2307.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Fluid Shifts experiment investigates the causes of visual impairment and intracranial pressure experienced by astronauts on long-duration spaceflights.',
 			fullDesc: [
@@ -1342,7 +1677,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/ames/research/space-robotics-astrobee'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Astrobee is a free-flying robot system designed to assist crew members with routine chores and give ground controllers additional eyes and ears on the space station.',
 			fullDesc: [
@@ -1361,7 +1701,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7668'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Vascular Plant Growth experiment was designed to study the growth and development of plants in microgravity conditions.',
 			fullDesc: [
@@ -1382,7 +1727,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/feature/headaches-in-space'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Space Headaches experiment aimed to study the prevalence and characteristics of headaches in astronauts during spaceflight, and to identify potential risk factors and countermeasures.',
 			fullDesc: [
@@ -1401,7 +1751,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1694'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The MISSE experiment tests the durability of materials and coatings in space by exposing them to the harsh space environment outside the space station.',
 			fullDesc: [

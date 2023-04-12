@@ -1,7 +1,7 @@
 import ResourcesType from '../../../../utils/ResourcesType';
 
 const TOC = {
-  title: 'physics',
+	title: 'physics',
 
 	link: '/app/experiments/',
 	img: '/images/manual/toc/experiments/physics.png',
@@ -17,7 +17,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=26'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Advanced Plant EXperiment (APEX) was designed to investigate the effects of microgravity on plant growth and gene expression, with the goal of developing plants that can provide air and food for long-duration space missions.',
 			fullDesc: [
@@ -37,7 +42,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1026'
 				}
 			],
-			resources: new ResourcesType(4, 3, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 3, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Alpha Magnetic Spectrometer (AMS-02) is a state-of-the-art particle physics detector designed to study cosmic rays in space.',
 			fullDesc: [
@@ -58,7 +68,12 @@ const TOC = {
 					link: 'https://www.esa.int/Applications/Observing_the_Earth/Space_for_our_climate/ACES_Atomic_Clock_Ensemble_in_Space'
 				}
 			],
-			resources: new ResourcesType(4, 4, 4, 4).all(),
+			resources: new ResourcesType(
+				[4, 4, 4, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Atomic Clock Ensemble in Space (ACES) is an experiment that aims to test the limits of modern atomic clocks and improve their accuracy. It also aims to develop a new generation of ultra-stable clocks that could be used for scientific research, global navigation, and space-based geodesy.',
 			fullDesc: [
@@ -78,7 +93,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=1050'
 				}
 			],
-			resources: new ResourcesType(3, 3, 3, 4).all(),
+			resources: new ResourcesType(
+				[3, 3, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The CALorimetric Electron Telescope (CALET) is a cosmic ray observatory installed on the International Space Station (ISS) in August 2015. Its main goal is to measure electrons, gamma rays, and cosmic rays with high energy resolution over a wide energy range.',
 			fullDesc: [
@@ -97,7 +117,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1009'
 				}
 			],
-			resources: new ResourcesType(4, 2, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Charged Particle Directional Spectrometer (CPDS) experiment aims to study the directional distribution of high energy particles and radiation in space, including protons, electrons, and heavy ions.',
 			fullDesc: [
@@ -117,7 +142,12 @@ const TOC = {
 					link: 'https://www.jpl.nasa.gov/news/nasa-cold-atom-lab-a-brief-guide'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Cold Atom Lab (CAL) is a facility on board the International Space Station (ISS) that allows scientists to create and study ultra-cold quantum gases in microgravity.',
 			fullDesc: [
@@ -138,7 +168,12 @@ const TOC = {
 					link: 'https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Research/Electro-Magnetic_Levitator'
 				}
 			],
-			resources: new ResourcesType(2, 2, 3, 3).all(),
+			resources: new ResourcesType(
+				[2, 2, 3, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Electro Magnetic Levitator (EML) is an experiment that studies the properties of metallic alloys in microgravity.',
 			fullDesc: [
@@ -157,7 +192,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7647'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Fluid Shifts experiment is aimed at studying the effects of microgravity on human physiology, particularly the changes in the cardiovascular and ocular systems.',
 			fullDesc: [
@@ -177,7 +217,12 @@ const TOC = {
 					link: 'https://www.jpl.nasa.gov/news/nasa-tests-atomic-clock-for-deep-space-navigation/'
 				}
 			],
-			resources: new ResourcesType(3, 1, 2, 3).all(),
+			resources: new ResourcesType(
+				[3, 1, 2, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'LACS is an experiment that aims to use laser-cooled atomic clocks in space to improve deep space navigation and search for evidence of dark matter.',
 			fullDesc: [
@@ -197,7 +242,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/91.html'
 				}
 			],
-			resources: new ResourcesType(2, 2, 2, 2).all(),
+			resources: new ResourcesType(
+				[2, 2, 2, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Materials on the International Space Station Experiment (MISSE) tests the effects of the space environment on various materials.',
 			fullDesc: [
@@ -217,7 +267,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/1427.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microgravity Acceleration Measurement System (MAMS) is an experiment that measures the microgravity environment aboard the International Space Station (ISS).',
 			fullDesc: [
@@ -236,7 +291,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/916.html'
 				}
 			],
-			resources: new ResourcesType(3, 3, 4, 2).all(),
+			resources: new ResourcesType(
+				[3, 3, 4, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microgravity Investigation of Cement Solidification (MICS) experiment studied the process of cement solidification in microgravity conditions, which has important applications in the construction of space habitats and infrastructure.',
 			fullDesc: [
@@ -257,7 +317,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=81'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microgravity Sciences Glovebox (MSG) is a facility aboard the International Space Station (ISS) designed to provide the ability to perform a wide range of materials science and physics experiments in a microgravity environment.',
 			fullDesc: [
@@ -277,7 +342,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/361.html'
 				}
 			],
-			resources: new ResourcesType(3, 3, 4, 4).all(),
+			resources: new ResourcesType(
+				[3, 3, 4, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Robotic Refueling Mission 3 (RRM3) is an experiment aimed at testing robotic technology to perform servicing and maintenance tasks in space, specifically refueling spacecraft.',
 			fullDesc: [
@@ -297,7 +367,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=730'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Protein Crystal Growth (PCG) is an ongoing experiment on the International Space Station that aims to understand the formation of proteins and other macromolecules by observing their growth in microgravity.',
 			fullDesc: [
@@ -317,7 +392,12 @@ const TOC = {
 					link: 'https://www.asc-csa.gc.ca/eng/sciences/qeyssat.asp'
 				}
 			],
-			resources: new ResourcesType(2, 2, 3, 3).all(),
+			resources: new ResourcesType(
+				[2, 2, 3, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The QEYSSat mission is a Canadian-led project that aims to demonstrate the feasibility of using quantum technology to encrypt data transmitted from space.',
 			fullDesc: [
@@ -337,7 +417,12 @@ const TOC = {
 					link: 'https://www.nasaspaceflight.com/tag/stp-h5/'
 				}
 			],
-			resources: new ResourcesType(2, 2, 4, 4).all(),
+			resources: new ResourcesType(
+				[2, 2, 4, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'STP-H5 is a suite of experiments aimed at advancing our understanding of fundamental physics, materials science, and space environment effects.',
 			fullDesc: [
@@ -364,7 +449,12 @@ const TOC = {
 					link: 'https://www.nasaspaceflight.com/2020/12/spacex-stp-ire-mission-launch/'
 				}
 			],
-			resources: new ResourcesType(5, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[5, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Space Test Program-Integrated Research Experiments (STP-IRE) mission was launched to conduct a variety of experiments in space science and technology.',
 			fullDesc: [
@@ -385,7 +475,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1246'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Tissue Differentiation and Integration in Space (TDIS) investigation examines the complex process of cellular differentiation and tissue formation in microgravity using 3D cultures of various cell types.',
 			fullDesc: [
@@ -405,7 +500,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2496.html'
 				}
 			],
-			resources: new ResourcesType(3, 2, 3, 3).all(),
+			resources: new ResourcesType(
+				[3, 2, 3, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Turbulent Ionic Liquid Experiment (TILE) is an investigation into the behavior of a specific class of liquids called ionic liquids when subjected to turbulence in microgravity conditions.',
 			fullDesc: [
@@ -424,7 +524,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/centers/marshall/space_science/ulf.html'
 				}
 			],
-			resources: new ResourcesType(1, 1, 1, 1).all(),
+			resources: new ResourcesType(
+				[1, 1, 1, 1],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Ultrasonic Levitation Facility (ULF) experiment investigates the effects of microgravity on materials using a specially-designed acoustic levitator.',
 			fullDesc: [
@@ -443,7 +548,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1087'
 				}
 			],
-			resources: new ResourcesType(5, 3, 3, 4).all(),
+			resources: new ResourcesType(
+				[5, 3, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Alpha Magnetic Spectrometer (AMS) is a particle physics experiment designed to search for various types of unusual matter by measuring cosmic rays.',
 			fullDesc: [
@@ -463,7 +573,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/91.html'
 				}
 			],
-			resources: new ResourcesType(3, 1, 1, 3).all(),
+			resources: new ResourcesType(
+				[3, 1, 1, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Energetic Particle Observer (EPO) is an instrument designed to detect high-energy charged particles in low Earth orbit and to investigate the processes that accelerate these particles.',
 			fullDesc: [
@@ -483,7 +598,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/917.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The High Definition Earth Viewing (HDEV) experiment is a spaceborne camera system that provides continuous views of Earth from the International Space Station (ISS).',
 			fullDesc: [
@@ -503,7 +623,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/ISSAC.html'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 1).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 1],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The International Space Station Agricultural Camera (ISSAC) is a remotely operated imaging system designed to capture images of vegetation on Earth from the space station.',
 			fullDesc: [
@@ -522,7 +647,12 @@ const TOC = {
 					link: 'https://www.ariss.org/'
 				}
 			],
-			resources: new ResourcesType(2, 1, 2, 2).all(),
+			resources: new ResourcesType(
+				[2, 1, 2, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The International Space Station Ham Radio enables communication between astronauts on board the ISS and amateur radio operators on the ground.',
 			fullDesc: [
@@ -542,7 +672,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=2161'
 				}
 			],
-			resources: new ResourcesType(4, 2, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				"The Meteor Composition Determination (MCD) experiment aims to determine the elemental and mineralogical composition of meteoroids entering Earth's atmosphere using the International Space Station (ISS) as an observing platform.",
 			fullDesc: [
@@ -563,7 +698,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/nicer/main/index.html'
 				}
 			],
-			resources: new ResourcesType(4, 3, 5, 2).all(),
+			resources: new ResourcesType(
+				[4, 3, 5, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Neutron Star Interior Composition Explorer (NICER) is a telescope on the International Space Station that studies the densest known objects in the universe: neutron stars.',
 			fullDesc: [
@@ -582,7 +722,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/928.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Plasma Kristall Experiment (PKE) studies the behavior of plasma, which is a gas that has been energized to the point that some or all of its atoms have been ionized. By studying the behavior of plasma, scientists hope to better understand the properties of solids, liquids, and gases.',
 			fullDesc: [
@@ -602,7 +747,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=734'
 				}
 			],
-			resources: new ResourcesType(4, 3, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 3, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Robotic Refueling Mission (RRM) is an experiment that focuses on developing the technology and techniques necessary for servicing and refueling satellites in space using robotic systems.',
 			fullDesc: [
@@ -623,7 +773,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/STP-H6.html'
 				}
 			],
-			resources: new ResourcesType(4, 2, 4, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 4, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Space Test Program – Houston 6 (STP-H6) is a suite of experiments designed to test advanced technology payloads in the microgravity environment of the International Space Station (ISS).',
 			fullDesc: [
@@ -645,7 +800,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7743'
 				}
 			],
-			resources: new ResourcesType(5, 2, 3, 4).all(),
+			resources: new ResourcesType(
+				[5, 2, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Spaceborne Computer (SBC) experiment tested the capability of a commercial off-the-shelf high-performance computer system to function in the harsh conditions of space for extended periods of time.',
 			fullDesc: [
@@ -665,7 +825,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/hrp/research/ground-based/integrated-immune'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Integrated Immune experiment is designed to validate new methods for monitoring the immune function of crew members aboard the International Space Station.',
 			fullDesc: [
@@ -685,7 +850,12 @@ const TOC = {
 					link: 'https://spinoff.nasa.gov/Spinoff2019/cg_6.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Space Automated Bioproduct Lab (SABL) is an automated mini-laboratory for conducting experiments on microorganisms, cells, and small plants in space.',
 			fullDesc: [
@@ -705,7 +875,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=764'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Dynamically Controlled Protein Crystal Growth (DCPCG) experiment investigated the effects of microgravity on the growth of high-quality protein crystals for use in the development of new drugs and treatments.',
 			fullDesc: [
@@ -726,7 +901,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7667'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Binary Colloidal Alloy Test - Cohesive Sediment (BCAT-CS) is a fluid physics experiment that studies the behavior of colloidal particles in microgravity.',
 			fullDesc: [
@@ -746,7 +926,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2385.html'
 				}
 			],
-			resources: new ResourcesType(4, 2, 3, 3).all(),
+			resources: new ResourcesType(
+				[4, 2, 3, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The IPMP experiment investigated the creation and behavior of membranes made from polymer materials in microgravity.',
 			fullDesc: [
@@ -766,7 +951,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/1072.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Protein Crystallization Diagnostics Facility (PCDF) is a science experiment on the International Space Station that studies how protein crystals grow in space.',
 			fullDesc: [
@@ -786,7 +976,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=776'
 				}
 			],
-			resources: new ResourcesType(2, 0, 2, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 2, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Coarsening in Solid-Liquid Mixtures (CSLM) experiment studies the growth of crystals in metal alloys and monitors how gravity affects this process.',
 			fullDesc: [
@@ -806,7 +1001,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=2253'
 				}
 			],
-			resources: new ResourcesType(5, 1, 5, 5).all(),
+			resources: new ResourcesType(
+				[5, 1, 5, 5],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Materials Science Laboratory (MSL) is a facility aboard the International Space Station that allows for the study of a wide range of materials in microgravity.',
 			fullDesc: [
@@ -826,7 +1026,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1541'
 				}
 			],
-			resources: new ResourcesType(4, 2, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Low Rate Measurement Unit (LRMU) experiment aims to study the effects of spaceflight on the dynamics of low-rate fluid motions.',
 			fullDesc: [
@@ -846,7 +1051,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=2173'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Capillary Flow Experiment (CFE) is an international collaboration aimed at understanding fluid behavior in microgravity.',
 			fullDesc: [
@@ -865,7 +1075,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/1394.html'
 				}
 			],
-			resources: new ResourcesType(2, 1, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 1, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Confined Helium Experiment (CHeX) is designed to study the properties of helium-4 under confinement in microgravity.',
 			fullDesc: [
@@ -886,7 +1101,12 @@ const TOC = {
 					link: 'https://ntrs.nasa.gov/citations/20150023471'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Fluid and Thermal Transport Behavior in Partially-Filled Containers (Packaging) experiment investigates how liquids move and mix in containers with complex geometries that are partially filled. This experiment has applications for the design of fuel tanks, water and waste management systems, and more.',
 			fullDesc: [
@@ -905,7 +1125,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/FPIGS.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Fundamental Physics Investigation of Granular Sediment (FPIGS) experiment examines the behavior of granular materials, which are found in everything from pharmaceuticals to rocket fuel, in microgravity.',
 			fullDesc: [
@@ -924,7 +1149,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2324.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Experiments on the Interaction of Liquid Drops with Gas Bubbles (ILDBG) investigate the fundamental physics of the behavior of two immiscible fluids in microgravity.',
 			fullDesc: [
@@ -943,7 +1173,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2324.html'
 				}
 			],
-			resources: new ResourcesType(4, 2, 2, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 2, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Surface Tension-Driven Convection in a Liquid Bridge experiment investigates the fluid physics of a liquid bridge that is formed between two spheres or cylinders in microgravity. ',
 			fullDesc: [
@@ -963,7 +1198,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=3097'
 				}
 			],
-			resources: new ResourcesType(4, 2, 4, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 4, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The LGPST experiment investigates the behavior of immiscible fluids in microgravity, specifically the mechanisms of phase separation, coalescence, and transport of fluids in a low-gravity environment.',
 			fullDesc: [
@@ -983,7 +1223,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/SLICE.html'
 				}
 			],
-			resources: new ResourcesType(3, 3, 3, 3).all(),
+			resources: new ResourcesType(
+				[3, 3, 3, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The SLICE experiment studied the coexistence of solid and liquid phases in materials under microgravity conditions, with the aim of advancing our understanding of materials science and potentially leading to improvements in various industrial processes.',
 			fullDesc: [
@@ -1003,7 +1248,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/centers/kennedy/about/information/sams.html'
 				}
 			],
-			resources: new ResourcesType(4, 2, 4, 1).all(),
+			resources: new ResourcesType(
+				[4, 2, 4, 1],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Space Acceleration Measurement System (SAMS) is a set of precision accelerometers used to measure and record the acceleration of the International Space Station (ISS) as it orbits Earth.',
 			fullDesc: [
@@ -1024,7 +1274,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/95.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Surface Tension Experiment (STEX) was conducted on the International Space Station (ISS) to investigate the surface tension behavior of different liquids in a low-gravity environment.',
 			fullDesc: [
@@ -1034,213 +1289,279 @@ const TOC = {
 				"STEX was sponsored by NASA's Fundamental Physics Program, and was conducted by astronauts on board the ISS. The results of the experiment were published in the scientific journal Physical Review Letters in 2017."
 			]
 		},
-    {
-title: "Plasma Kristall-4 (PK-4)",
-id: 952,
-img: '',
-sources: [
-{
-title: 'European Space Agency',
-link: 'https://www.esa.int/Applications/Human_Spaceflight/Research/Plasma_Kristall-4'
-}
-],
-resources: new ResourcesType(4, 5, 3, 4).all(),
-shortDesc: "The Plasma Kristall-4 (PK-4) is a physics experiment that studies complex plasmas in microgravity.",
-fullDesc: [
-"The PK-4 experiment is a joint project of the European Space Agency (ESA) and the Russian Space Agency (Roscosmos) that aims to investigate complex plasmas in a microgravity environment. The experiment studies the behavior of dusty plasmas, which are plasmas that contain small, electrically charged particles called microparticles.",
-"The PK-4 experiment uses a high-frequency electric field to create a plasma in a small chamber on the International Space Station (ISS). Microparticles are then introduced into the chamber to form a dusty plasma. The experiment studies the behavior of the microparticles in the plasma using video cameras and other instruments.",
-"By studying the behavior of complex plasmas in microgravity, the PK-4 experiment helps scientists understand how these plasmas behave in different environments. This knowledge has important applications in many fields, including materials science, energy production, and space exploration.",
-"The PK-4 experiment builds on the success of previous plasma experiments conducted on the ISS, including the PK-3 Plus experiment, which studied the properties of complex plasmas using a similar setup."
-]
-},
-{
-title: "Resist Tubule (Restube)",
-id: 953,
-img: "",
-sources: [
-{
-title: "European Space Agency",
-link: "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Research_in_space/Restube"
-}
-],
-resources: new ResourcesType(2, 1, 2, 4).all(),
-shortDesc: "The Resist Tubule experiment (Restube) aims to investigate the growth and characteristics of protein crystals in microgravity.",
-fullDesc: [
-"The Resist Tubule experiment (Restube) is a joint project between the European Space Agency (ESA) and the Italian Space Agency (ASI), and is conducted on board the International Space Station (ISS).",
-"The main objective of the experiment is to investigate the growth and characteristics of protein crystals in microgravity. Protein crystals grown in space are often larger, purer, and more ordered than those grown on Earth, which makes them ideal for scientific research in fields such as biomedicine and drug discovery.",
-"Restube uses a highly automated system that allows for the growth of multiple protein crystals simultaneously, while also monitoring their growth and behaviour using high-resolution cameras. The experiment also involves the use of various techniques to manipulate the protein crystals, such as acoustic levitation and magnetic fields.",
-"The results of Restube are expected to provide valuable insights into the fundamental processes that govern the growth of protein crystals in microgravity, which could have significant implications for the development of new drugs and treatments for a variety of diseases."
-]
-},
-{
-title: "Synchronized Position Hold, Engage, Reorient, Experimental Satellites (SPHERES)",
-id: 954,
-img: '',
-sources: [
-{
-title: 'NASA official website',
-link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=786'
-}
-],
-resources: new ResourcesType(5, 2, 3, 4).all(),
-shortDesc: 'The SPHERES experiment tests formation flight and control algorithms for spacecraft.',
-fullDesc: [
-'The Synchronized Position Hold, Engage, Reorient, Experimental Satellites (SPHERES) is a research program conducted at the International Space Station (ISS) to test formation flight and control algorithms for spacecraft. The experiment uses three volleyball-sized free-flying satellites, equipped with computers, accelerometers, gyroscopes, and other instruments to gather information about the satellites’ position and orientation.',
-'The goal of the SPHERES program is to develop and test algorithms that will allow a group of satellites to work together as a team. This can have applications for a variety of space missions, including autonomous docking and formation flight.',
-'The SPHERES program has been ongoing since 2006, and has been used to test a number of algorithms and software programs. The experiment has also been used as an educational tool, allowing students to design and test their own algorithms in a microgravity environment.'
-]
-},
-{
-title: 'Ultrasonic Background Noise Test (UBNT)',
-id: 954,
-img: '',
-sources: [
-{
-title: 'NASA Technical Reports Server',
-link: 'https://ntrs.nasa.gov/citations/20160009432'
-}
-],
-resources: new ResourcesType(1, 1, 1, 1).all(),
-shortDesc: 'UBNT is an experiment that measures the levels of high-frequency noise in the ISS, which can interfere with the scientific instruments and equipment onboard the station.',
-fullDesc: [
-'The Ultrasonic Background Noise Test (UBNT) is an experiment that measures the levels of high-frequency noise in the International Space Station (ISS). The experiment is designed to determine the level of acoustic and ultrasonic noise produced by the various systems and equipment onboard the ISS, which can interfere with the scientific instruments and experiments onboard.',
-'The UBNT instrument consists of four ultrasonic microphones that are strategically placed throughout the station. These microphones are used to measure the high-frequency noise levels in different areas of the ISS. The data collected by the UBNT experiment is used to develop noise-reducing technologies for future space missions and to protect sensitive scientific equipment from interference.',
-'The UBNT experiment is conducted periodically throughout the ISS mission to monitor the changes in the noise levels as equipment is added or removed from the station. The data collected is used to develop more efficient and effective noise-reducing techniques and to improve the quality of scientific research conducted in space.',
-'Overall, the UBNT experiment is an important tool for understanding the acoustic and ultrasonic environment of the ISS and for developing technologies that can improve the performance of future space missions and scientific experiments.'
-]
-},
-{
-title: "Variable Specific Impulse Magnetoplasma Rocket (VASIMR)",
-id: 955,
-img: '',
-sources: [
-{
-title: 'NASA official website',
-link: 'https://www.nasa.gov/centers/johnson/engineering/projects/vasimr.html'
-}
-],
-resources: new ResourcesType(4, 1, 3, 4).all(),
-shortDesc: "The Variable Specific Impulse Magnetoplasma Rocket (VASIMR) experiment is designed to develop a new type of electric rocket engine that uses radio waves to ionize and heat propellant, resulting in higher exhaust velocities than traditional chemical rockets.",
-fullDesc: [
-"The VASIMR engine uses radio waves to ionize and heat a propellant (such as hydrogen) inside a magnetic field, creating plasma. The plasma is then directed through a magnetic nozzle, which accelerates the plasma to produce thrust.",
-"The VASIMR experiment is designed to test and improve the performance of this type of engine in the vacuum of space. It is hoped that the VASIMR engine will enable faster and more efficient interplanetary travel, and could eventually lead to manned missions to Mars.",
-"The VASIMR experiment has been conducted on the International Space Station (ISS) since 2010, and is a joint project between NASA and the Ad Astra Rocket Company. The experiment has successfully demonstrated the engine's ability to operate in the vacuum of space and achieve high exhaust velocities. The next step is to develop a prototype VASIMR engine that can be used for space missions.",
-"The VASIMR engine has the potential to revolutionize space travel by enabling faster and more efficient propulsion, which could open up new frontiers for human exploration of the solar system."
-]
-},
-{
-title: 'Advanced Colloids Experiment (ACE)',
-id: 956,
-img: '',
-sources: [
-{
-title: 'NASA official website',
-link: 'https://www.nasa.gov/mission_pages/station/research/experiments/ACE.html'
-}
-],
-resources: new ResourcesType(4, 2, 3, 4).all(),
-shortDesc: 'The Advanced Colloids Experiment (ACE) is a physics experiment conducted on the International Space Station to study the behavior of microscopic particles suspended in liquids.',
-fullDesc: [
-'The Advanced Colloids Experiment (ACE) investigates the properties of colloidal suspensions, which are mixtures of small particles suspended in a liquid. The experiment studies how these particles interact with one another, with the goal of understanding how to design new materials with specific properties.',
-'In the microgravity environment of the International Space Station, scientists can observe these colloidal particles over longer periods of time, without the gravitational forces that can interfere with their behavior on Earth. By studying the dynamics of these particles in microgravity, scientists hope to gain insights into the fundamental physics of soft matter, and to develop new materials with novel properties.',
-'The ACE hardware includes a transparent container filled with a liquid containing microscopic particles. This container is illuminated by a laser, and images of the particles are captured by a camera. The experiment runs for several months, during which time the scientists observe the behavior of the particles and make measurements of their properties.',
-'The ACE experiment has the potential to advance the development of materials for use in a wide variety of applications, including drug delivery systems, solar cells, and advanced coatings.'
-]
-},
-{
-title: 'Flame Extinguishment Experiment (FLEX)',
-id: 957,
-img: '',
-sources: [
-{
-title: 'NASA official website',
-link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=86'
-}
-],
-resources: new ResourcesType(4, 1, 3, 4).all(),
-shortDesc: 'The Flame Extinguishment Experiment (FLEX) is a combustion science experiment that studies how flames behave in microgravity. ',
-fullDesc: [
-'The Flame Extinguishment Experiment (FLEX) is a combustion science experiment that studies how flames behave in microgravity. The goal of the experiment is to understand how different materials burn and extinguish in space and how to safely use fire for space exploration. FLEX consists of a series of tests using a specially designed combustion chamber that allows researchers to observe and control the flames in microgravity.',
-'During the FLEX experiments, researchers use different materials, such as fuels, to study the flames. They observe the flames through a high-speed camera, which records the behavior of the flames in microgravity. The experiments are also designed to investigate the effectiveness of various fire suppression agents, such as carbon dioxide and water mist, in extinguishing the flames.',
-'The FLEX experiment is important for space exploration because fire poses a significant risk to astronauts and spacecraft in space. Understanding how different materials burn and extinguish in microgravity can help to develop safer space vehicles and habitats, as well as improve fire safety on Earth. The FLEX experiment is a collaboration between NASA and the German Aerospace Center (DLR).'
-]
-},
-{
-title: "Space Experiment Module (SEM)",
-id: 958,
-img: "",
-sources: [
-{
-title: "NASA",
-link: "https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html#id=1117"
-}
-],
-resources: new ResourcesType(4, 1, 3, 4).all(),
-shortDesc: "The Space Experiment Module (SEM) is a facility on the International Space Station (ISS) designed to host a variety of experiments in the fields of materials science, fluid physics, combustion science, and life sciences.",
-fullDesc: [
-"The Space Experiment Module (SEM) is a unique facility on the International Space Station (ISS) that enables a wide range of scientific investigations in the fields of materials science, fluid physics, combustion science, and life sciences. The SEM provides investigators with the capability to conduct a variety of experiments in a microgravity environment and with exposure to the harsh conditions of space, such as vacuum, radiation, and extreme temperature changes.",
-"The SEM consists of a pressurized module that can be accessed by the ISS crew and reconfigured with different experiment racks depending on the needs of the research. The module has a payload capacity of up to 450 kg and can accommodate up to six standard International Subrack Interface Standard (ISIS) racks.",
-"The SEM has hosted numerous experiments since its installation on the ISS in 2001. Some of the recent experiments include the Capillary Flow Experiment (CFE), the Electrolysis Performance Improvement Concept Study (EPICS), and the InSPACE-4 investigation, which studied the behavior of colloids in microgravity. The results from these experiments have advanced our understanding of fundamental physical phenomena and have led to the development of new materials and technologies.",
-"The SEM is an important resource for the scientific community and provides a unique platform for research in space. The facility enables investigations that are not possible on Earth and has the potential to lead to breakthroughs in a wide range of fields."
-]
-    },
-{
-title: 'Burning and Suppression of Solids (BASS)',
-id: 959,
-img: '',
-sources: [
-{
-title: 'NASA',
-link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1343'
-}
-],
-resources: new ResourcesType(4, 1, 3, 4).all(),
-shortDesc: 'The Burning and Suppression of Solids (BASS) experiment examines the burning and extinction characteristics of a wide variety of fuel samples in microgravity. The primary focus is on solid materials that could pose a fire hazard aboard spacecraft. By better understanding how fires behave in space, NASA can improve spacecraft design and fire prevention and suppression techniques.',
-fullDesc: [
-'The Burning and Suppression of Solids (BASS) experiment is a series of microgravity experiments that are conducted on the International Space Station (ISS). The primary goal of the experiment is to investigate the burning and extinction characteristics of a wide variety of fuel samples in microgravity conditions.',
-'The BASS experiment is crucial because it examines the burning behavior of materials that could pose a fire hazard aboard spacecraft. While the design of spacecraft is continuously evolving to improve safety and prevent fires from occurring, it is impossible to completely eliminate the risk of fire in space. Therefore, the BASS experiment aims to help NASA better understand how fires behave in microgravity conditions.',
-'The BASS experiment involves burning different solid materials, including fabrics, foams, plastics, and other materials that are commonly used in spacecraft construction. The samples are ignited in a small, controlled environment, and the flames are observed and recorded with high-speed cameras. The data collected from the experiment is used to study flame spread, soot production, and extinction of flames in microgravity conditions.',
-'By conducting experiments in microgravity, researchers can better understand the fundamental physics of fire behavior without the influence of gravity. The BASS experiment provides valuable data on how different materials burn in space and how fires can be prevented and suppressed in the unique environment of space. Ultimately, this information can be used to improve spacecraft design and prevent fires from occurring in space.'
-]
-},
-{
-title: 'Combustion Integrated Rack (CIR)',
-id: 960,
-img: '',
-sources: [
-{
-title: 'NASA',
-link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=172'
-}
-],
-resources: new ResourcesType(4, 3, 3, 4).all(),
-shortDesc: 'The Combustion Integrated Rack (CIR) is a facility that allows for the study of combustion in microgravity.',
-fullDesc: [
-'The Combustion Integrated Rack (CIR) is a facility on the International Space Station (ISS) that allows for the study of combustion in microgravity. It was developed by NASA and is operated in collaboration with the Center for the Advancement of Science in Space (CASIS).',
-'The CIR allows researchers to conduct experiments on a wide range of materials, including liquids, gases, and solids. By studying how flames and combustion behave in microgravity, scientists hope to gain a better understanding of how fire spreads and how to develop more efficient and cleaner combustion technologies on Earth.',
-'The CIR consists of several major components, including a combustion chamber, a fuel and oxidizer delivery system, and various diagnostic tools for measuring temperature, pressure, and other properties of the combustion process. The facility is designed to accommodate a variety of different experiments, and it has been used for research in fields such as materials science, fluid dynamics, and chemical engineering.',
-'The CIR has been used to study a wide range of combustion processes, including the ignition and burning of solid materials, the combustion of liquid fuels, and the behavior of flames in low-gravity environments. Some of the research conducted on the CIR has led to the development of new technologies for fire suppression and energy production, and it has also contributed to our understanding of basic combustion processes that occur in everyday life on Earth.'
-]
-},
-{
-title: "Solidification Using a Baffle in Sealed Ampoules (SUBSA)",
-id: 961,
-img: "",
-sources: [
-{
-title: "NASA official site",
-link: "https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=751"
-}
-],
-resources: new ResourcesType(4, 1, 3, 4).all(),
-shortDesc: "The Solidification Using a Baffle in Sealed Ampoules (SUBSA) experiment studies the processes involved in semiconductor crystal growth and could lead to improvements in the design and manufacturing of semiconductors for use in electronics.",
-fullDesc: [
-"The Solidification Using a Baffle in Sealed Ampoules (SUBSA) experiment is a physical science experiment that studies the processes involved in semiconductor crystal growth. The experiment takes advantage of the microgravity environment of the International Space Station to observe the growth of semiconductor crystals in sealed ampoules without interference from gravity-induced convection that can occur on Earth. The semiconductor crystals grown in the experiment are used in a wide variety of electronic devices, including computers, cell phones, and solar cells.",
-"The SUBSA experiment involves placing a mixture of molten semiconductor materials in a small ampoule with a baffle that separates the molten material from a solid substrate. The ampoule is heated to melt the material and then slowly cooled to allow the crystal to grow. The baffle helps to prevent the crystal from sticking to the substrate, allowing it to grow freely.",
-"The experiment has potential applications in the design and manufacturing of semiconductors for use in electronics. By observing crystal growth in a microgravity environment, researchers can better understand the underlying physics of the process and develop new techniques to improve crystal quality and reduce defects. The knowledge gained from the SUBSA experiment could lead to the development of more efficient and reliable electronic devices.",
-"The SUBSA experiment was first conducted on the space shuttle in 1997 and has been conducted several times on the International Space Station since its construction. The experiment is a collaborative effort between NASA and the German Aerospace Center (DLR)."
-]
-}
+		{
+			title: 'Plasma Kristall-4 (PK-4)',
+			id: 952,
+			img: '',
+			sources: [
+				{
+					title: 'European Space Agency',
+					link: 'https://www.esa.int/Applications/Human_Spaceflight/Research/Plasma_Kristall-4'
+				}
+			],
+			resources: new ResourcesType(
+				[4, 5, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
+			shortDesc:
+				'The Plasma Kristall-4 (PK-4) is a physics experiment that studies complex plasmas in microgravity.',
+			fullDesc: [
+				'The PK-4 experiment is a joint project of the European Space Agency (ESA) and the Russian Space Agency (Roscosmos) that aims to investigate complex plasmas in a microgravity environment. The experiment studies the behavior of dusty plasmas, which are plasmas that contain small, electrically charged particles called microparticles.',
+				'The PK-4 experiment uses a high-frequency electric field to create a plasma in a small chamber on the International Space Station (ISS). Microparticles are then introduced into the chamber to form a dusty plasma. The experiment studies the behavior of the microparticles in the plasma using video cameras and other instruments.',
+				'By studying the behavior of complex plasmas in microgravity, the PK-4 experiment helps scientists understand how these plasmas behave in different environments. This knowledge has important applications in many fields, including materials science, energy production, and space exploration.',
+				'The PK-4 experiment builds on the success of previous plasma experiments conducted on the ISS, including the PK-3 Plus experiment, which studied the properties of complex plasmas using a similar setup.'
+			]
+		},
+		{
+			title: 'Resist Tubule (Restube)',
+			id: 953,
+			img: '',
+			sources: [
+				{
+					title: 'European Space Agency',
+					link: 'https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Research_in_space/Restube'
+				}
+			],
+			resources: new ResourcesType(
+				[2, 1, 2, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
+			shortDesc:
+				'The Resist Tubule experiment (Restube) aims to investigate the growth and characteristics of protein crystals in microgravity.',
+			fullDesc: [
+				'The Resist Tubule experiment (Restube) is a joint project between the European Space Agency (ESA) and the Italian Space Agency (ASI), and is conducted on board the International Space Station (ISS).',
+				'The main objective of the experiment is to investigate the growth and characteristics of protein crystals in microgravity. Protein crystals grown in space are often larger, purer, and more ordered than those grown on Earth, which makes them ideal for scientific research in fields such as biomedicine and drug discovery.',
+				'Restube uses a highly automated system that allows for the growth of multiple protein crystals simultaneously, while also monitoring their growth and behaviour using high-resolution cameras. The experiment also involves the use of various techniques to manipulate the protein crystals, such as acoustic levitation and magnetic fields.',
+				'The results of Restube are expected to provide valuable insights into the fundamental processes that govern the growth of protein crystals in microgravity, which could have significant implications for the development of new drugs and treatments for a variety of diseases.'
+			]
+		},
+		{
+			title: 'Synchronized Position Hold, Engage, Reorient, Experimental Satellites (SPHERES)',
+			id: 954,
+			img: '',
+			sources: [
+				{
+					title: 'NASA official website',
+					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=786'
+				}
+			],
+			resources: new ResourcesType(
+				[5, 2, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
+			shortDesc:
+				'The SPHERES experiment tests formation flight and control algorithms for spacecraft.',
+			fullDesc: [
+				'The Synchronized Position Hold, Engage, Reorient, Experimental Satellites (SPHERES) is a research program conducted at the International Space Station (ISS) to test formation flight and control algorithms for spacecraft. The experiment uses three volleyball-sized free-flying satellites, equipped with computers, accelerometers, gyroscopes, and other instruments to gather information about the satellites’ position and orientation.',
+				'The goal of the SPHERES program is to develop and test algorithms that will allow a group of satellites to work together as a team. This can have applications for a variety of space missions, including autonomous docking and formation flight.',
+				'The SPHERES program has been ongoing since 2006, and has been used to test a number of algorithms and software programs. The experiment has also been used as an educational tool, allowing students to design and test their own algorithms in a microgravity environment.'
+			]
+		},
+		{
+			title: 'Ultrasonic Background Noise Test (UBNT)',
+			id: 954,
+			img: '',
+			sources: [
+				{
+					title: 'NASA Technical Reports Server',
+					link: 'https://ntrs.nasa.gov/citations/20160009432'
+				}
+			],
+			resources: new ResourcesType(
+				[1, 1, 1, 1],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
+			shortDesc:
+				'UBNT is an experiment that measures the levels of high-frequency noise in the ISS, which can interfere with the scientific instruments and equipment onboard the station.',
+			fullDesc: [
+				'The Ultrasonic Background Noise Test (UBNT) is an experiment that measures the levels of high-frequency noise in the International Space Station (ISS). The experiment is designed to determine the level of acoustic and ultrasonic noise produced by the various systems and equipment onboard the ISS, which can interfere with the scientific instruments and experiments onboard.',
+				'The UBNT instrument consists of four ultrasonic microphones that are strategically placed throughout the station. These microphones are used to measure the high-frequency noise levels in different areas of the ISS. The data collected by the UBNT experiment is used to develop noise-reducing technologies for future space missions and to protect sensitive scientific equipment from interference.',
+				'The UBNT experiment is conducted periodically throughout the ISS mission to monitor the changes in the noise levels as equipment is added or removed from the station. The data collected is used to develop more efficient and effective noise-reducing techniques and to improve the quality of scientific research conducted in space.',
+				'Overall, the UBNT experiment is an important tool for understanding the acoustic and ultrasonic environment of the ISS and for developing technologies that can improve the performance of future space missions and scientific experiments.'
+			]
+		},
+		{
+			title: 'Variable Specific Impulse Magnetoplasma Rocket (VASIMR)',
+			id: 955,
+			img: '',
+			sources: [
+				{
+					title: 'NASA official website',
+					link: 'https://www.nasa.gov/centers/johnson/engineering/projects/vasimr.html'
+				}
+			],
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
+			shortDesc:
+				'The Variable Specific Impulse Magnetoplasma Rocket (VASIMR) experiment is designed to develop a new type of electric rocket engine that uses radio waves to ionize and heat propellant, resulting in higher exhaust velocities than traditional chemical rockets.',
+			fullDesc: [
+				'The VASIMR engine uses radio waves to ionize and heat a propellant (such as hydrogen) inside a magnetic field, creating plasma. The plasma is then directed through a magnetic nozzle, which accelerates the plasma to produce thrust.',
+				'The VASIMR experiment is designed to test and improve the performance of this type of engine in the vacuum of space. It is hoped that the VASIMR engine will enable faster and more efficient interplanetary travel, and could eventually lead to manned missions to Mars.',
+				"The VASIMR experiment has been conducted on the International Space Station (ISS) since 2010, and is a joint project between NASA and the Ad Astra Rocket Company. The experiment has successfully demonstrated the engine's ability to operate in the vacuum of space and achieve high exhaust velocities. The next step is to develop a prototype VASIMR engine that can be used for space missions.",
+				'The VASIMR engine has the potential to revolutionize space travel by enabling faster and more efficient propulsion, which could open up new frontiers for human exploration of the solar system.'
+			]
+		},
+		{
+			title: 'Advanced Colloids Experiment (ACE)',
+			id: 956,
+			img: '',
+			sources: [
+				{
+					title: 'NASA official website',
+					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/ACE.html'
+				}
+			],
+			resources: new ResourcesType(
+				[4, 2, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
+			shortDesc:
+				'The Advanced Colloids Experiment (ACE) is a physics experiment conducted on the International Space Station to study the behavior of microscopic particles suspended in liquids.',
+			fullDesc: [
+				'The Advanced Colloids Experiment (ACE) investigates the properties of colloidal suspensions, which are mixtures of small particles suspended in a liquid. The experiment studies how these particles interact with one another, with the goal of understanding how to design new materials with specific properties.',
+				'In the microgravity environment of the International Space Station, scientists can observe these colloidal particles over longer periods of time, without the gravitational forces that can interfere with their behavior on Earth. By studying the dynamics of these particles in microgravity, scientists hope to gain insights into the fundamental physics of soft matter, and to develop new materials with novel properties.',
+				'The ACE hardware includes a transparent container filled with a liquid containing microscopic particles. This container is illuminated by a laser, and images of the particles are captured by a camera. The experiment runs for several months, during which time the scientists observe the behavior of the particles and make measurements of their properties.',
+				'The ACE experiment has the potential to advance the development of materials for use in a wide variety of applications, including drug delivery systems, solar cells, and advanced coatings.'
+			]
+		},
+		{
+			title: 'Flame Extinguishment Experiment (FLEX)',
+			id: 957,
+			img: '',
+			sources: [
+				{
+					title: 'NASA official website',
+					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=86'
+				}
+			],
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
+			shortDesc:
+				'The Flame Extinguishment Experiment (FLEX) is a combustion science experiment that studies how flames behave in microgravity. ',
+			fullDesc: [
+				'The Flame Extinguishment Experiment (FLEX) is a combustion science experiment that studies how flames behave in microgravity. The goal of the experiment is to understand how different materials burn and extinguish in space and how to safely use fire for space exploration. FLEX consists of a series of tests using a specially designed combustion chamber that allows researchers to observe and control the flames in microgravity.',
+				'During the FLEX experiments, researchers use different materials, such as fuels, to study the flames. They observe the flames through a high-speed camera, which records the behavior of the flames in microgravity. The experiments are also designed to investigate the effectiveness of various fire suppression agents, such as carbon dioxide and water mist, in extinguishing the flames.',
+				'The FLEX experiment is important for space exploration because fire poses a significant risk to astronauts and spacecraft in space. Understanding how different materials burn and extinguish in microgravity can help to develop safer space vehicles and habitats, as well as improve fire safety on Earth. The FLEX experiment is a collaboration between NASA and the German Aerospace Center (DLR).'
+			]
+		},
+		{
+			title: 'Space Experiment Module (SEM)',
+			id: 958,
+			img: '',
+			sources: [
+				{
+					title: 'NASA',
+					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html#id=1117'
+				}
+			],
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
+			shortDesc:
+				'The Space Experiment Module (SEM) is a facility on the International Space Station (ISS) designed to host a variety of experiments in the fields of materials science, fluid physics, combustion science, and life sciences.',
+			fullDesc: [
+				'The Space Experiment Module (SEM) is a unique facility on the International Space Station (ISS) that enables a wide range of scientific investigations in the fields of materials science, fluid physics, combustion science, and life sciences. The SEM provides investigators with the capability to conduct a variety of experiments in a microgravity environment and with exposure to the harsh conditions of space, such as vacuum, radiation, and extreme temperature changes.',
+				'The SEM consists of a pressurized module that can be accessed by the ISS crew and reconfigured with different experiment racks depending on the needs of the research. The module has a payload capacity of up to 450 kg and can accommodate up to six standard International Subrack Interface Standard (ISIS) racks.',
+				'The SEM has hosted numerous experiments since its installation on the ISS in 2001. Some of the recent experiments include the Capillary Flow Experiment (CFE), the Electrolysis Performance Improvement Concept Study (EPICS), and the InSPACE-4 investigation, which studied the behavior of colloids in microgravity. The results from these experiments have advanced our understanding of fundamental physical phenomena and have led to the development of new materials and technologies.',
+				'The SEM is an important resource for the scientific community and provides a unique platform for research in space. The facility enables investigations that are not possible on Earth and has the potential to lead to breakthroughs in a wide range of fields.'
+			]
+		},
+		{
+			title: 'Burning and Suppression of Solids (BASS)',
+			id: 959,
+			img: '',
+			sources: [
+				{
+					title: 'NASA',
+					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1343'
+				}
+			],
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
+			shortDesc:
+				'The Burning and Suppression of Solids (BASS) experiment examines the burning and extinction characteristics of a wide variety of fuel samples in microgravity. The primary focus is on solid materials that could pose a fire hazard aboard spacecraft. By better understanding how fires behave in space, NASA can improve spacecraft design and fire prevention and suppression techniques.',
+			fullDesc: [
+				'The Burning and Suppression of Solids (BASS) experiment is a series of microgravity experiments that are conducted on the International Space Station (ISS). The primary goal of the experiment is to investigate the burning and extinction characteristics of a wide variety of fuel samples in microgravity conditions.',
+				'The BASS experiment is crucial because it examines the burning behavior of materials that could pose a fire hazard aboard spacecraft. While the design of spacecraft is continuously evolving to improve safety and prevent fires from occurring, it is impossible to completely eliminate the risk of fire in space. Therefore, the BASS experiment aims to help NASA better understand how fires behave in microgravity conditions.',
+				'The BASS experiment involves burning different solid materials, including fabrics, foams, plastics, and other materials that are commonly used in spacecraft construction. The samples are ignited in a small, controlled environment, and the flames are observed and recorded with high-speed cameras. The data collected from the experiment is used to study flame spread, soot production, and extinction of flames in microgravity conditions.',
+				'By conducting experiments in microgravity, researchers can better understand the fundamental physics of fire behavior without the influence of gravity. The BASS experiment provides valuable data on how different materials burn in space and how fires can be prevented and suppressed in the unique environment of space. Ultimately, this information can be used to improve spacecraft design and prevent fires from occurring in space.'
+			]
+		},
+		{
+			title: 'Combustion Integrated Rack (CIR)',
+			id: 960,
+			img: '',
+			sources: [
+				{
+					title: 'NASA',
+					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=172'
+				}
+			],
+			resources: new ResourcesType(
+				[4, 3, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
+			shortDesc:
+				'The Combustion Integrated Rack (CIR) is a facility that allows for the study of combustion in microgravity.',
+			fullDesc: [
+				'The Combustion Integrated Rack (CIR) is a facility on the International Space Station (ISS) that allows for the study of combustion in microgravity. It was developed by NASA and is operated in collaboration with the Center for the Advancement of Science in Space (CASIS).',
+				'The CIR allows researchers to conduct experiments on a wide range of materials, including liquids, gases, and solids. By studying how flames and combustion behave in microgravity, scientists hope to gain a better understanding of how fire spreads and how to develop more efficient and cleaner combustion technologies on Earth.',
+				'The CIR consists of several major components, including a combustion chamber, a fuel and oxidizer delivery system, and various diagnostic tools for measuring temperature, pressure, and other properties of the combustion process. The facility is designed to accommodate a variety of different experiments, and it has been used for research in fields such as materials science, fluid dynamics, and chemical engineering.',
+				'The CIR has been used to study a wide range of combustion processes, including the ignition and burning of solid materials, the combustion of liquid fuels, and the behavior of flames in low-gravity environments. Some of the research conducted on the CIR has led to the development of new technologies for fire suppression and energy production, and it has also contributed to our understanding of basic combustion processes that occur in everyday life on Earth.'
+			]
+		},
+		{
+			title: 'Solidification Using a Baffle in Sealed Ampoules (SUBSA)',
+			id: 961,
+			img: '',
+			sources: [
+				{
+					title: 'NASA official site',
+					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=751'
+				}
+			],
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
+			shortDesc:
+				'The Solidification Using a Baffle in Sealed Ampoules (SUBSA) experiment studies the processes involved in semiconductor crystal growth and could lead to improvements in the design and manufacturing of semiconductors for use in electronics.',
+			fullDesc: [
+				'The Solidification Using a Baffle in Sealed Ampoules (SUBSA) experiment is a physical science experiment that studies the processes involved in semiconductor crystal growth. The experiment takes advantage of the microgravity environment of the International Space Station to observe the growth of semiconductor crystals in sealed ampoules without interference from gravity-induced convection that can occur on Earth. The semiconductor crystals grown in the experiment are used in a wide variety of electronic devices, including computers, cell phones, and solar cells.',
+				'The SUBSA experiment involves placing a mixture of molten semiconductor materials in a small ampoule with a baffle that separates the molten material from a solid substrate. The ampoule is heated to melt the material and then slowly cooled to allow the crystal to grow. The baffle helps to prevent the crystal from sticking to the substrate, allowing it to grow freely.',
+				'The experiment has potential applications in the design and manufacturing of semiconductors for use in electronics. By observing crystal growth in a microgravity environment, researchers can better understand the underlying physics of the process and develop new techniques to improve crystal quality and reduce defects. The knowledge gained from the SUBSA experiment could lead to the development of more efficient and reliable electronic devices.',
+				'The SUBSA experiment was first conducted on the space shuttle in 1997 and has been conducted several times on the International Space Station since its construction. The experiment is a collaborative effort between NASA and the German Aerospace Center (DLR).'
+			]
+		}
 	]
 };
 

@@ -1,7 +1,7 @@
 import ResourcesType from '../../../../utils/ResourcesType';
 
 const TOC = {
-		      title: 'science of materials',
+	title: 'science of materials',
 
 	link: '/app/experiments/',
 	img: '/images/manual/toc/experiments/',
@@ -17,7 +17,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/364.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'MISSE-9 was a space materials experiment that tested the durability of materials in the space environment.',
 			fullDesc: [
@@ -37,7 +42,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1032'
 				}
 			],
-			resources: new ResourcesType(0, 0, 0, 4).all(),
+			resources: new ResourcesType(
+				[0, 0, 0, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Recrystallization of Lead Telluride in Microgravity is a materials science experiment designed to study the process of crystal growth in a low-gravity environment.',
 			fullDesc: [
@@ -56,7 +66,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/427.html'
 				}
 			],
-			resources: new ResourcesType(2, 1, 1, 2).all(),
+			resources: new ResourcesType(
+				[2, 1, 1, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Materials International Space Station Experiment-Flight Facility (MISSE-FF) studies the effects of long-term exposure to the space environment on various materials and devices.',
 			fullDesc: [
@@ -75,7 +90,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1104'
 				}
 			],
-			resources: new ResourcesType(2, 1, 0, 0).all(),
+			resources: new ResourcesType(
+				[2, 1, 0, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc: 'RME-III is a device used to monitor the radiation environment on the ISS.',
 			fullDesc: [
 				'The Radiation Monitoring Equipment III (RME-III) is a device used to monitor the radiation environment on the ISS. RME-III is an upgrade to the earlier RME-II, with improved accuracy and sensitivity.',
@@ -93,7 +113,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7721'
 				}
 			],
-			resources: new ResourcesType(2, 1, 0, 0).all(),
+			resources: new ResourcesType(
+				[2, 1, 0, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Gecko Gripper Adhesion Study aims to examine gecko-inspired adhesives for use in space exploration.',
 			fullDesc: [
@@ -113,7 +138,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/ACME-3.html'
 				}
 			],
-			resources: new ResourcesType(5, 1, 0, 3).all(),
+			resources: new ResourcesType(
+				[5, 1, 0, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'ACME-3 is a combustion experiment that investigates how fuels burn in microgravity to help improve engine efficiency and reduce emissions.',
 			fullDesc: [
@@ -131,7 +161,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/ACE.html'
 				}
 			],
-			resources: new ResourcesType(2, 0, 1, 1).all(),
+			resources: new ResourcesType(
+				[2, 0, 1, 1],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'ACE studies how particles suspended in liquids (colloids) interact in microgravity.',
 			fullDesc: [
@@ -150,7 +185,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/1738.html'
 				}
 			],
-			resources: new ResourcesType(1, 0, 0, 0).all(),
+			resources: new ResourcesType(
+				[1, 0, 0, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'This experiment studies the thermodynamics and kinetics of solid-state reactions in microgravity to understand the effects of convection on these processes.',
 			fullDesc: [
@@ -169,7 +209,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/919.html'
 				}
 			],
-			resources: new ResourcesType(0, 0, 0, 0).all(),
+			resources: new ResourcesType(
+				[0, 0, 0, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Radiation-Induced Self-Assembly (RISA) of Nanostructured Materials experiment studies the use of radiation to create materials with novel properties.',
 			fullDesc: [
@@ -189,7 +234,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7665'
 				}
 			],
-			resources: new ResourcesType(0, 0, 2, 0).all(),
+			resources: new ResourcesType(
+				[0, 0, 2, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'This experiment aimed to investigate the proton conductivity of biomimetic membranes in water-free environments.',
 			fullDesc: [

@@ -16,7 +16,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html'
 				}
 			],
-			resources: new ResourcesType(2, 1, 1, 2).all(),
+			resources: new ResourcesType(
+				[2, 1, 1, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Human Research Facility Technology Demonstration (HRF-TD) experiment was designed to test and validate new technologies for future human spaceflight missions.',
 			fullDesc: [
@@ -36,7 +41,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html#id=766'
 				}
 			],
-			resources: new ResourcesType(3, 0, 2, 4).all(),
+			resources: new ResourcesType(
+				[3, 0, 2, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Interior Environmental Monitoring (IEM) experiment monitors the atmosphere of the International Space Station (ISS) to determine the concentrations of carbon dioxide, volatile organic compounds, and other trace gases, as well as the airborne particles in the cabin air.',
 			fullDesc: [
@@ -56,7 +66,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/128.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microgravity Acceleration Measurement System-II (MAMS-II) measures and characterizes the microgravity environment aboard the International Space Station (ISS).',
 			fullDesc: [
@@ -75,7 +90,12 @@ const TOC = {
 					link: 'https://www.asc-csa.gc.ca/eng/iss/mobile-servicing-system.asp'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Mobile Servicing System (MSS) is a robotic system used to service the International Space Station (ISS).',
 			fullDesc: [
@@ -96,7 +116,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/SCAN_Testbed.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Space Communications and Navigation Testbed (SCAN Testbed) is an experiment that tests the performance and functionality of space-based communication and navigation systems. ',
 			fullDesc: [
@@ -116,7 +141,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7743'
 				}
 			],
-			resources: new ResourcesType(2, 2, 2, 2).all(),
+			resources: new ResourcesType(
+				[2, 2, 2, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc: `RED-Data2 was an experiment conducted to test the performance of advanced heat shield materials for future space vehicles during reentry into Earth's atmosphere.`,
 			fullDesc: [
 				`The Thermal Protection Material Flight Test and Reentry Data Collection (RED-Data2) experiment was conducted on the International Space Station to investigate the performance of advanced heat shield materials during reentry into Earth's atmosphere. The experiment aimed to collect data on the behavior of the heat shield materials during high-speed atmospheric entry to improve the design and safety of future spacecraft.`,
@@ -134,7 +164,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/917.html'
 				}
 			],
-			resources: new ResourcesType(4, 2, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'MESC investigates the effects of microgravity on the growth and differentiation of human stem cells. The results may improve stem cell-based therapies and lead to the development of new treatments for a variety of medical conditions.',
 			fullDesc: [
@@ -154,7 +189,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/ames/research/space-automated-bioproduct-lab'
 				}
 			],
-			resources: new ResourcesType(4, 3, 4, 4).all(),
+			resources: new ResourcesType(
+				[4, 3, 4, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Space Automated Bioproduct Lab (SABL) is a facility on the International Space Station (ISS) designed to support research on the growth, development, and genetic expression of plants, microbes, and other biological systems in microgravity.',
 			fullDesc: [
@@ -174,7 +214,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=7666'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Multi-use Variable-g Platform (MVP) is a facility on the International Space Station (ISS) that allows for a wide variety of physical science experiments to be performed in varying levels of gravity.',
 			fullDesc: [
@@ -193,7 +238,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7666'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Capillary Structures Investigation-2 (CSI-2) examines how fluids move through small channels in microgravity.',
 			fullDesc: [
@@ -212,7 +262,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=766'
 				}
 			],
-			resources: new ResourcesType(3, 3, 3, 4).all(),
+			resources: new ResourcesType(
+				[3, 3, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Fiber Optic Production (FOP) is an experiment designed to study the production of high-quality optical fiber in the microgravity environment of the ISS.',
 			fullDesc: [
@@ -232,7 +287,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=1033'
 				}
 			],
-			resources: new ResourcesType(2, 2, 2, 2).all(),
+			resources: new ResourcesType(
+				[2, 2, 2, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Binary Colloidal Alloy Test – 3 (BCAT-3) is a materials science experiment that studies the behavior of particles in a colloid (a mixture of small particles suspended in a fluid) in microgravity.',
 			fullDesc: [
@@ -252,7 +312,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1057'
 				}
 			],
-			resources: new ResourcesType(2, 2, 2, 1).all(),
+			resources: new ResourcesType(
+				[2, 2, 2, 1],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Capillary Flow Experiment (CFE) is an ISS experiment designed to study the flow of fluids in microgravity.',
 			fullDesc: [
@@ -273,7 +338,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1195'
 				}
 			],
-			resources: new ResourcesType(2, 1, 2, 1).all(),
+			resources: new ResourcesType(
+				[2, 1, 2, 1],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Commercial Generic Bioprocessing Apparatus Science Insert -02 (CGBA-SI-02) was an experiment conducted to investigate the effects of microgravity on microbial pathogenesis and to develop a vaccine production system using yeast cells.',
 			fullDesc: [
@@ -294,7 +364,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=72'
 				}
 			],
-			resources: new ResourcesType(5, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[5, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Combustion Integrated Rack (CIR) is a facility that allows scientists to study flames and combustion phenomena in microgravity.',
 			fullDesc: [
@@ -314,7 +389,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2299.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Critical Viscosity of Xenon-2 (CVX-2) experiment investigates the properties of supercritical fluids, which exhibit characteristics of both liquids and gases, and have the potential to be used in various industrial applications. The experiment specifically focuses on the critical point of xenon, the temperature and pressure at which the gas and liquid phases of a substance become indistinguishable from each other.',
 			fullDesc: [
@@ -333,7 +413,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/ames/research/space-technology/visnav'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'VisNav is an experiment aimed at developing a vision-based navigation sensor suite for small spacecraft.',
 			fullDesc: [
@@ -353,7 +438,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/91.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Dynamically Controlled Protein Crystal Growth (DCPCG) experiment studied the growth of protein crystals in a microgravity environment.',
 			fullDesc: [
@@ -373,7 +463,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/FAT.html'
 				}
 			],
-			resources: new ResourcesType(2, 2, 1, 3).all(),
+			resources: new ResourcesType(
+				[2, 2, 1, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Fluid and Transport Experiment (FAT) investigated how fluids move and mix in microgravity.',
 			fullDesc: [
@@ -393,7 +488,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/914.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The High-Performance Commercial Off-the-Shelf (COTS) Computer System (HPCS) experiment tested the performance of a commercial off-the-shelf computer system in a radiation environment.',
 			fullDesc: [
@@ -413,7 +513,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/centers/glenn/about/fs21grc.html'
 				}
 			],
-			resources: new ResourcesType(5, 2, 3, 4).all(),
+			resources: new ResourcesType(
+				[5, 2, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'High Temperature Electrolysis (HTE) is an experiment that investigates the use of high-temperature electrolysis to produce hydrogen and oxygen from water. The experiment is part of the In-Space Manufacturing program, which aims to develop advanced technologies for space exploration and future space habitats.',
 			fullDesc: [
@@ -434,7 +539,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/910.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'InSPACE-3 is a scientific experiment aimed at understanding the fundamental behavior of fluids in the presence of a magnetic field. Specifically, it focuses on the formation of paramagnetic aggregates from colloidal emulsions.',
 			fullDesc: [
@@ -454,7 +564,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7654'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The In-Situ Monitoring of Particles (IMS) experiment studies the behavior of particles in microgravity in order to improve the design of future space-based equipment and systems.',
 			fullDesc: [
@@ -474,7 +589,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7662'
 				}
 			],
-			resources: new ResourcesType(4, 2, 3, 3).all(),
+			resources: new ResourcesType(
+				[4, 2, 3, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Integrated Immune Experiment (IIE) investigates how the spaceflight environment affects the human immune system response.',
 			fullDesc: [
@@ -492,7 +612,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/1143.html'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'ISSAC is a camera system used to capture images of Earth’s vegetated landscapes, primarily for scientific research in plant biology and ecology.',
 			fullDesc: [
@@ -511,7 +636,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1369'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'MISSE-X is an experiment designed to study the long-term effects of exposure to the space environment on various materials.',
 			fullDesc: [
@@ -531,7 +661,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/93.html'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microgravity Acceleration Measurement System (MAMS) measures and characterizes the microgravity environment on board the International Space Station (ISS) using a set of accelerometers and sensors.',
 			fullDesc: [
@@ -550,7 +685,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/centers/marshall/space_science/msg.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microgravity Science Glovebox (MSG) is a facility on the International Space Station that allows astronauts to conduct experiments in a sealed environment to prevent contamination and ensure safety.',
 			fullDesc: [
@@ -570,7 +710,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7611'
 				}
 			],
-			resources: new ResourcesType(2, 0, 2, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 2, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'NIH-RR-5 is a rodent research experiment on the ISS that examines the impact of microgravity on the musculoskeletal, cardiovascular, and immune systems of mice.',
 			fullDesc: [
@@ -590,7 +735,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7669'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Protein Crystal Growth-17 (PCG-17) is an experiment designed to study the growth of protein crystals in microgravity.',
 			fullDesc: [
@@ -610,7 +760,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/917.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Saffire experiments were designed to investigate how fires start and spread in microgravity environments and to test new fire suppression systems in space.',
 			fullDesc: [
@@ -630,7 +785,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2356.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Solidification Using a Baffle in Sealed Ampoules (SUBSA) experiment studies the process of crystal formation in metal alloys.',
 			fullDesc: [
@@ -649,7 +809,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/centers/glenn/about/fs-tas.html'
 				}
 			],
-			resources: new ResourcesType(4, 2, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Thermal Amine Scrubber (TAS) is a technology demonstration that aims to develop a more efficient system for removing carbon dioxide (CO2) from the air in crewed spacecraft.',
 			fullDesc: [
@@ -668,7 +833,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/1181.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Binary Colloidal Alloy Test (BCAT) is a series of experiments designed to investigate the behavior of microscopic particles suspended in liquid, known as colloids, in microgravity conditions.',
 			fullDesc: [
@@ -688,7 +858,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/912.html'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Colloidal Trapping and Analysis on the International Space Station (Colloid) experiment studies the behavior of small suspended particles within fluids and gases that have a variety of commercial applications, including petroleum and food processing, drug delivery systems, and liquid crystal displays.',
 			fullDesc: [
@@ -707,7 +882,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7612'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Commercial Generic Bioprocessing Apparatus Science Insert - 04 (CSI-04) is an experiment designed to test how microgravity affects the growth of two different types of fungi. ',
 			fullDesc: [
@@ -727,7 +907,12 @@ const TOC = {
 					link: 'https://ntrs.nasa.gov/citations/19950015862'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Development of a Circuit-switched Data System (DCDS) was an experiment conducted on the ISS to develop a new communication system for transmitting large amounts of data in space.',
 			fullDesc: [
@@ -748,7 +933,12 @@ const TOC = {
 					link: 'https://www.esa.int/Enabling_Support/Space_Engineering_Technology/European_Drawer_Rack'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The European Drawer Rack (EDR) is a multi-user experiment facility designed to host and support a wide range of scientific experiments in microgravity conditions aboard the International Space Station (ISS).',
 			fullDesc: [
@@ -767,7 +957,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/97.html'
 				}
 			],
-			resources: new ResourcesType(5, 0, 0, 4).all(),
+			resources: new ResourcesType(
+				[5, 0, 0, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Fluids Integrated Rack (FIR) is a research facility aboard the ISS designed to support a wide range of fluid physics experiments in microgravity.',
 			fullDesc: [
@@ -789,7 +984,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2762.html'
 				}
 			],
-			resources: new ResourcesType(3, 3, 3, 3).all(),
+			resources: new ResourcesType(
+				[3, 3, 3, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'InSPACE-2 is a technology demonstration experiment designed to test and validate a high-performance, low-power electric propulsion system and components in the microgravity environment of the ISS.',
 			fullDesc: [
@@ -810,7 +1010,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/59.html'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Integrated Combustion Experiment (ICE) is a combustion research experiment that is studying the behavior of flames in microgravity.',
 			fullDesc: [
@@ -829,7 +1034,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=1155'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Materials International Space Station Experiment (MISSE) is a series of experiments that study the long-term effects of exposure to the space environment on materials and other types of samples.',
 			fullDesc: [
@@ -848,7 +1058,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=2313'
 				}
 			],
-			resources: new ResourcesType(3, 1, 3, 3).all(),
+			resources: new ResourcesType(
+				[3, 1, 3, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Multi-user Droplet Combustion Apparatus (MDCA) is a suite of experiments designed to investigate the combustion behavior of fuel droplets in the microgravity environment of the International Space Station (ISS).',
 			fullDesc: [
@@ -868,7 +1083,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=788'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Protein Crystal Growth (PCG) experiment on the International Space Station (ISS) aims to study the formation and growth of protein crystals in microgravity.',
 			fullDesc: [
@@ -888,7 +1108,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=2063'
 				}
 			],
-			resources: new ResourcesType(5, 3, 2, 3).all(),
+			resources: new ResourcesType(
+				[5, 3, 2, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'STP-H4 is a series of experiments conducted on the ISS to test and evaluate various technologies in microgravity.',
 			fullDesc: [
@@ -908,7 +1133,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/sdo/spaceweather/Solar-Irradiance-Sensor.html'
 				}
 			],
-			resources: new ResourcesType(4, 2, 2, 5).all(),
+			resources: new ResourcesType(
+				[4, 2, 2, 5],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Total and Spectral Solar Irradiance Sensor (TSIS) is a set of instruments on board the International Space Station (ISS) designed to measure the total solar irradiance (TSI) and the spectral solar irradiance (SSI) reaching Earth.',
 			fullDesc: [
@@ -927,7 +1157,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2327.html'
 				}
 			],
-			resources: new ResourcesType(4, 3, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 3, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Vapor Compression Distillation (VCD) experiment tests a new system that can recycle wastewater on the space station, providing up to 98% purity, which is cleaner than most tap water on Earth.',
 			fullDesc: [
@@ -947,7 +1182,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/3147.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Utilization of Light Element for Technology and Science (ULTIMA-T) investigation is a study on the use of boron powder as a fuel source for small satellites and other space-based systems. Boron powder has a high energy density and is relatively easy to store, making it an attractive alternative to other fuels for small satellites.',
 			fullDesc: [
@@ -966,7 +1206,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/centers/johnson/engineering/projects/vasimr.html'
 				}
 			],
-			resources: new ResourcesType(4, 5, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 5, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Variable Specific Impulse Magnetoplasma Rocket (VASIMR) is an advanced propulsion system designed to enable faster, more efficient travel in space.',
 			fullDesc: [
@@ -986,7 +1231,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/893.html'
 				}
 			],
-			resources: new ResourcesType(3, 3, 3, 3).all(),
+			resources: new ResourcesType(
+				[3, 3, 3, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Robotic Refueling Mission (RRM) is a series of experiments to demonstrate and test the tools, technologies, and techniques needed to robotically refuel satellites in orbit.',
 			fullDesc: [
@@ -1005,7 +1255,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/SPHERES.html'
 				}
 			],
-			resources: new ResourcesType(2, 0, 2, 0).all(),
+			resources: new ResourcesType(
+				[2, 0, 2, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'SPHERES is a robotic system used to test spacecraft control algorithms and hardware.',
 			fullDesc: [
@@ -1025,7 +1280,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=751'
 				}
 			],
-			resources: new ResourcesType(4, 2, 0, 2).all(),
+			resources: new ResourcesType(
+				[4, 2, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Technology Education and Conducting Hypergravity Experiment (TECH) tests a platform designed to educate students on how to conduct research in microgravity and hypogravity environments.',
 			fullDesc: [
@@ -1045,7 +1305,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=764'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Technology for Autonomous Operational Survivability (TAOS) project is a study of the feasibility of using automated technology to monitor and maintain systems on the International Space Station (ISS).',
 			fullDesc: [
@@ -1065,7 +1330,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1002'
 				}
 			],
-			resources: new ResourcesType(3, 3, 3, 3).all(),
+			resources: new ResourcesType(
+				[3, 3, 3, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'THADR is an experiment aimed at developing and testing technologies that can be used for disaster response and recovery operations.',
 			fullDesc: [
@@ -1084,7 +1354,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/358.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'TRICR is an experiment aimed at testing new technologies that can help astronauts sustain and maintain life-support systems during extended missions beyond low-Earth orbit.',
 			fullDesc: [
@@ -1103,7 +1378,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/centers/armstrong/feature/thermal-protection-system.html'
 				}
 			],
-			resources: new ResourcesType(2, 2, 3, 3).all(),
+			resources: new ResourcesType(
+				[2, 2, 3, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Thermal Protection Materials and Systems (TPMS) experiment aims to evaluate the performance of new materials and systems that could improve the protection of spacecraft and their crews from the harsh conditions of space.',
 			fullDesc: [

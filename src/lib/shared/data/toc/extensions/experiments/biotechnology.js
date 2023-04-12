@@ -1,7 +1,7 @@
 import ResourcesType from '../../../../utils/ResourcesType';
 
 const TOC = {
-      title: 'biotechnology',
+	title: 'biotechnology',
 
 	link: '/app/experiments/',
 	img: '/images/manual/toc/experiments/biotechnology.png',
@@ -17,7 +17,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/873.html'
 				}
 			],
-			resources: new ResourcesType(3, 3, 3, 4).all(),
+			resources: new ResourcesType(
+				[3, 3, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The BEST experiment investigates the effects of microgravity on DNA and RNA sequencing, as well as protein crystal growth.',
 			fullDesc: [
@@ -37,7 +42,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=7642'
 				}
 			],
-			resources: new ResourcesType(1, 0, 0, 0).all(),
+			resources: new ResourcesType(
+				[1, 0, 0, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Plant RNA Regulation-1 experiment investigated how gravity affects gene expression in Arabidopsis thaliana plants.',
 			fullDesc: [
@@ -57,7 +67,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7631'
 				}
 			],
-			resources: new ResourcesType(0, 0, 4, 4).all(),
+			resources: new ResourcesType(
+				[0, 0, 4, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'This experiment studies the effects of microgravity on bacterial adhesion and corrosion.',
 			fullDesc: [
@@ -76,7 +91,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=768'
 				}
 			],
-			resources: new ResourcesType(1, 1, 0, 0).all(),
+			resources: new ResourcesType(
+				[1, 1, 0, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Genetic Study of Seeds experiment was conducted to assess the effects of long-duration spaceflight on the genetic regulation of plants.',
 			fullDesc: [
@@ -95,7 +115,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7396'
 				}
 			],
-			resources: new ResourcesType(5, 1, 2, 4).all(),
+			resources: new ResourcesType(
+				[5, 1, 2, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The ADVASC investigation aims to study the growth and development of the Arabidopsis thaliana plant in the microgravity environment of the ISS.',
 			fullDesc: [
@@ -115,7 +140,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/473.html'
 				}
 			],
-			resources: new ResourcesType(4, 4, 4, 4).all(),
+			resources: new ResourcesType(
+				[4, 4, 4, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Bacterial Adhesion and Corrosion Study (BACS) investigated the corrosion rates and characteristics of selected metallic alloys and polymers in contact with bacteria commonly found aboard the International Space Station.',
 			fullDesc: [
@@ -136,7 +166,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2070.html'
 				}
 			],
-			resources: new ResourcesType(3, 0, 0, 3).all(),
+			resources: new ResourcesType(
+				[3, 0, 0, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Integrated Immune investigation tests a new way to perform bacterial identification and antimicrobial susceptibility testing aboard the space station.',
 			fullDesc: [
@@ -156,7 +191,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/65.html'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Immuno experiment aimed to investigate how spaceflight affects the immune system of astronauts on a molecular level.',
 			fullDesc: [
@@ -176,7 +216,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2615.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 2, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 2, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The study aims to investigate the effects of microgravity on the cardiac function of mice and to identify potential countermeasures.',
 			fullDesc: [
@@ -196,7 +241,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=209'
 				}
 			],
-			resources: new ResourcesType(0, 1, 0, 0).all(),
+			resources: new ResourcesType(
+				[0, 1, 0, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Plant Gravity Perception experiment studied how plants sense gravity and how their roots and shoots respond.',
 			fullDesc: [
@@ -216,7 +266,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2186.html'
 				}
 			],
-			resources: new ResourcesType(3, 1, 1, 3).all(),
+			resources: new ResourcesType(
+				[3, 1, 1, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'This experiment aimed to study how microgravity affects the gene expression of plants grown in space.',
 			fullDesc: [
@@ -236,7 +291,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=1086'
 				}
 			],
-			resources: new ResourcesType(0, 1, 0, 0).all(),
+			resources: new ResourcesType(
+				[0, 1, 0, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'RR-4 was a study of the long-term effects of microgravity on the musculoskeletal and neurological systems of rodents.',
 			fullDesc: [
@@ -256,7 +316,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7745'
 				}
 			],
-			resources: new ResourcesType(4, 2, 2, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 2, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Bioemulsions, Colloids, and Thermodynamics–Collaborative Science in Fluid Physics (BCAT-CS) experiment studies the formation and stability of colloids and emulsions (two liquids not normally able to mix together) in microgravity.',
 			fullDesc: [
@@ -276,7 +341,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=1799'
 				}
 			],
-			resources: new ResourcesType(0, 0, 1, 0).all(),
+			resources: new ResourcesType(
+				[0, 0, 1, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Nutritional Status Assessment experiment investigated the impact of long-duration spaceflight on the nutritional status of astronauts, including energy balance, bone metabolism, and vitamin D status.',
 			fullDesc: [
@@ -295,7 +365,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2001-2006/ncbic.html'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Bacterial Adhesion and Corrosion in Two Phase Flow experiment studied the effects of microgravity on microbial adhesion and metal corrosion.',
 			fullDesc: [
@@ -314,7 +389,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=979'
 				}
 			],
-			resources: new ResourcesType(0, 0, 1, 0).all(),
+			resources: new ResourcesType(
+				[0, 0, 1, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'This experiment aimed to study the effects of microgravity on gene expression in plants grown in space.',
 			fullDesc: [
@@ -335,7 +415,12 @@ const TOC = {
 					link: 'https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Research/AstroPlants_a_technology_demonstration_of_a_plant_growth_facility_for_multiple_research_applications'
 				}
 			],
-			resources: new ResourcesType(3, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[3, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'AstroPlants is a plant growth facility designed to study plant growth and development in microgravity, and to investigate how plants can be used to support future long-duration space missions.',
 			fullDesc: [
@@ -356,7 +441,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=767'
 				}
 			],
-			resources: new ResourcesType(1, 0, 0, 1).all(),
+			resources: new ResourcesType(
+				[1, 0, 0, 1],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'This investigation monitored microbial activity on the International Space Station to determine how microorganisms survive and thrive in the unique conditions of space.',
 			fullDesc: [
@@ -376,7 +466,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html'
 				}
 			],
-			resources: new ResourcesType(0, 1, 0, 0).all(),
+			resources: new ResourcesType(
+				[0, 1, 0, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'MISSE-FF investigates the effects of the space environment on materials, including biological samples and seeds.',
 			fullDesc: [
@@ -395,7 +490,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2859.html'
 				}
 			],
-			resources: new ResourcesType(6, 2, 2, 4).all(),
+			resources: new ResourcesType(
+				[6, 2, 2, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Micro-11 experiment aims to study the effect of microgravity on microbial gene expression and virulence using a combination of genetic and molecular biology techniques.',
 			fullDesc: [
@@ -415,7 +515,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/60.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbial Tracking-2 experiment aims to better understand the microbial environment aboard the International Space Station (ISS).',
 			fullDesc: [
@@ -434,7 +539,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=752'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The GENES-5 experiment studied how microgravity affects gene expression in yeast, and provided insights into human health and disease.',
 			fullDesc: [
@@ -454,7 +564,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=757'
 				}
 			],
-			resources: new ResourcesType(0, 0, 0, 0).all(),
+			resources: new ResourcesType(
+				[0, 0, 0, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbial Tracking-2 (MT-2) investigation aimed to assess microbial diversity aboard the space station over a multi-year period.',
 			fullDesc: [
@@ -474,7 +589,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1244'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Veggie Plant Growth System-03 experiment aimed to validate the on-orbit production of fresh vegetables using the Veggie facility aboard the ISS.',
 			fullDesc: [
@@ -494,7 +614,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7209'
 				}
 			],
-			resources: new ResourcesType(4, 2, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Effect of Microgravity on the Immune Response: A Test of the Hypothesis was conducted on the ISS to determine the effects of microgravity on the human immune system.',
 			fullDesc: [
@@ -516,7 +641,12 @@ const TOC = {
 					link: 'https://ntrs.nasa.gov/citations/20020072021'
 				}
 			],
-			resources: new ResourcesType(3, 2, 3, 3).all(),
+			resources: new ResourcesType(
+				[3, 2, 3, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Bacterial Adhesion and Corrosion Study (BACS) aimed to examine how bacteria grow and corrode metals in microgravity.',
 			fullDesc: [
@@ -536,7 +666,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/87.html'
 				}
 			],
-			resources: new ResourcesType(2, 1, 0, 3).all(),
+			resources: new ResourcesType(
+				[2, 1, 0, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Phytoremediation experiment studied how microgravity affects the ability of plants to uptake minerals, with implications for improving life support systems for long-duration space missions.',
 			fullDesc: [
@@ -557,7 +692,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=87'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Biological Effects of Space Radiation experiment studied the effects of space radiation on various organisms, including yeast, fruit flies, and mice.',
 			fullDesc: [
@@ -578,7 +718,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=726'
 				}
 			],
-			resources: new ResourcesType(2, 2, 1, 2).all(),
+			resources: new ResourcesType(
+				[2, 2, 1, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Biorisk experiment investigated the survival of microorganisms and spores in various conditions of space.',
 			fullDesc: [
@@ -599,7 +744,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=1143'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbial Tracking-2 study investigated the types of microbes present on the International Space Station and how they evolve over time.',
 			fullDesc: [
@@ -619,7 +769,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2315.html'
 				}
 			],
-			resources: new ResourcesType(0, 0, 1, 0).all(),
+			resources: new ResourcesType(
+				[0, 0, 1, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Vascular Echo experiment studied changes in blood flow and blood pressure in astronauts before, during, and after spaceflight.',
 			fullDesc: [
@@ -639,7 +794,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/94.html'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'This experiment aimed to investigate the effect of space radiation and microgravity on the germination and growth of Arabidopsis thaliana seeds.',
 			fullDesc: [
@@ -659,7 +819,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/92.html'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'This study aimed to understand the effects of microgravity on cardiac function and aging using a combination of genomic, proteomic, and physiological analyses.',
 			fullDesc: [
@@ -680,7 +845,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7128'
 				}
 			],
-			resources: new ResourcesType(0, 0, 1, 0).all(),
+			resources: new ResourcesType(
+				[0, 0, 1, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Exposure of microbes to the space environment is a study of the effects of microgravity and the space environment on microbial growth and survival.',
 			fullDesc: [
@@ -700,7 +870,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/94.html'
 				}
 			],
-			resources: new ResourcesType(5, 2, 2, 4).all(),
+			resources: new ResourcesType(
+				[5, 2, 2, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Micro-8 experiment studied the effects of microgravity on microbial physiology, ecology, and viability in order to better understand the potential risks of microorganisms to astronaut health during long-duration space missions.',
 			fullDesc: [
@@ -721,7 +896,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7572'
 				}
 			],
-			resources: new ResourcesType(6, 1, 0, 6).all(),
+			resources: new ResourcesType(
+				[6, 1, 0, 6],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'This study examines the cardiovascular changes that occur in astronauts during long-duration spaceflights.',
 			fullDesc: [
@@ -741,7 +921,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=756'
 				}
 			],
-			resources: new ResourcesType(4, 1, 2, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 2, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbial Tracking-2 experiment was designed to investigate the dynamics of microbial communities on the ISS.',
 			fullDesc: [
@@ -760,7 +945,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7515'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'This study aimed to investigate the effects of spaceflight on microbial gene expression and virulence.',
 			fullDesc: [
@@ -780,7 +970,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/97.html'
 				}
 			],
-			resources: new ResourcesType(2, 0, 2, 4).all(),
+			resources: new ResourcesType(
+				[2, 0, 2, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Osteo-4 investigation studies the effects of microgravity on the function, activity and differentiation of osteoblasts, which are the cells that form bone.',
 			fullDesc: [
@@ -800,7 +995,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7664'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbial Tracking-2 experiment aimed to monitor the microorganisms present on surfaces inside the ISS and determine how they grow and evolve over time.',
 			fullDesc: [
@@ -820,7 +1020,12 @@ const TOC = {
 					link: 'https://www.nih.gov/news-events/nih-research-matters/how-do-brain-cells-develop-weightlessness'
 				}
 			],
-			resources: new ResourcesType(4, 2, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'This experiment studied how microgravity affects the development of brain cells using brain organoids.',
 			fullDesc: [
@@ -842,7 +1047,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7657'
 				}
 			],
-			resources: new ResourcesType(1, 0, 0, 0).all(),
+			resources: new ResourcesType(
+				[1, 0, 0, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Micro-14 aimed to investigate how bacteria respond to antibiotics and other environmental stressors in microgravity.',
 			fullDesc: [
@@ -863,7 +1073,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=1109'
 				}
 			],
-			resources: new ResourcesType(3, 1, 1, 3).all(),
+			resources: new ResourcesType(
+				[3, 1, 1, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The BAARS experiment studied how bacteria grow and develop antibiotic resistance in space.',
 			fullDesc: [
@@ -883,7 +1098,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/364.html'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Microbial Tracking-2 is a follow-up investigation of the Microbial Tracking-1 study to characterize the types of microorganisms present on the ISS and to assess the effectiveness of microbial mitigation efforts.',
 			fullDesc: [
@@ -902,7 +1122,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7599'
 				}
 			],
-			resources: new ResourcesType(4, 2, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Micro-11 investigated how microgravity affects the growth and gene expression of E. coli bacteria, which can cause food poisoning on Earth.',
 			fullDesc: [
@@ -922,7 +1147,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/106.html'
 				}
 			],
-			resources: new ResourcesType(0, 1, 0, 0).all(),
+			resources: new ResourcesType(
+				[0, 1, 0, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Bacterial Adhesion and Corrosion experiment studied the effect of microgravity on the behavior of bacteria that can corrode metals.',
 			fullDesc: [
@@ -943,7 +1173,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1661'
 				}
 			],
-			resources: new ResourcesType(3, 1, 3, 3).all(),
+			resources: new ResourcesType(
+				[3, 1, 3, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The "Micro-11" experiment examined the impact of microgravity on plant cell walls. Specifically, researchers investigated how microgravity affects the growth and gene expression of Arabidopsis thaliana, a commonly used model organism in plant biology.',
 			fullDesc: [
@@ -963,7 +1198,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=7516'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Spaceflight Effects on Biology of Fungal Pathogens investigation studied how the space environment affects the gene expression, virulence, and/or characteristics of select fungal pathogens.',
 			fullDesc: [
@@ -984,7 +1224,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/centers/marshall/research/labs/microgravity-research.html'
 				}
 			],
-			resources: new ResourcesType(5, 2, 2, 4).all(),
+			resources: new ResourcesType(
+				[5, 2, 2, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The experiment studied the effect of microgravity on the virulence of Salmonella typhimurium bacteria.',
 			fullDesc: [
@@ -1004,7 +1249,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1052'
 				}
 			],
-			resources: new ResourcesType(2, 1, 1, 0).all(),
+			resources: new ResourcesType(
+				[2, 1, 1, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Seeds in Space-3 aims to understand the gravity and light-dependent mechanisms underlying plant growth and development by examining the seed-to-seed cycle of Arabidopsis thaliana plants.',
 			fullDesc: [
@@ -1025,7 +1275,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=7506'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Gene Expression in Space-3 (GIS-3) is a space-based investigation that seeks to determine the effect of spaceflight on gene expression patterns and pathways.',
 			fullDesc: [
@@ -1045,7 +1300,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/110.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbial Tracking-2 experiment aimed to track changes in the types and numbers of microorganisms present on the International Space Station (ISS) over time.',
 			fullDesc: [
@@ -1065,7 +1325,12 @@ const TOC = {
 					link: 'https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Research/The_effect_of_microgravity_on_yeast_ageing'
 				}
 			],
-			resources: new ResourcesType(2, 1, 1, 3).all(),
+			resources: new ResourcesType(
+				[2, 1, 1, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'This experiment aimed to study the effects of microgravity on the aging process of yeast cells.',
 			fullDesc: [
@@ -1085,7 +1350,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7639'
 				}
 			],
-			resources: new ResourcesType(3, 0, 1, 0).all(),
+			resources: new ResourcesType(
+				[3, 0, 1, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'PACE-2 investigates the effects of microgravity on human tissue homeostasis. Researchers focus on examining the molecular and cellular mechanisms behind the structural changes seen in human tissues during spaceflight.',
 			fullDesc: [
@@ -1105,7 +1375,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7622'
 				}
 			],
-			resources: new ResourcesType(1, 0, 0, 1).all(),
+			resources: new ResourcesType(
+				[1, 0, 0, 1],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'This experiment aimed to study the effects of microgravity on microglia, a type of brain cell, and how it affects gene expression related to neurodegenerative disorders such as Alzheimer’s disease and Parkinson’s disease.',
 			fullDesc: [
@@ -1125,7 +1400,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/114.html'
 				}
 			],
-			resources: new ResourcesType(4, 0, 1, 4).all(),
+			resources: new ResourcesType(
+				[4, 0, 1, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbial Observatory-1 experiment monitored gene expression in microorganisms exposed to spaceflight conditions to better understand how they adapt to space environments.',
 			fullDesc: [
@@ -1146,7 +1426,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/113.html'
 				}
 			],
-			resources: new ResourcesType(0, 0, 1, 0).all(),
+			resources: new ResourcesType(
+				[0, 0, 1, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Seedling Growth experiment studies how plant roots orient and grow in response to gravity.',
 			fullDesc: [
@@ -1166,7 +1451,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/117.html'
 				}
 			],
-			resources: new ResourcesType(3, 0, 0, 3).all(),
+			resources: new ResourcesType(
+				[3, 0, 0, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'This experiment studied the effect of microgravity on bacterial adhesion and corrosion of stainless steel, which can cause damage to equipment and pose a health risk to astronauts.',
 			fullDesc: [
@@ -1186,7 +1476,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7635'
 				}
 			],
-			resources: new ResourcesType(2, 0, 0, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 0, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Micro-11 experiment studied the effects of microgravity on the antibiotic resistance of E. Coli bacteria.',
 			fullDesc: [
@@ -1207,7 +1502,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=160'
 				}
 			],
-			resources: new ResourcesType(3, 1, 0, 0).all(),
+			resources: new ResourcesType(
+				[3, 1, 0, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Microbial Tracking-2 investigated the types of microorganisms present on the International Space Station (ISS) and their potential impact on the health of astronauts.',
 			fullDesc: [

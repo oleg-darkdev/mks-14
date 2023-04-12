@@ -1,7 +1,7 @@
 import ResourcesType from '../../../../utils/ResourcesType';
 
 const TOC = {
-  title: 'astronomy',
+	title: 'astronomy',
 	link: '/app/experiments/',
 	img: '/images/manual/toc/experiments/astronomy.png',
 
@@ -16,7 +16,12 @@ const TOC = {
 					link: 'https://iss.jaxa.jp/en/kiboexp/calet/'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The CALorimetric Electron Telescope (CALET) is designed to measure the flux of cosmic ray electrons, gamma rays, and nuclei from space.',
 			fullDesc: [
@@ -34,7 +39,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1139'
 				}
 			],
-			resources: new ResourcesType(3, 3, 3, 4).all(),
+			resources: new ResourcesType(
+				[3, 3, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The AMS is a particle detector designed to search for dark matter and antimatter in space.',
 			fullDesc: [
@@ -52,7 +62,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2161.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Cosmic Ray Energetics and Mass experiment measures the charges of cosmic rays ranging from hydrogen to iron nuclei over a broad energy range.',
 			fullDesc: [
@@ -71,7 +86,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2372.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Neutron star Interior Composition Explorer (NICER) is an X-ray telescope designed to study the interior structure of neutron stars.',
 			fullDesc: [
@@ -90,7 +110,12 @@ const TOC = {
 					link: 'https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Research/International_Space_Station/X-Ray_Timing_and_Polarimetry_XTP'
 				}
 			],
-			resources: new ResourcesType(5, 2, 5, 5).all(),
+			resources: new ResourcesType(
+				[5, 2, 5, 5],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The X-ray Timing and Polarimetry (XTP) experiment aims to study the behavior of matter under extreme conditions, such as in the vicinity of black holes or neutron stars.',
 			fullDesc: [
@@ -114,7 +139,12 @@ const TOC = {
 					link: 'https://www.ams02.org/'
 				}
 			],
-			resources: new ResourcesType(4, 4, 3, 3).all(),
+			resources: new ResourcesType(
+				[4, 4, 3, 3],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Alpha Magnetic Spectrometer (AMS-02) is a state-of-the-art particle physics detector designed to study cosmic rays in space.',
 			fullDesc: [
@@ -132,7 +162,12 @@ const TOC = {
 					link: 'https://www.jpl.nasa.gov/missions/orbiting-carbon-observatory-3-oco-3/'
 				}
 			],
-			resources: new ResourcesType(2, 2, 2, 2).all(),
+			resources: new ResourcesType(
+				[2, 2, 2, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc: `The Orbiting Carbon Observatory-3 (OCO-3) is a NASA Earth science mission installed on the International Space Station that is designed to collect precise global measurements of carbon dioxide (CO2) in the Earth's atmosphere.`,
 			fullDesc: [
 				`The Orbiting Carbon Observatory-3 (OCO-3) is a NASA Earth science mission installed on the International Space Station that is designed to collect precise global measurements of carbon dioxide (CO2) in the Earth's atmosphere.`,
@@ -151,7 +186,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/centers/kennedy/about/information/spaceport-magazine/spaceport-magazine-2019/space-test-program-houston-5.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Space Test Program-Houston 5 (STP-H5) is a scientific experiment that aims to advance technologies for future NASA missions.',
 			fullDesc: [
@@ -172,7 +212,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7716'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'QCoSS is an experiment on the International Space Station aimed at advancing quantum communication and exploring the potential of quantum technology in space.',
 			fullDesc: [
@@ -193,7 +238,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/3581.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'SPEAR is an experiment on the ISS that studies the evolution of plasma exposed to astrophysical radiation using spectroscopy techniques.',
 			fullDesc: [
@@ -213,7 +263,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/337.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Neutron star Extreme Physics Explorer (NEXT) experiment studies the behavior of neutron stars, one of the most extreme environments in the universe, to better understand the nature of matter in conditions of extreme density, gravity, and magnetic fields.',
 			fullDesc: [
@@ -233,7 +288,12 @@ const TOC = {
 					link: 'https://www.jpl.nasa.gov/news/nasas-tropics-mission-aims-to-shed-light-on-storms-that-affect-billions'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'TROPICS is a mission that aims to study the precipitation process in tropical storms and hurricanes.',
 			fullDesc: [
@@ -253,7 +313,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7638'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Neutrino Detection in Microgravity (Neu_Detector) experiment is designed to study the fundamental properties of neutrinos, one of the most abundant but least understood particles in the universe.',
 			fullDesc: [
@@ -273,7 +338,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/tess-transiting-exoplanet-survey-satellite'
 				}
 			],
-			resources: new ResourcesType(5, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[5, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Transiting Exoplanet Survey Satellite (TESS) is a space telescope launched in 2018 to search for exoplanets using the transit method.',
 			fullDesc: [
@@ -293,7 +363,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/nicer/main/index.html'
 				}
 			],
-			resources: new ResourcesType(2, 1, 2, 2).all(),
+			resources: new ResourcesType(
+				[2, 1, 2, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Neutron star Interior Composition ExploreR (NICER) SEXTANT experiment is designed to study the interior structure of neutron stars using X-ray observations.',
 			fullDesc: [
@@ -313,7 +388,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/GLAST/main/index.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Fermi Gamma-ray Space Telescope is a space observatory that detects gamma rays emitted by high-energy processes in space.',
 			fullDesc: [
@@ -333,7 +413,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=719'
 				}
 			],
-			resources: new ResourcesType(4, 1, 4, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 4, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Light Microscopy Module (LMM) experiment is a facility on the ISS that allows researchers to study the behavior of fluids and other materials in microgravity. ',
 			fullDesc: [
@@ -352,7 +437,12 @@ const TOC = {
 					link: 'https://www.esa.int/Enabling_Support/Operations/Atomic_Clock_Ensemble_in_Space_ACES'
 				}
 			],
-			resources: new ResourcesType(4, 1, 4, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 4, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Atomic Clock Ensemble in Space (ACES) experiment aimed to provide highly accurate atomic clocks for use in a range of scientific and technological applications.',
 			fullDesc: [

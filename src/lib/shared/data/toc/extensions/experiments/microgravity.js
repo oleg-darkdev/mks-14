@@ -1,7 +1,7 @@
 import ResourcesType from '../../../../utils/ResourcesType';
 
 const TOC = {
-    title: 'microgravity',
+	title: 'microgravity',
 
 	link: '/app/experiments/',
 	img: '/images/manual/toc/experiments/microgravity.png',
@@ -17,7 +17,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/72.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The SDH-1 experiment investigates the effects of microgravity on human embryonic stem cells (hESCs) and human induced pluripotent stem cells (hiPSCs) to understand the mechanisms that control stem cell proliferation and differentiation.',
 			fullDesc: [
@@ -37,7 +42,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/80.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbial Tracking-1 (MT-1) experiment aimed to investigate the distribution and the genetic changes of microorganisms on surfaces inside the ISS, with the goal of developing new techniques for controlling and preventing microbial contamination in confined environments such as spacecraft and future habitats on other planets.',
 			fullDesc: [
@@ -57,7 +67,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/3238.html'
 				}
 			],
-			resources: new ResourcesType(4, 2, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Multi-Omics Analysis of Human-Microbial Metabolic Cross-Talk in Space (MOHMM) investigates how microgravity affects the interactions between human cells and microbes in the gut, and how these interactions can impact the overall health of astronauts on long-duration missions.',
 			fullDesc: [
@@ -78,7 +93,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/903.html'
 				}
 			],
-			resources: new ResourcesType(3, 2, 2, 2).all(),
+			resources: new ResourcesType(
+				[3, 2, 2, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The MAP-Tau experiment aims to investigate the impact of microgravity on the aggregation and expression of microtubule-associated protein tau, which plays a crucial role in the development of neurodegenerative diseases like Alzheimer’s.',
 			fullDesc: [
@@ -98,7 +118,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7662'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Genes in Space-7 (GIS-7) is an experiment designed to study the effects of microgravity on the amplification of DNA and the detection of specific genetic sequences aboard the ISS.',
 			fullDesc: [
@@ -117,7 +142,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2442.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microbe-II experiment evaluated the pathogenesis of the fungus Candida albicans in microgravity, with the goal of developing a better understanding of how fungal infections behave in space.',
 			fullDesc: [
@@ -138,7 +168,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=7446'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'METCOR is an investigation of the effect of space environment on metal corrosion and its mitigation, which is important for the development and maintenance of spacecraft.',
 			fullDesc: [
@@ -158,7 +193,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1118'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Micro-8 is an experiment that studies the effect of microgravity on microbial growth and gene expression, with the goal of better understanding how microorganisms behave in space and developing new therapies for astronauts.',
 			fullDesc: [
@@ -179,7 +219,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2136.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Wound Healing experiment studies the molecular mechanisms behind impaired wound healing in microgravity. The experiment also examines how microgravity affects the interactions between wound healing, infection, and antibiotic resistance.',
 			fullDesc: [
@@ -200,7 +245,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1509'
 				}
 			],
-			resources: new ResourcesType(4, 3, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 3, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Advanced Colloids Experiment (ACE) is a study of the behavior of colloid particles in microgravity.',
 			fullDesc: [
@@ -220,7 +270,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1293'
 				}
 			],
-			resources: new ResourcesType(2, 2, 2, 5).all(),
+			resources: new ResourcesType(
+				[2, 2, 2, 5],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Advanced Protein Crystallization Facility (APCF) is a platform for growing protein crystals in the microgravity environment of the ISS. Protein crystallography is an important field in the study of biology and medicine, as it allows scientists to determine the 3D structure of proteins and their interactions with other molecules.',
 			fullDesc: [
@@ -241,7 +296,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=362'
 				}
 			],
-			resources: new ResourcesType(4, 2, 2, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 2, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Capillary Flow Experiment (CFE) investigates fluid behavior in containers with complex geometries at a range of length scales that are difficult to study on Earth. It focuses on phenomena related to capillary flows, such as wetting and spreading, liquid drainage, and contact line dynamics.',
 			fullDesc: [
@@ -261,7 +321,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1701'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Cell Wall Experiment (CWE) is a microgravity experiment studying the growth of plant cell walls in space.',
 			fullDesc: [
@@ -281,7 +346,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/FPEF.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Fluid Physics Experiment Facility (FPEF) is a laboratory on the International Space Station that allows researchers to study the behavior of fluids in microgravity.',
 			fullDesc: [
@@ -301,7 +371,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html'
 				}
 			],
-			resources: new ResourcesType(3, 2, 3, 5).all(),
+			resources: new ResourcesType(
+				[3, 2, 3, 5],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Fluids and Combustion Facility (FCF) is a facility on the International Space Station (ISS) that investigates the behavior of fluids and combustion in microgravity.',
 			fullDesc: [
@@ -321,7 +396,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html#id=771'
 				}
 			],
-			resources: new ResourcesType(3, 2, 3, 2).all(),
+			resources: new ResourcesType(
+				[3, 2, 3, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Gravitational Effects on Distortion in Sintering (GEDS) investigation examines how gravity and other factors such as contact angle, surface tension, and viscosity affect the quality of products made through powder metallurgy.',
 			fullDesc: [
@@ -341,7 +421,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=72'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Materials Science Laboratory (MSL) is a facility on board the International Space Station that enables scientists to conduct a wide variety of experiments on the properties and behavior of materials in microgravity.',
 			fullDesc: [
@@ -361,7 +446,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microgravity Science Glovebox (MSG) is a facility on the International Space Station that enables astronauts to conduct a wide variety of scientific experiments in a sealed, negative pressure environment. The glovebox allows experiments to be conducted without contamination from the ISS environment, and provides an interface for control of experiments by researchers on Earth.',
 			fullDesc: [
@@ -381,7 +471,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/815.html'
 				}
 			],
-			resources: new ResourcesType(4, 2, 2, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 2, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Pore Formation and Mobility Investigation (PFMI) experiment studies how bubbles and particles move and arrange themselves in a metal alloy as it cools, and how this affects the formation of tiny pores or holes in the material.',
 			fullDesc: [
@@ -400,7 +495,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/81.html'
 				}
 			],
-			resources: new ResourcesType(0, 1, 1, 0).all(),
+			resources: new ResourcesType(
+				[0, 1, 1, 0],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Space Acceleration Measurement System-II (SAMS-II) is a suite of accelerometers and gyroscopes that measures the microgravity environment aboard the International Space Station (ISS).',
 			fullDesc: [
@@ -419,7 +519,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/centers/marshall/sabl/'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Space Automated Bioproduct Lab (SABL) is an experiment facility designed to investigate the effects of microgravity on living organisms and to develop new biotechnology products and techniques.',
 			fullDesc: [
@@ -440,7 +545,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/SEF.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Space Experiment Facility (SEF) is a facility on the International Space Station (ISS) that allows researchers to conduct fluid physics experiments in microgravity conditions.',
 			fullDesc: [
@@ -460,7 +570,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/centers/johnson/slsd/about/divisions/sfpcs.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Space Flight Participant & Commercial Services Office (SFPCSO) manages commercial and educational activities on the International Space Station (ISS) and other NASA spacecraft.',
 			fullDesc: [
@@ -480,7 +595,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/83.html'
 				}
 			],
-			resources: new ResourcesType(3, 3, 3, 2).all(),
+			resources: new ResourcesType(
+				[3, 3, 3, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Space Tissue Loss (STL) experiment studies the effects of microgravity on the human body by examining changes in the structure and function of tissues.',
 			fullDesc: [
@@ -500,7 +620,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/180.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Zeolite Crystal Growth (ZCG) experiment is designed to grow high-quality zeolite crystals in the microgravity environment of the International Space Station (ISS).',
 			fullDesc: [
@@ -519,7 +644,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/82.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Environmental Signaling Networks in Plants (ESN) experiment studies the mechanisms that plants use to sense and respond to changes in their environment, including gravity.',
 			fullDesc: [
@@ -539,7 +669,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1191'
 				}
 			],
-			resources: new ResourcesType(4, 2, 0, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 0, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Molecular Muscle Experiment (MME) is a study of muscle atrophy, the wasting away of muscle tissue caused by prolonged exposure to microgravity. ',
 			fullDesc: [
@@ -558,7 +693,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2548.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'Microbial Tracking-2 (MT-2) is a space-based research project that studies how microbial communities develop and evolve in microgravity environments.',
 			fullDesc: [
@@ -578,7 +718,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1078'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Biofilm Organisms Surfing Technology Research (BOSTR) experiment studies how bacterial biofilms grow in space and how they adhere to surfaces. The results of this research could lead to the development of new antimicrobial coatings for use in hospitals and other healthcare settings on Earth.',
 			fullDesc: [
@@ -598,7 +743,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/82.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Gravity Perception and Behavioral Plasticity of Drosophila Larvae (Micro-10) experiment is designed to investigate the effect of microgravity on the ability of fruit fly larvae to perceive and respond to gravity. The study aims to gain insights into the fundamental mechanisms that govern gravity perception and behavioral plasticity in animals.',
 			fullDesc: [
@@ -617,7 +767,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7734'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Cellular Responses to Radiation in Space (CellRad) experiment aimed to investigate the effects of space radiation on living cells.',
 			fullDesc: [
@@ -637,7 +792,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=764'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Colloidal Aggregation in Space Experiment, or CASIS PCG 7, was designed to investigate the behavior of particles in a colloidal solution under microgravity conditions.',
 			fullDesc: [
@@ -657,7 +817,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7643'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Spheroids in Microgravity (SPH) investigation studies the formation and characteristics of 3D cell aggregates called spheroids in the microgravity environment of the ISS.',
 			fullDesc: [
@@ -678,7 +843,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2308.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Vascular Echo experiment aims to investigate the cardiovascular system of astronauts in microgravity to better understand the effects of long-duration spaceflight on the heart and blood vessels.',
 			fullDesc: [
@@ -698,7 +868,12 @@ const TOC = {
 					link: 'https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station/Research/The_effect_of_microgravity_on_the_pharmacodynamics_of_anticancer_drugs'
 				}
 			],
-			resources: new ResourcesType(3, 2, 4, 4).all(),
+			resources: new ResourcesType(
+				[3, 2, 4, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The ESA-MMHCC experiment aimed to investigate the effects of microgravity on the pharmacodynamics of two widely used anticancer drugs - epirubicin and cyclophosphamide.',
 			fullDesc: [
@@ -718,7 +893,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2648.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Capillary Structures Investigation-2 (CSI-2) is a fluid physics experiment that studies the behavior of fluids in microgravity.',
 			fullDesc: [
@@ -738,7 +918,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/2513.html'
 				}
 			],
-			resources: new ResourcesType(1, 1, 1, 1).all(),
+			resources: new ResourcesType(
+				[1, 1, 1, 1],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The MISSE-12 Stem Cell experiment evaluated the effects of microgravity on the expansion of stem cells using novel technologies, with the goal of advancing the development of regenerative medicine.',
 			fullDesc: [
@@ -757,7 +942,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1845'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc: `The Vection investigation aims to determine how microgravity affects an astronaut's ability to sense motion and orientation.`,
 			fullDesc: [
 				`The Vection investigation, also known as the "Perception of Self-Motion and Orientation in Space," aims to determine how microgravity affects an astronaut's ability to sense motion and orientation. The ability to perceive motion is essential to performing activities such as moving around the spacecraft, performing repairs, and landing on other planets. However, it is unclear how microgravity affects the vestibular and visual systems that are responsible for sensing motion and orientation in space.`,
@@ -776,7 +966,12 @@ const TOC = {
 					link: 'https://ntrs.nasa.gov/citations/20050087129'
 				}
 			],
-			resources: new ResourcesType(4, 2, 2, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 2, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The ALTEA experiment studied the effect of microgravity on the formation and properties of gamma titanium aluminide alloys, which are used in high-temperature structural applications such as aircraft engines.',
 			fullDesc: [
@@ -796,7 +991,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Multiple User System for Earth Sensing Facilities (MUSES) is a platform on the International Space Station that enables multiple Earth-observing instruments to be deployed and operated on the station’s exterior. The MUSES platform provides access to the unique vantage point of space, which allows for the collection of high-quality Earth-observation data.',
 			fullDesc: [
@@ -817,7 +1017,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=764'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The MFX-2 experiment aims to investigate the thermophysical properties of liquid metals and alloys in microgravity conditions.',
 			fullDesc: [
@@ -837,7 +1042,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1686'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Tissue Differentiation in Space (TDIS) investigation studies the mechanisms behind cell differentiation, proliferation, and growth in space. By observing the behavior of human adult stem cells in microgravity, scientists hope to understand the role of gravity in cell signaling and how to control cell proliferation and differentiation to facilitate tissue regeneration.',
 			fullDesc: [
@@ -857,7 +1067,12 @@ const TOC = {
 					link: 'https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station/Plasma_Kristall-4_PK-4'
 				}
 			],
-			resources: new ResourcesType(4, 2, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Plasma Kristall-4 (PK-4) experiment aims to study the behavior of complex plasmas in microgravity conditions, which could help in developing new materials for use on Earth.',
 			fullDesc: [
@@ -877,7 +1092,12 @@ const TOC = {
 					link: 'https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Research/Magnetic_3D_cell_culturing_in_space'
 				}
 			],
-			resources: new ResourcesType(4, 2, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 2, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Magnetic 3D Cell Culturing (MAG3D) experiment investigates the growth of cells in a magnetic field in microgravity, with the aim of improving the production of cells for use in medical treatments.',
 			fullDesc: [
@@ -897,7 +1117,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7667'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microgravity Expanded Stem Cells (MESC) investigation studies how microgravity affects stem cells and the factors that govern stem cell activity.',
 			fullDesc: [
@@ -918,7 +1143,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7631'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Microgravity Investigation of Cement Solidification (MICS) experiment is studying the properties and behavior of cement solidification in microgravity. This research can help improve the design and construction of concrete structures on Earth and in space.',
 			fullDesc: [
@@ -940,7 +1170,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=744'
 				}
 			],
-			resources: new ResourcesType(2, 0, 2, 2).all(),
+			resources: new ResourcesType(
+				[2, 0, 2, 2],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Plant Gravity Sensing experiment aims to identify the mechanisms by which plants sense gravity and how they respond to microgravity conditions in space.',
 			fullDesc: [
@@ -961,7 +1196,12 @@ const TOC = {
 					link: 'https://www.nasa.gov/mission_pages/station/research/experiments/1407.html'
 				}
 			],
-			resources: new ResourcesType(4, 1, 3, 4).all(),
+			resources: new ResourcesType(
+				[4, 1, 3, 4],
+				[1, 1, 1, 1, 1, 1],
+				[1, 1],
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			).all(),
 			shortDesc:
 				'The Protein Crystal Growth (PCG) experiment is aimed at growing high-quality protein crystals in microgravity to enhance our understanding of the structure and function of proteins.',
 			fullDesc: [
