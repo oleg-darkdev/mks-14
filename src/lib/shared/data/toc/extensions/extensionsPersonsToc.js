@@ -34,39 +34,39 @@ const TOC = {
 	link: '/app/extensions/persons/',
 	img: '/images/manual/toc/toc_extensions.png',
 	data: [
-		{
-			title: 'extension: Europe',
-			id: '2',
-			img: '/images/manual/toc/toc_synopsis.png',
-			shortDesc:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-			fullDesc: [
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-			]
-			// personsList:
-		},
-		{
-			title: 'extension: Asia',
-			id: '3',
-			img: '/images/manual/toc/toc_synopsis.png',
-			shortDesc:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-			fullDesc: [
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-			]
-			// personsList:
-		},
-		{
-			title: 'extension: USSR',
-			id: '4',
-			img: '/images/manual/toc/toc_synopsis.png',
-			shortDesc:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-			fullDesc: [
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-			]
-			// personsList:
-		},
+		// {
+		// 	title: 'extension: Europe',
+		// 	id: '2',
+		// 	img: '/images/manual/toc/toc_synopsis.png',
+		// 	shortDesc:
+		// 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+		// 	fullDesc: [
+		// 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+		// 	],
+		// 	extensionData:
+		// },
+		// {
+		// 	title: 'extension: Asia',
+		// 	id: '3',
+		// 	img: '/images/manual/toc/toc_synopsis.png',
+		// 	shortDesc:
+		// 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+		// 	fullDesc: [
+		// 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+		// 	],
+		// 	extensionData:
+		// },
+		// {
+		// 	title: 'extension: USSR',
+		// 	id: '4',
+		// 	img: '/images/manual/toc/toc_synopsis.png',
+		// 	shortDesc:
+		// 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+		// 	fullDesc: [
+		// 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+		// 	],
+		// 	extensionData:
+		// },
 
 		// countries
 		{
@@ -78,7 +78,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: austria
+			extensionData: austria,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Belgium',
@@ -89,7 +90,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList:belgium
+			extensionData: belgium,
+			priceCategory: [false, true, false, false, false]
 		},
 
 		{
@@ -102,7 +104,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: russia
+			extensionData: russia,
+			priceCategory: [true, false, false, false, false]
 		},
 		{
 			title: 'extension: Spain',
@@ -114,7 +117,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: spain
+			extensionData: spain,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Sweden',
@@ -126,7 +130,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList:sweden
+			extensionData: sweden,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: switzerland',
@@ -138,7 +143,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: switzerland
+			extensionData: switzerland,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Tatarstan',
@@ -150,7 +156,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList:tatarstan
+			extensionData: tatarstan,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Ukraine',
@@ -162,7 +169,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList:ukraine
+			extensionData: ukraine,
+			priceCategory: [false, true, false, false, false]
 		},
 
 		{
@@ -175,7 +183,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: usa
+			extensionData: usa,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Brazil',
@@ -187,7 +196,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: brazil
+			extensionData: brazil,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Canada',
@@ -199,7 +209,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList:canada
+			extensionData: canada,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: China',
@@ -211,7 +222,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList:china
+			extensionData: china,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Czech',
@@ -223,7 +235,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: czech
+			extensionData: czech,
+			priceCategory: [false, true, false, false, false]
 		},
 
 		{
@@ -236,7 +249,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: denmark
+			extensionData: denmark,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: France',
@@ -248,7 +262,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: france
+			extensionData: france,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Great Britain',
@@ -260,7 +275,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: gb
+			extensionData: gb,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Georgia',
@@ -272,7 +288,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: georgia
+			extensionData: georgia,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Germany',
@@ -284,7 +301,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: germany
+			extensionData: germany,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Belgium',
@@ -296,7 +314,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList:belgium
+			extensionData: belgium,
+			priceCategory: [false, true, false, false, false]
 		},
 
 		{
@@ -309,7 +328,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList:hungary
+			extensionData: hungary,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: India',
@@ -321,7 +341,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: india
+			extensionData: india,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Israel',
@@ -333,7 +354,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: israel
+			extensionData: israel,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Italy',
@@ -345,7 +367,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: italy
+			extensionData: italy,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Japan',
@@ -357,7 +380,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: japan
+			extensionData: japan,
+			priceCategory: [false, true, false, false, false]
 		},
 
 		{
@@ -370,7 +394,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: kazakhstan
+			extensionData: kazakhstan,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Korea',
@@ -382,7 +407,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: korea
+			extensionData: korea,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Luxembourg',
@@ -394,7 +420,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: luxembourg
+			extensionData: luxembourg,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Netherlands',
@@ -406,7 +433,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: netherlands
+			extensionData: netherlands,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Norway',
@@ -418,7 +446,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: norway
+			extensionData: norway,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Poland',
@@ -430,7 +459,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: poland
+			extensionData: poland,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Portugal',
@@ -442,7 +472,8 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: portugal
+			extensionData: portugal,
+			priceCategory: [false, true, false, false, false]
 		},
 		{
 			title: 'extension: Romania',
@@ -454,9 +485,10 @@ const TOC = {
 			fullDesc: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			],
-			personsList: romania
-		},
-  ]
+			extensionData: romania,
+			priceCategory: [false, true, false, false, false]
+		}
+	]
 };
 
 export default TOC;
