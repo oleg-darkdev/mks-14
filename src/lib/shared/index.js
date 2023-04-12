@@ -71,6 +71,7 @@ import usa from './data/toc/extensions/persons/usa';
 import locationsList from './data/locationsList';
 import getGameData from './data/getGame';
 import gameComplect from './data/gameComplect';
+import headerLinks from './data/app/headerLinks';
 import ResourcesType from './utils/ResourcesType';
 
 // extensions
@@ -86,6 +87,7 @@ import shuffle from './utils/shuffle';
 
 export {
   FooterLink,
+  headerLinks,
   StatElement,
   LightPriceItem,
   DarkPriceItem,
