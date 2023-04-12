@@ -16,7 +16,11 @@
 		PriceBox
 	} from '../lib/widgets/';
 
-	import { landingHeaderLinks } from '../lib/shared';
+	import {
+		landingHeaderLinks,
+		extensionsExperimentsToc,
+		extensionsPersonsToc
+	} from '../lib/shared';
 </script>
 
 <Header links={landingHeaderLinks} />
@@ -43,8 +47,15 @@
 	<!-- <StepsLanding /> -->
 
 	<PriceBox />
-	<PriceExtensions />
-
+	<section id="price"class="my-12 flex flex-col w-full items-center justify-center bg-violet-700 py-12 text-gray-100">
+		<h2
+			class="text-center text-4xl font-bold leading-none text-white  md:text-4xl lg:text-5xl xl:text-5xl"
+		>
+			Dodatki dla gry
+		</h2>
+		<PriceExtensions link='/app/extensions/experiments' extensions={extensionsExperimentsToc} />
+		<PriceExtensions link='/app/extensions/persons'  extensions={extensionsPersonsToc} />
+	</section>
 	<!-- <GameKitLanding /> -->
 
 	<!-- pricing -->
