@@ -13,7 +13,7 @@
 			class="flex flex-1 flex-col items-center justify-center rounded-tl-lg rounded-bl-lg border-2 border-violet-700 bg-gray-800 bg-gray-900 bg-gray-900 p-6 p-4 pb-8 shadow-md shadow-violet-700 sm:p-8 lg:p-16"
 		>
 			<span class="text-sm">Basic</span>
-			<p class="text-center text-5xl font-bold">39€</p>
+			<p class="text-center text-5xl font-bold">Free</p>
 			<p class="text-center font-semibold">
 				Nemo deserunt possimus quo provident recusandae! Dolores qui architecto omnis pariatur eos
 				voluptatibus sequi cum, non nesciunt aspernatur a?
