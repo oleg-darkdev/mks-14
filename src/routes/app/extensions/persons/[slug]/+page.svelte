@@ -1,15 +1,13 @@
 <script>
 	import { page } from '$app/stores';
-	import Header from '../../../../../lib/widgets/ui/Header.svelte';
 	import { extensionsExperimentsToc, headerAppLinks } from '../../../../../lib/shared';
 	import { TableOfСontents, BannerTableOfContent } from '../../../../../lib/entities';
+	import { FooterLanding as Footer } from '../../../../../lib/widgets';
 
 	const getExtensionData = (textArray) => textArray.data[$page.params.slug - 1];
 
 	const extensionData = getExtensionData(extensionsExperimentsToc);
 </script>
-
-<Header links={headerAppLinks} />
 
 <section
 	class="flex h-full w-full flex-col items-center justify-center bg-gray-900 pt-20 pb-10 text-gray-100"
@@ -19,8 +17,10 @@
 	>
 		<div class="container mx-auto max-w-6xl space-y-6 p-2 sm:space-y-12 md:p-4 lg:p-6 xl:p-6">
 			<BannerTableOfContent page={'Extension'} toc={extensionData.extensionData} />
-			<h2 class="text-7xl font-semibold text-violet-700 text-center ">Extensions: Experiments</h2>
+			<h2 class="text-center text-7xl font-semibold text-violet-700 ">Extensions: Experiments</h2>
 			<TableOfСontents toc={extensionData.extensionData} />
 		</div>
 	</div>
 </section>
+
+<Footer />

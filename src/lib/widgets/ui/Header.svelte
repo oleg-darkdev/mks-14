@@ -1,6 +1,7 @@
 <script>
-	import { HeaderLink, SmallLogoLink } from '../../shared/';
+	import { HeaderLink, SmallLogoLink, landingHeaderLinks, headerAppLinks } from '../../shared/';
 	import { onMount } from 'svelte';
+	import { page } from '$app/stores';
 
 	onMount(async () => {
 		window.onscroll = function () {
@@ -20,10 +21,10 @@
 		}
 	});
 
-	export let links;
+
 </script>
 
-<header
+<header class:hidden={$page.route.id == '/app'}
 	style="margin-bottom: -230px; height: 200px;"
 	class="header relative z-20 flex w-full max-w-lg flex-col items-center rounded-bl-lg rounded-br-lg bg-violet-700 p-2 text-gray-100 shadow-md shadow-violet-700 lg:p-4"
 >
@@ -34,7 +35,7 @@
 		class="nav-wrap sticky z-10 w-full mx-auto flex h-auto max-w-md items-center justify-center rounded-bl-lg rounded-br-lg bg-violet-700 p-2 shadow-md shadow-violet-700 md:space-x-8"
 	>
 		<ul class="container grid grid-cols-6 gap-2 overflow-hidden xl:grid-cols-6 ">
-			{#each links as link}
+			{#each $page.route.id == '/' ? landingHeaderLinks : headerAppLinks as link}
 				<li class="flex flex-col items-center  ">
 					<HeaderLink {link} />
 				</li>

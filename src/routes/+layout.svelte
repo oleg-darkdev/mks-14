@@ -1,4 +1,6 @@
 <script>
+	import { Header } from '../lib/widgets';
+
 	import '../app.css';
 	import 'aos/dist/aos.css';
 	import AOS from 'aos';
@@ -8,10 +10,11 @@
 	});
 </script>
 
+<Header />
 <slot />
 
 <style>
-  	:global(.font-numbers) {
+	:global(.font-numbers) {
 		font-family: 'Numbers';
 		line-height: 1.2;
 	}

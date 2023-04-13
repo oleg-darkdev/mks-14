@@ -1,6 +1,5 @@
 <script>
 	import {
-		Header,
 		HeroLanding,
 		StatsLanding,
 		FeaturesLanding,
@@ -10,20 +9,18 @@
 		ReviewsLanding,
 		TeamLanding,
 		VideoLanding,
-		FooterLanding,
+		FooterLanding as Footer,
 		Testimonial,
 		PriceExtensions,
 		PriceBox
 	} from '../lib/widgets/';
 
 	import {
-		landingHeaderLinks,
 		extensionsExperimentsToc,
-		extensionsPersonsToc
+		extensionsPersonsToc,
 	} from '../lib/shared';
 </script>
 
-<Header links={landingHeaderLinks} />
 
 <main class=" bg-gray-900 ">
 	<HeroLanding />
@@ -81,5 +78,5 @@
 
 	<a name="reviews" />
 	<ReviewsLanding />
-	<FooterLanding />
+	<Footer />
 </main>

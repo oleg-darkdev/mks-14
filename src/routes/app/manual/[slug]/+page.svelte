@@ -1,9 +1,8 @@
 <script>
 	import { page } from '$app/stores';
-	import Header from '../../../../lib/widgets/ui/Header.svelte';
+	import { FooterLanding as Footer }  from '../../../../lib/widgets';
 	import {
 		identifySelectedData,
-		headerAppLinks,
 		extensionsExperimentsToc,
 		extensionsPersonsToc
 	} from '../../../../lib/shared';
@@ -15,8 +14,6 @@
 
 	$: toc = identifySelectedData($page.params.slug);
 </script>
-
-<Header links={headerAppLinks} />
 
 <section
 	class="flex h-full w-full flex-col items-center justify-center bg-gray-900 pt-20  text-gray-100"
@@ -48,3 +45,5 @@
 		</div>
 	{/if}
 </section>
+
+<Footer />

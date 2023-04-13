@@ -1,14 +1,12 @@
 <script>
 	import {
-		headerAppLinks,
 		extensionsExperimentsToc,
 		extensionsPersonsToc
 	} from '../../../lib/shared';
 	import { TableOfСontents, BannerTableOfContent } from '../../../lib/entities';
-	import { Header } from '../../../lib/widgets';
+	import { FooterLanding as Footer  } from '../../../lib/widgets';
 </script>
 
-<Header links={headerAppLinks} />
 
 <section
 	class="flex h-full w-full flex-col items-center justify-center bg-gray-900 pt-20 pb-10 text-gray-100"
@@ -32,3 +30,5 @@
 		</div>
 	</div>
 </section>
+
+<Footer />

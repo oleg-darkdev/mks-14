@@ -1,6 +1,6 @@
 <script>
 	import { SquareImagesWrapper, RecommendationBlock } from '../../../../lib/entities';
-	import { ArticleSourceList } from '../../../../lib/widgets';
+	import { ArticleSourceList, FooterLanding as Footer } from '../../../../lib/widgets';
 	import { page } from '$app/stores';
 	import {
 		extensionsExperimentsToc,
@@ -64,3 +64,5 @@
 		{/each}
 	</div>
 </section>
+
+<Footer />
