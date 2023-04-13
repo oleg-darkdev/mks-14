@@ -1,12 +1,9 @@
 <script>
-	import { Header } from '../../widgets';
 	import { RecommendationBlock } from '../../entities/';
-	import { mainTocData, headerAppLinks } from '../../shared';
+	import { mainTocData } from '../../shared';
 
 	export let manualArticle;
 </script>
-
-<Header links={headerAppLinks} />
 
 <section>
 	<article
