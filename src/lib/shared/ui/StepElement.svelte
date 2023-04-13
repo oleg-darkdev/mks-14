@@ -17,7 +17,9 @@
 			<div
 				class="my-3 border border-violet-700 shadow-md shadow-violet-700 flex h-16 w-16 items-center justify-center rounded-full bg-indigo-50 sm:h-24 sm:w-24"
 			>
-				<svg
+        <img src="{step.img}" class="w-24 bg-violet-700 rounded-full" alt="">
+
+				<!-- <svg
 					class="text-deep-purple-accent-400 h-12 w-12 sm:h-16 sm:w-16"
 					stroke="#661AE6"
 					viewBox="0 0 52 52"
@@ -29,7 +31,7 @@
 						fill="none"
 						points="29 13 14 29 25 29 23 39 38 23 27 23"
 					/>
-				</svg>
+				</svg> -->
 			</div>
 		</div>
 		<div>

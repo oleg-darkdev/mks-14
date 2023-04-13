@@ -57,9 +57,7 @@
 </script>
 
 <section class="bg-gray-900 text-gray-100">
-	<div
-		class="container mx-auto max-w-xl space-y-24 p-6 py-2 md:py-10 lg:max-w-7xl lg:py-12 lg:px-2 xl:py-12"
-	>
+	<div class="container mx-auto max-w-xl space-y-24 p-6 py-12 lg:max-w-7xl lg:px-2 ">
 		<div class="grid lg:grid-cols-2 lg:items-center lg:gap-8">
 			<div>
 				<h3 class="text-2xl font-bold tracking-tight text-gray-50 sm:text-3xl">
@@ -83,7 +81,7 @@
 			<div class="grid lg:grid-cols-2 lg:items-center lg:gap-8">
 				<div class="lg:col-start-2">
 					<h3 class="text-2xl font-bold tracking-tight text-gray-50 sm:text-3xl">
-						Opis aplikacji webowej  MKS-14
+						Opis aplikacji webowej MKS-14
 					</h3>
 					<p class="mt-3 text-lg text-gray-400">
 						Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te latine theophrastus. Ea
