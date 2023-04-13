@@ -1,16 +1,4 @@
 <script>
-	import { CountUp } from 'countup.js';
-	import { onMount } from 'svelte';
-
-	onMount(() => {
-		const astronautsCountUp = new CountUp('astronauts', 160, {
-				enableScrollSpy: true,
-				duration: 6
-			}),
-			experimentsCountUp = new CountUp('experiments', 480, { enableScrollSpy: true, duration: 6 }),
-			extensionsCountUp = new CountUp('extensions', 30, { enableScrollSpy: true, duration: 6 });
-	});
-
 	export let stat;
 </script>
 
