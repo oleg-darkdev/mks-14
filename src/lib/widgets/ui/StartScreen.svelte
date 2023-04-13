@@ -21,31 +21,31 @@
 			// Игроки должны выбрать себе 1 персонажа, отложить его карточку в колоду проиществий.
 			title: 'Wybór bohaterów',
 			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
-			img: ''
+			img: '/images/app/step_team.svg'
 		},
 		{
 			title: 'Tworzenie mapy stacji MKS-14',
 			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
-			img: ''
+			img: '/images/app/step_map.svg'
 		},
 		{
 			title: 'Wybór poziomu trudności',
 			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
-			img: ''
+			img: '/images/app/step_mode.svg'
 		},
 		{
 			title: 'Przygotowanie kart eksperymentów',
 			desc: 'Откройте 3 эксперимента из верха колоды экспериментов. Для вашего уровня сложности, на конец игры вам нужно выполнить экспериментов указанных ниже',
-			img: ''
+			img: '/images/app/step_experiments.svg'
 		},
 		{
 			title: 'Dostarczanie surowców do ISS',
 			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
-			img: ''
+			img: '/images/app/step_resources.svg'
 		}
 	];
 
-	let step = 0;
+	let step = 1;
 	export let activeScreen;
 </script>
 
