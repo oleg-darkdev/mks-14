@@ -142,7 +142,7 @@
 			on:click={() => (showFull = !showFull)}
 			class="btn-lg btn mx-6 mt-4 w-full max-w-md bg-violet-700"
 		>
-			Pokazać wszystkie dodatki</button
+			{showFull ? 'Ukryj': 'Pokazać'} {extensions.data.length} dodatków</button
 		>
 	</div>
 </div>
