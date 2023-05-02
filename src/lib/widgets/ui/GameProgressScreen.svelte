@@ -9,7 +9,7 @@
 	import { HorisontalImage } from '../../shared';
 	let step = 0,
 		showMsg = false,
-		time = 90;
+		time = 120;
 </script>
 
 {#if !step}
@@ -31,7 +31,7 @@
 		<CountdownTimer slot="timer" bind:showMsg bind:time />
 		<GameStepsBtns slot="btn" on:click={()=> {
 		step++;
-		time = 90;
+		time = 120;
     showMsg = false;
 	 }} bind:step bind:showMsg />
 	</TimeCounterBlock>
