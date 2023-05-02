@@ -1,22 +1,22 @@
 <script>
 	import { page } from '$app/stores';
-	import { HeaderLink, SmallLogoLink, landingHeaderLinks, headerAppLinks } from '../../shared/';
 	import { onMount } from 'svelte';
-	import { CountUp } from 'countup.js';
+	import { HeaderLink, SmallLogoLink, headerAppLinks, landingHeaderLinks } from '../../shared/';
+	// import { CountUp } from 'countup.js';
 
 	onMount(async () => {
-    	// import 'aos/dist/aos.css';
-	// import AOS from 'aos';
-	// import { onMount } from 'svelte';
-	// onMount(() => {
-	// 	AOS.init();
-	// });
-		const astronautsCountUp = new CountUp('astronauts', 160, {
-				enableScrollSpy: true,
-				duration: 6
-			}),
-			experimentsCountUp = new CountUp('experiments', 480, { enableScrollSpy: true, duration: 6 }),
-			extensionsCountUp = new CountUp('extensions', 30, { enableScrollSpy: true, duration: 6 });
+		// import 'aos/dist/aos.css';
+		// import AOS from 'aos';
+		// import { onMount } from 'svelte';
+		// onMount(() => {
+		// 	AOS.init();
+		// });
+		// const astronautsCountUp = new CountUp('astronauts', 160, {
+		// 		enableScrollSpy: true,
+		// 		duration: 6
+		// 	}),
+		// 	experimentsCountUp = new CountUp('experiments', 480, { enableScrollSpy: true, duration: 6 }),
+		// 	extensionsCountUp = new CountUp('extensions', 30, { enableScrollSpy: true, duration: 6 });
 
 		window.onscroll = function () {
 			setPosition();
@@ -35,7 +35,6 @@
 	});
 </script>
 
-<!--  -->
 <header
 	class:hidden={$page.route.id == '/app'}
 	style="margin-bottom: -230px; height: 200px;"
