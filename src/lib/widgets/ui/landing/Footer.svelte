@@ -29,12 +29,12 @@
 	<!-- <h2 id="footer-heading" class="sr-only">Footer</h2> -->
 	<div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-16">
 		<div class="flex flex-col ">
-			<div class="flex flex-row flex-wrap items-center">
+			<div class="flex flex-row flex-wrap items-center mb-2">
 				<div class="h-auto w-auto py-4">
 					<SmallLogoLink />
 				</div>
 				<div class="mx-auto max-w-3xl px-4 py-4">
-					<h1 class=" text-center text-sm font-bold uppercase tracking-wide text-gray-800">
+					<h1 class=" text-center text-sm font-bold uppercase tracking-wide text-violet-500">
 						Partnerzy i sponsorzy projektu
 					</h1>
 					<div class="flex flex-row flex-wrap text-center ">
@@ -53,7 +53,7 @@
 
 			<div class=" mb-6 flex flex-col xl:mt-0">
 				<div class="mb-10 w-full">
-					<h3 class="text-3xl font-bold uppercase tracking-wider text-white">
+					<h3 class="text-3xl font-bold uppercase tracking-wider text-violet-500">
 						Extensions: Experiments
 					</h3>
 					<ul
@@ -66,7 +66,7 @@
 					</ul>
 				</div>
 
-				<div class="w-full ">
+				<!-- <div class="w-full ">
 					<h3 class="text-3xl  font-bold uppercase tracking-wider text-white">
 						Extensions: Persons
 					</h3>
@@ -78,7 +78,7 @@
 							<FooterLink data={person} link="/app/extensions/persons/{person.id}" />
 						{/each}
 					</ul>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
