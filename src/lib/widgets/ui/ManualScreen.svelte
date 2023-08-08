@@ -1,4 +1,4 @@
-<script>
+    <script>
 	import { TableOfСontents, RecommendationBlock } from '../../entities';
 	import { mainTocData } from '../../shared';
 
