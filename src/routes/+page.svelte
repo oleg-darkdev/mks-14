@@ -44,7 +44,7 @@
 	<!-- <StepsLanding /> -->
 
 	<PriceBox />
-	<section id="price"class="my-12 flex flex-col w-full items-center justify-center bg-violet-700 py-12 text-gray-100">
+	<!-- <section id="price"class="my-12 flex flex-col w-full items-center justify-center bg-violet-700 py-12 text-gray-100">
 		<h2
 			class="text-center text-4xl font-bold leading-none text-white  md:text-4xl lg:text-5xl xl:text-5xl"
 		>
@@ -52,7 +52,7 @@
 		</h2>
 		<PriceExtensions link='/app/extensions/experiments' extensions={extensionsExperimentsToc} />
 		<PriceExtensions link='/app/extensions/persons'  extensions={extensionsPersonsToc} />
-	</section>
+	</section> -->
 	<!-- <GameKitLanding /> -->
 
 	<!-- pricing -->

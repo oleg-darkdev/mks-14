@@ -52,7 +52,7 @@
 			</div>
 
 			<div class=" mb-6 flex flex-col xl:mt-0">
-				<div class="mb-10 w-full">
+				<!-- <div class="mb-10 w-full">
 					<h3 class="text-3xl font-bold uppercase tracking-wider text-violet-500">
 						Extensions: Experiments
 					</h3>
@@ -64,7 +64,7 @@
 							<FooterLink data={experiment} link="/app/extensions/experiments/{experiment.id}" />
 						{/each}
 					</ul>
-				</div>
+				</div> -->
 
 				<!-- <div class="w-full ">
 					<h3 class="text-3xl  font-bold uppercase tracking-wider text-white">

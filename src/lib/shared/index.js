@@ -1,4 +1,6 @@
 import NavBtn from './ui/NavBtn.svelte';
+import HorisontalImage from './ui/app/HorisontalImage.svelte';
+
 import LevelCard from './ui/LevelCard.svelte';
 import StepElement from './ui/StepElement.svelte';
 import Article from './ui/Article.svelte';
@@ -7,7 +9,7 @@ import HeaderLink from './ui/HeaderLink.svelte';
 import StatElement from './ui/landing/StatElement.svelte';
 import DarkPriceItem from './ui/landing/DarkPriceItem.svelte';
 import LightPriceItem from './ui/landing/LightPriceItem.svelte';
-import HorisontalImage from './ui/app/HorisontalImage.svelte';
+
 
 // landing
 import FeatureText from './ui/landing/FeatureText.svelte';

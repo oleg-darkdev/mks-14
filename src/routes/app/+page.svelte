@@ -1,5 +1,5 @@
 <script>
-	import { FooterApp, StartScreen, GameProgressScreen, ManualScreen } from '../../lib/widgets/';
+	import { FooterApp, StartScreen, GameProgressScreen, ManualScreen } from '$lib/widgets/';
 
 	let activeScreen = 'Rozpoczęcie';
 </script>
