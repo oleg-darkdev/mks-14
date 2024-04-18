@@ -13,14 +13,28 @@
 		Testimonial,
 		PriceExtensions,
 		PriceBox
-	} from '../lib/widgets/';
+	} from '$widgets/';
 
 	import {
 		extensionsExperimentsToc,
 		extensionsPersonsToc,
-	} from '../lib/shared';
+	} from '$shared';
+
+  	import { i } from '@inlang/sdk-js';
+	// import {HeadHrefLangs} from '$shared';
+
 </script>
 
+
+<svelte:head>
+	<title>SvelteKit + TypeScript + TailwindCSS starter</title>
+	<!-- <HeadHrefLangs /> -->
+</svelte:head>
+
+
+<!-- `
+<h1 class="text-5xl font-extralight">{i('welcome')}</h1>
+<p>{@html i('description')}</p>` -->
 
 <main class=" bg-gray-900 ">
 	<HeroLanding />

@@ -1,13 +1,31 @@
-<script>
-	import { Header } from '../lib/widgets';
-
-	import '../app.css';
+<script lang="ts">
+  	import { Header } from '../lib/widgets';
 
 
+	import '../app.postcss';
+
+	import { language } from '@inlang/sdk-js';
+	import {ThemeSwitcher, SvelteTheme, LocaleSwitcher} from '$shared/';
+
+	export let data;
 </script>
 
-<Header />
+	<!-- <a href="/{language}">
+		<h1>Home</h1>
+	</a> -->
+
+	<!-- <LocaleSwitcher /> -->
+
+	<!-- <ThemeSwitcher /> -->
+
+  <Header />
+
+
 <slot />
+
+<!-- <SvelteTheme attribute="data-theme" /> -->
+
+
 
 <style>
 	:global(.font-numbers) {

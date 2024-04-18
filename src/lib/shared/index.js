@@ -1,3 +1,23 @@
+import HeadHrefLangs from './ui/HeadHrefLangs.svelte';
+import ThemeSwitcher from './ui/ThemeSwitcher.svelte';
+import LocaleSwitcher from './ui/LocaleSwitcher.svelte';
+import SvelteTheme from './ui/SvelteTheme.svelte';
+import ThemeScript from './ui/ThemeScript.svelte';
+
+// utils
+import themeStore from './utils/svelteThemes/themeStore.ts';
+import setTheme from './utils/svelteThemes/setTheme.ts';
+import getTheme from './utils/svelteThemes/getTheme.ts';
+import disableAnimation from './utils/svelteThemes/disableAnimation.ts';
+import getSystemTheme from './utils/svelteThemes/getSystemTheme.ts';
+import MEDIA from './utils/svelteThemes/constantMEDIA.ts';
+import colorSchemes from './utils/svelteThemes/constantColorSchemes.ts';
+
+// no svelte
+import replaceLocaleInUrl from './utils/replaceLocaleInUrl.ts';
+import toggleTheme from './utils/toggleTheme.ts';
+
+// app / landing
 import NavBtn from './ui/NavBtn.svelte';
 import HorisontalImage from './ui/app/HorisontalImage.svelte';
 
@@ -9,7 +29,6 @@ import HeaderLink from './ui/HeaderLink.svelte';
 import StatElement from './ui/landing/StatElement.svelte';
 import DarkPriceItem from './ui/landing/DarkPriceItem.svelte';
 import LightPriceItem from './ui/landing/LightPriceItem.svelte';
-
 
 // landing
 import FeatureText from './ui/landing/FeatureText.svelte';
@@ -87,8 +106,9 @@ import generateMap from './utils/generateMap';
 import shuffle from './utils/shuffle';
 import checkTitleResource from './utils/checkTitleResource';
 
+
 export {
-	FooterLink,
+  FooterLink,
 	landingHeaderLinks,
 	checkTitleResource,
 	headerAppLinks,
@@ -114,5 +134,20 @@ export {
 	getGameData,
 	SmallLogoLink,
 	ResourcesType,
-	gameComplect
+  gameComplect,
+
+	replaceLocaleInUrl,
+	toggleTheme,
+	HeadHrefLangs,
+	ThemeSwitcher,
+	LocaleSwitcher,
+	SvelteTheme,
+	ThemeScript,
+	themeStore,
+	setTheme,
+	getTheme,
+	disableAnimation,
+	getSystemTheme,
+	MEDIA,
+	colorSchemes
 };
